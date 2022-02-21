@@ -12,7 +12,7 @@ Second, summarize your results concisely. Make use of subheaders where appropria
 ## Repository overview
 Provide an overview of the directory structure and files, for example:
 
-*/ 
+
 ├── README.md
 ├── data
 ├── gen
@@ -23,7 +23,7 @@ Provide an overview of the directory structure and files, for example:
     ├── analysis
     ├── data-preparation
     └── paper
-*/
+
 
 ## Running instructions
 Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
