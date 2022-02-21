@@ -32,6 +32,7 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 **example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
 **documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
 **Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
+**python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide
 
 ## About
 Explain who has contributed to the repository. You can say it has been part of a class you've taken at Tilburg University.
