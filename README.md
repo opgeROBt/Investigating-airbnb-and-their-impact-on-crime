@@ -29,9 +29,9 @@ Provide an overview of the directory structure and files, for example:
 Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
 
 ## More resources
-**example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238
-**documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97
-**Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data
+**example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
+**documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
+**Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
 
 ## About
 Explain who has contributed to the repository. You can say it has been part of a class you've taken at Tilburg University.
