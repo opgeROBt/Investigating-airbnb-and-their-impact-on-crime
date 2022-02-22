@@ -1,4 +1,4 @@
-## Investigating airbnb and their impact on crime 
+#Investigating airbnb and their impact on crime 
 A subtitle that describes your project, e.g., research question
 
 ## Motivation
@@ -35,6 +35,11 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 **python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide
 
 ## About
-Explain who has contributed to the repository. You can say it has been part of a class you've taken at Tilburg University.
-we do stuff
 
+This repository has been created as part of the class _'data preparation and management'_  at Tilburg University. 
+The following people have contributed to this repository: 
+- Anoesjka Raateland 
+- Cas-24 
+- chokietang 
+- MihaiVladS
+- OpgeROBt  
