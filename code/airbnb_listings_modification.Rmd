@@ -1,0 +1,30 @@
+---
+title: "airbnb_listings_modification"
+author: "Mihai Vlad Serbanescu"
+date: "25/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Explanation
+
+This file takes the previously downloaded Airbnb dataset and changes it in several ways. First, 
+
+```{r}
+# Remove the hashtags (#) below if you do not have dplyr and/or stringr installed, as this code requires them.
+#install.packages("dplyr")
+#install.packages("stringr")
+library(dplyr)
+library(stringr)
+
+airbnb_listings <- read.csv("../data/airbnb_listings.csv")
+
+airbnb_listings_modified <- airbnb_listings %>% group_by(neighbourhood) %>% summarise(listing_amount = sum(calculated_host_listings_count),average_price = mean(price), percentage_home_apt = sum(str_count(room_type,"Entire home/apt"))/n(), percentage_hotel_room = sum(str_count(room_type,"Hotel room"))/n(),percentage_private_room = sum(str_count(room_type,"Private room"))/n(), percentage_shared_room = sum(str_count(room_type,"Shared room"))/n())
+
+write.csv(airbnb_listings_modified, "../data/airbnb_listings_modified.csv", row.names = FALSE)
+```
+
+
