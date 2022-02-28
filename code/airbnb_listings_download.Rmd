@@ -1,0 +1,23 @@
+---
+cdtitle: "airbnb_listings_download"
+author: "Mihai Vlad Serbanescu"
+date: "25/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Explanation
+
+This file is used with the sole purpose of downloading the airbnb listings data from inside airbnb (http://insideairbnb.com/index.html) and saving it on the local repository for further changes.
+
+```{r}
+airbnb_listings <- read.csv("http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2021-12-05/visualisations/listings.csv")
+write.csv(airbnb_listings, "../data/airbnb_listings.csv", row.names = FALSE)
+
+```
+
+
+
