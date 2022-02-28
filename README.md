@@ -32,12 +32,12 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 **example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
 **documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
 **Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
-**python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide
-**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/
-**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/ 
-**github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R
-**github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3 
-**github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4
+**python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
+**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+**github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
+**github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3  
+**github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4  
 
 
 
