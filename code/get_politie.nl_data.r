@@ -44,44 +44,46 @@ WijkEnBuurten_police_ams_3 <- c("BU03634103","BU03634200","BU03634201","BU036342
 WijkEnBuurten_police_ams_4 <- c("BU03636300","BU03636400","BU03636401","BU03636402","BU03636403","BU03636404","BU03636500","BU03636501","BU03636502","BU03636503","BU03636601","BU03636602","BU03636603","BU03636604","BU03636605","BU03636606","BU03636700","BU03636701","BU03636800","BU03636801","BU03636802","BU03636803","BU03636804","BU03636805","BU03636900","BU03636902","BU03636909","BU03636910","BU03636911","BU03636912","BU03637000","BU03637001","BU03637002","BU03637003","BU03637004","BU03637005","BU03637102","BU03637104","BU03637105","BU03637106","BU03637107","BU03637200","BU03637201","BU03637202","BU03637300","BU03637301","BU03637302","BU03637303","BU03637304","BU03637305","BU03637306","BU03637307","BU03637308","BU03637309","BU03637400","BU03637401","BU03637402","BU03637500","BU03637501","BU03637502","BU03637503","BU03637600","BU03637601","BU03637700","BU03637701","BU03637702","BU03637703","BU03637704","BU03637705","BU03637800","BU03637801","BU03637802","BU03637803","BU03637804","BU03637900","BU03637901","BU03638000","BU03638001","BU03638002","BU03638100","BU03638101","BU03638102","BU03638103","BU03638104","BU03638200","BU03638201","BU03638202","BU03638203","BU03638300","BU03638301","BU03638400","BU03638401","BU03638402","BU03638500","BU03638501","BU03638502","BU03638600","BU03638601","BU03638602","BU03638603")
 WijkEnBuurten_police_ams_5 <- c("BU03638604","BU03638605","BU03638700","BU03638701","BU03638702","BU03638703","BU03638704","BU03638705","BU03638800","BU03638801","BU03638802","BU03638803","BU03638804","BU03638805","BU03638806","BU03638807","BU03638808","BU03638809","BU03638900","BU03638901","BU03638902","BU03638903","BU03639000","BU03639002","BU03639003","BU03639004","BU03639008","BU03639009","BU03639100","BU03639101","BU03639102","BU03639103","BU03639200","BU03639201","BU03639202","BU03639203","BU03639204","BU03639205","BU03639206","BU03639500","BU03639501","BU03639502","BU03639600","BU03639601","BU03639602","BU03639603","BU03639604","BU03639605","BU03639606","BU03639700","BU03639701","BU03639702","BU03639703","BU03639800","BU03639801")
 
+
 #c("WijkEnBuurten_police_ams_1","WijkEnBuurten_police_ams_2","WijkEnBuurten_police_ams_3","WijkEnBuurten_police_ams_4","WijkEnBuurten_police_ams_5"),
 
 # Downloading a subset_1
 data_1 <- cbs_get_data("47022NED", 
-                     catalog = "politie",
-                     Perioden = perioden_police_ams,
-                     WijkenEnBuurten_1 = WijkEnBuurten_police_ams_1,
-                     select = c("WijkenEnBuurten_1","Perioden","SoortMisdrijf"))
+                       catalog = "politie",
+                       Perioden = perioden_police_ams,
+                       WijkenEnBuurten = WijkEnBuurten_police_ams_1,
+                       select = c("WijkenEnBuurten","Perioden","SoortMisdrijf","GeregistreerdeMisdrijven_1"))
 View(data_1)
 
 # Downloading a subset_2
 data_2 <- cbs_get_data("47022NED", 
                        catalog = "politie",
                        Perioden = perioden_police_ams,
-                       WijkenEnBuurten_2 = WijkEnBuurten_police_ams_2,
-                       select = c("WijkenEnBuurten_2","Perioden","SoortMisdrijf"))
+                       WijkenEnBuurten = WijkEnBuurten_police_ams_2,
+                       select = c("WijkenEnBuurten","Perioden","SoortMisdrijf","GeregistreerdeMisdrijven_1"))
 View(data_2)
 
 # Downloading a subset_3
 data_3 <- cbs_get_data("47022NED", 
                        catalog = "politie",
                        Perioden = perioden_police_ams,
-                       WijkenEnBuurten_3 = WijkEnBuurten_police_ams_3,
-                       select = c("WijkenEnBuurten_3","Perioden","SoortMisdrijf"))
+                       WijkenEnBuurten = WijkEnBuurten_police_ams_3,
+                       select = c("WijkenEnBuurten","Perioden","SoortMisdrijf","GeregistreerdeMisdrijven_1"))
 View(data_3)
 
 # Downloading a subset_4
 data_4 <- cbs_get_data("47022NED", 
                        catalog = "politie",
                        Perioden = perioden_police_ams,
-                       WijkenEnBuurten_4 = WijkEnBuurten_police_ams_4,
-                       select = c("WijkenEnBuurten_4","Perioden","SoortMisdrijf"))
+                       WijkenEnBuurten = WijkEnBuurten_police_ams_4,
+                       select = c("WijkenEnBuurten","Perioden","SoortMisdrijf","GeregistreerdeMisdrijven_1"))
 View(data_4)
 
 # Downloading a subset_5
 data_5 <- cbs_get_data("47022NED", 
                        catalog = "politie",
                        Perioden = perioden_police_ams,
-                       WijkenEnBuurten_5 = WijkEnBuurten_police_ams_5,
-                       select = c("WijkenEnBuurten_5","Perioden","SoortMisdrijf"))
+                       WijkenEnBuurten = WijkEnBuurten_police_ams_5,
+                       select = c("WijkenEnBuurten","Perioden","SoortMisdrijf","GeregistreerdeMisdrijven_1"))
 View(data_5)
+
