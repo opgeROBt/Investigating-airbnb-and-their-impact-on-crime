@@ -33,9 +33,9 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 **documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
 **Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
 **python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide
-**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/
-**github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R 
-**PyPY documentation of CBS library** https://pypi.org/project/cbsodata/
+**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/\
+**github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3 
+**github v4**https://github.com/statistiekcbs/CBS-Open-Data-v4
 
 
 
