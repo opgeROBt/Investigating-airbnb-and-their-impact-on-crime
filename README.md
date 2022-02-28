@@ -34,6 +34,8 @@ Explain to potential users how to run/replicate your workflow. If necessary, tou
 **Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
 **python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide
 **check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/
+**github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R
+
 
 ## About
 
