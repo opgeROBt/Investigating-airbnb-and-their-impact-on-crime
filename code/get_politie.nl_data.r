@@ -87,3 +87,6 @@ data_5 <- cbs_get_data("47022NED",
                        select = c("WijkenEnBuurten","Perioden","SoortMisdrijf","GeregistreerdeMisdrijven_1"))
 View(data_5)
 
+# Make one dataset of the five subsets
+all_data <- rbind(data_1, data_2, data_3, data_4, data_5)
+View(all_data)
