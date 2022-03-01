@@ -11,20 +11,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Explanation
 
-This file takes the previously downloaded Airbnb dataset and changes it in several ways. First, 
+This file takes the previously downloaded Airbnb dataset and changes it in several ways. The dplyr and stringr packages are required and loaded. The code below groups the data by Amsterdam's neighborhoods as separated by Airbnb, then computes the following summary statistics per neighborhood: the total amount of listings, the average price of listings, and the percentages of each room type out of the total listings. The end result is a compact dataset with 22 rows (observations) and 7 columns (variables). Lastly, the resulting dataset is saved in the data folder. 
 
-```{r}
-# Remove the hashtags (#) below if you do not have dplyr and/or stringr installed, as this code requires them.
+Code Chunk 1: Loads (and installs, if necessary) the required packages.
+```{r library, message = FALSE}
+#Remove the hashtags (#) below if you do not have dplyr and/or stringr installed, as this code requires them.
 #install.packages("dplyr")
 #install.packages("stringr")
 library(dplyr)
 library(stringr)
-
-airbnb_listings <- read.csv("../data/airbnb_listings.csv")
-
-airbnb_listings_modified <- airbnb_listings %>% group_by(neighbourhood) %>% summarise(listing_amount = sum(calculated_host_listings_count),average_price = mean(price), percentage_home_apt = sum(str_count(room_type,"Entire home/apt"))/n(), percentage_hotel_room = sum(str_count(room_type,"Hotel room"))/n(),percentage_private_room = sum(str_count(room_type,"Private room"))/n(), percentage_shared_room = sum(str_count(room_type,"Shared room"))/n())
-
-write.csv(airbnb_listings_modified, "../data/airbnb_listings_modified.csv", row.names = FALSE)
 ```
 
+Code Chunk 2: Loads the listings csv from the data folder of the repository.
+```{r data-load}
+airbnb_listings <- read.csv("../data/airbnb_listings.csv")
+```
+
+Code Chunk 3: Creates a new dataset with summarized statistics separated per Airbnb neighborhood.
+```{r data-summary}
+airbnb_listings_modified <- airbnb_listings %>% group_by(neighbourhood) %>% summarise(listing_amount = sum(calculated_host_listings_count),average_price = mean(price), percentage_home_apt = sum(str_count(room_type,"Entire home/apt"))/n(), percentage_hotel_room = sum(str_count(room_type,"Hotel room"))/n(),percentage_private_room = sum(str_count(room_type,"Private room"))/n(), percentage_shared_room = sum(str_count(room_type,"Shared room"))/n())
+```
+
+Code Chunk 4: Saves the new dataset as a csv in the data folder of the repository. 
+```{r data-save}
+write.csv(airbnb_listings_modified, "../data/airbnb_listings_modified.csv", row.names = FALSE)
+```
 
