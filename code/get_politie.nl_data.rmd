@@ -11,12 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Explanation
 
-This file makes use of publicly available politie.nl data (https://data.politie.nl/portal.html?_la=nl&_catalog=Politie&tableId=47022NED&_theme=97) to download a dataset pertaining to crime rates. For this, the cbsodatR package is used (and must be installed) to make use of the CBS API for data collection. Through the API, the table of contents and the uncatalogued data are downloaded and, in turn, used to download the metadata made available by politie.nl. Before downloading the data, it must be noted that there is a limit in the amount of observations that can be extracted at a time, hence the separation of all relevant parameters into 5 vectors (WijkEnBuurten_police_ams_1 through 5). Additionally, another vector is defined to signal the API as to the time periods of interest to the group (2021, January to December). 5 data requests are issued through the CSB API, resulting in 5 different dataset fragments. Each request is separated by a 5 second pause, which is not inherently neccesary, but used either way to avoid potentially overwhelming the server at a time of high use. The 5 separate datasets are combined into one via bind, and the result is saved as a csv file in the data folder of the repository. 
+This file makes use of publicly available politie.nl data (https://data.politie.nl/portal.html?_la=nl&_catalog=Politie&tableId=47022NED&_theme=97) to download a dataset pertaining to crime rates. For this, the cbsodatR package is used (and must be installed) to make use of the CBS API for data collection. Through the API, the table of contents and the uncatalogued data are downloaded and, in turn, used to download the metadata made available by politie.nl. Before downloading the data, it must be noted that there is a limit in the amount of observations that can be extracted at a time, hence the separation of all relevant parameters into 5 vectors (WijkEnBuurten_police_ams_1 through 5). Additionally, another vector is defined to signal the API as to the time periods of interest to the group (2021, January to December). 5 data requests are issued through the CSB API, resulting in 5 different dataset fragments. Each request is separated by a 5 second pause, which is not inherently neccesary, but used either way to avoid potentially overwhelming the server at a time of high use. The 5 separate datasets are combined into one vie bind, and the result is saved as a csv file in the data folder of the repository. 
 
 Code Chunk 1: Loads (and installs, if necessary) the required packages.
 ```{r library}
 #Remove the hashtag (#) below if you do not have the cbsodataR package installed, as this code requires it
-#install.packages("cbsodataR")
+install.packages("cbsodataR")
 library(cbsodataR)
 ```
 
@@ -86,8 +86,120 @@ Code Chunk 5: Combines the 5 separately downloaded datasets into one.
 all_data <- rbind(data_1, data_2, data_3, data_4, data_5)
 ```
 
+for(i in 1:nrow(all_data)) {       # for-loop over rows
+  all_data[i, ] <- all_data[i, ] {
+  if all_data["0.0.0"]:
+    all_data["0.0.0"] <- "Total"}
+  if all_data != all_data["0.0.0"]:
+      break
+}
+
+
+
+for(i in 1:nrow(all_data)){
+  if(all_data == all_data$SoortMisdrijf[0.0.0]{
+    all_data[0.0.0] <- all_data["Total"]
+  }
+  if(all_data != 0.0.0){
+    break
+  }
+}
+
+
+for (i in (1:nrow(all_data))) {
+  if (all_data[] == TRUE) {
+    jdx <- lookup_data$lookup_key %in% input$input_key[i]
+    input$input_product[i] <- lookup_data$lookup_product[jdx == TRUE]
+  }
+}
+
+
+for(i in 1:nrow(all_data)){
+  if(all_data$SoortMisdrijf[i] == 0.0.0){
+    all_data$SoortMisdrijf["0.0.0"] <- all_data$SoortMisdrijf["Total"]
+    break
+  }
+}
+
+
+
+View(all_data)
+
+
+library(dplyr)
+
+rename_if()
+
+all_data %>% 
+  select(SoortMisdrijf(0.0.0)) %>% 
+  rename_with(str(Total)
+
+
+# get column names
+colnames(all_data)
+
+names(all_data)[names(all_data) == "WijkenEnBuurten"] <- "Neighborhoods"
+names(all_data)[names(all_data) == "Perioden"] <- "Periods"
+names(all_data)[names(all_data) == "SoortMisdrijf"] <- "CrimeType"
+names(all_data)[names(all_data) == "GeregistreerdeMisdrijven_1"] <- "RegisteredCrimes"
+all_data
+
+
+
+
+
+
+names(all_data)[names(all_data) == "BU03630000"] <- "AMS"
+View(all_data)
+BU03630000
+
+
+
+
+for(i in 1:nrow(all_data)){
+  if(all_data$WijkenEnBuurten[i] == as.factor(BU03630000)){
+    all_data$WijkenEnBuurten["BU03630000"] <- all_data$WijkenEnBuurten["AMS"]
+    break
+  }
+}
+View(all_data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+all_data2 <- FindReplace(data = all_data, Var = "0.0.0", replaceData =
+                       from = "0.0.0", to = "Total", exact = FALSE)
+
+
+
+all_data <- data.frame(from = as.character(0.0.0), to = "Totaal")
+
+
+all_data$SoortMisdrijf[all_data$SoortMisdrijf == "0.0.0"] <- "Total"
+View(all_data)
+
+df1$Sp2[df1$Sp2 == 8] <- 800
+
+
+
+
+
+
+
+View(all_data)
 Code Chunk 6: Saves data as csv file in the repository's data folder.
 ```{r data-save}
 write.csv(all_data, "../data/police_data.csv", row.names = FALSE)
 ```
-
