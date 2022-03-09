@@ -1,3 +1,0 @@
-Use this folder to add code i.e.
-- Code used to download and change the datasets
-- Code used for dataset analysis
