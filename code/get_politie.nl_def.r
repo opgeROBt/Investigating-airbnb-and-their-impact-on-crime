@@ -186,6 +186,13 @@ pls.datatable$Periods <- str_replace(pls.datatable$Periods, "2021MM12", "Dec2021
 
 View(pls.datatable)
 
+## Can someone check if this is correct?
+old_date <- c("2021MM01", "2021MM02", "2021MM03", "2021MM04", "2021MM05", "2021MM06", "2021MM07" ,"2021MM08", "2021MM09", "2021MM10", "2021MM11", "2021MM12")
+new_date <- c("Jan2021", "Feb2021","Mrt2021","Apr2021","May2021","June021","July2021","Aug2021","Sept2021","Oct2021","Nov2021","Dec2021")
+pls.datatable$Periods <- str_replace(pls.datatable$Periods, old_date, new_date)
+
+View(pls.datatable)
+
 pls.datatable_crime_summarized <- pls.datatable %>% 
   group_by(Neighborhoods, Periods, CrimeType) %>% 
   summarise(total_crime_sum = sum(RegisteredCrimes))
