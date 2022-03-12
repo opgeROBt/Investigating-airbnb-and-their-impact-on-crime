@@ -23,13 +23,10 @@ Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl
 2. Summarize your results concisely. Make use of subheaders where appropriate. 
 
 ## Repository overview
-
-1. Provide an overview of the directory structure and files. 
+* code/ = stores all the codes.
 * data/ = stores the raw data. 
-* data_output/ = stores the modified datasets. 
-* documents/ = stores outlines, drafts, other text.
-* fig_output/ = stores graphics from our data. 
-* scripts/ = stores R scripts. 
+* documentation/ = stores outlines, drafts, other text.
+* output/ = stores graphics from our data. 
 
 ## Running instructions
 
@@ -63,5 +60,78 @@ Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl
 
 
 
+========
+VOORBEELD HANNES:
+========
+
+
+===================================================================
+PROJECT NAME
+===================================================================
+
+DESCRIPTION:
+------------
+Put project description here. You can use multiple lines, but keep
+the width of the text limited to the
+header.
+
+AUTHORS:
+--------
+Hannes Datta, h.datta@tilburguniversity.edu (maintainer)
+
+LAST UPDATED:
+-------------
+29 NOVEMBER 2019
+
+
+BUILD INSTRUCTIONS
+==================
+
+1) Dependencies
+
+Please follow the installation guide on
+https://www.tilburgsciencehub.com/ for
+
+- R and RStudio (3.6.x)
+  Install the following R packages:
+
+	packages <- c("data.table", "ggplot2")
+
+	install.packages(packages)
+
+- Gnu Make
+  Put GnuMake and R to path so that you can run it
+  from anywhere on your system. See http://www.tilburgsciencehub.com/
+
+- Obtain raw data files and put them into /data/
+
+2) Directory structure
+
+The project pipeline consists of the following stages:
+
+/src/collect                Code required to collect/download raw data
+/src/data-preparation       Data preparation
+/src/analysis               Data analysis
+/src/paper                  Stores literature reference, paper, and slides
+
+Each directory has a makefile, with running descriptions
+for each stage of the pipeline.
+
+For each pipeline stage, the /gen directory contains
+files generated on the basis of the /data and
+source code stored in /src.
+
+Each directory contains subdirectories,
+	/input (for input files)
+	/output (for final output files)
+	/temp (for any temporary files)
+	/audit (for any auditing files)
+
+3) How to run the project
+
+Navigate to the project's root directory, open a terminal,
+and run
+
+> make
 
 
