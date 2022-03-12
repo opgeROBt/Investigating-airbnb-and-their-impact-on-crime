@@ -1,8 +1,11 @@
 
 # Investigating Airbnb and their impact on crime
-__To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?__
+
+This is the repository for the course [Data Preparation and Workflow Management](https://dprep.hannesdatta.com) at Tilburg University as part of the Master's program 'Marketing Analytics', used for the team project of group 8. 
 
 ![AirBnB Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_Bélo.svg/2560px-Airbnb_Logo_Bélo.svg.png)
+
+__To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?__
 
 ## Motivation
 ..... 
@@ -46,20 +49,17 @@ Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl
 
 ## Contributors
 
-This is the repository for the course [Data Preparation and Workflow Management](https://dprep.hannesdatta.com), team project (team 8). 
-This is the repository for the course [Data Preparation and Workflow Management](https://dprep.hannesdatta.com) at Tilburg University as part of the Master's program 'Marketing Analytics', used for the team project of group 3. 
-
  Members of our team: 
 
- * [Cas van Dijk](https://github.com/Cas-24), 
+ * [Cas van Dijk](https://github.com/Cas-24), c.c.j.m.vandijk@tilburguniversity.edu
 
- * [Chokie Tang](https://github.com/chokietang), 
+ * [Chokie Tang](https://github.com/chokietang), c.k.tang@tilburguniversity.edu
 
- * [Rob](https://github.com/opgeROBt), 
+ * [Rob Esenkbrink](https://github.com/opgeROBt), r.m.esenkbrink@tilburguniversity.edu
 
- * [Michael](https://github.com/MihaiVladS), 
+ * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
  
- * [Anoesjka Raateland](https://github.com/Anoesjka97), A.Raateland@tilburguniversity.edu
+ * [Anoesjka Raateland](https://github.com/Anoesjka97), a.Raateland@tilburguniversity.edu
 
 
 
