@@ -31,12 +31,14 @@ Code Chunk 3: Creates a new dataset with summarized statistics separated per Air
 ```{r data-summary}
 airbnb_listings_modified <- airbnb_listings %>% 
                             group_by(neighbourhood) %>% 
-                            summarise(listing_amount = sum(calculated_host_listings_count),
-                                    average_price = mean(price), 
-                                    percentage_home_apt = sum(str_count(room_type,"Entire home/apt"))/n(), 
-                                    percentage_hotel_room = sum(str_count(room_type,"Hotel room"))/n(), 
-                                    percentage_private_room = sum(str_count(room_type,"Private room"))/n(), 
-                                    percentage_shared_room = sum(str_count(room_type,"Shared room"))/n())
+                            summarise(Listing_sum = sum(calculated_host_listings_count),
+                                    Average_price = mean(price), 
+                                    Percentage_home_apt = sum(str_count(room_type,"Entire home/apt"))/n(), 
+                                    Percentage_hotel_room = sum(str_count(room_type,"Hotel room"))/n(), 
+                                    Percentage_private_room = sum(str_count(room_type,"Private room"))/n(), 
+                                    Percentage_shared_room = sum(str_count(room_type,"Shared room"))/n())
+
+names(airbnb_listings_modified)[names(airbnb_listings_modified) == "neighbourhood"] <- "Neighborhoods"
 ```
 
 Code Chunk 4: Saves the new dataset as a csv in the data folder of the repository. 

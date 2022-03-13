@@ -6,7 +6,7 @@
 #Additionally, another vector is defined to signal the API as to the time periods of interest to the group (2021, January to December). 
 #5 data requests are issued through the CSB API, resulting in 5 different dataset fragments.
 #Each request is separated by a 5 second pause, which is not inherently neccesary, but used either way to avoid potentially overwhelming the server at a time of high use. 
-#The 5 separate datasets are combined into one vie bind, and the result is saved as a csv file in the data folder of the repository. 
+#The 5 separate datasets are combined into one via bind, and the result is saved as a csv file in the data folder of the repository. 
 
 
 
@@ -199,10 +199,10 @@ politie_data.datatable$Periods <- str_replace(politie_data.datatable$Periods, ol
 View(politie_data.datatable)
 
 #summary of the dataset, create a subset 
-#todo: add is.na something 
-politie_data.datatable_crime_summarized <- politie_data.datatable %>% 
+politie_data.datatable_crime_summarized <- na.omit(politie_data.datatable) %>% 
   group_by(Neighborhoods, Periods, CrimeType_Category) %>% 
   summarise(total_crime_sum = sum(RegisteredCrimes))
 
 View(politie_data.datatable_crime_summarized)
 
+write.csv(politie_data.datatable_crime_summarized, "../data/police_dataset.csv", row.names = FALSE)
