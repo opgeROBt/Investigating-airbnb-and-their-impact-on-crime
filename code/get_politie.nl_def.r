@@ -161,7 +161,7 @@ politie_data.datatable$Periods <- str_replace(politie_data.datatable$Periods, ol
 View(politie_data.datatable)
 
 politie_data.datatable_crime_summarized <- politie_data.datatable %>% 
-  group_by(Neighborhoods, Periods, CrimeType) %>% 
+  group_by(Neighborhoods, Periods, CrimeType_name) %>% 
   summarise(total_crime_sum = sum(RegisteredCrimes))
 
 View(politie_data.datatable_crime_summarized)
