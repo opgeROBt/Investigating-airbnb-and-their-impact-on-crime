@@ -1,57 +1,138 @@
-#Investigating airbnb and their impact on crime 
-A subtitle that describes your project, e.g., research question
+
+# Investigating Airbnb and their impact on crime
+
+This is the repository for the course [Data Preparation and Workflow Management](https://dprep.hannesdatta.com) at Tilburg University as part of the Master's program 'Marketing Analytics', used for the team project of group 8. 
+
+![AirBnB Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_Bélo.svg/2560px-Airbnb_Logo_Bélo.svg.png)
+
+__To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?__
 
 ## Motivation
-Motivate your research question or business problem. Clearly explain which problem is solved.
+..... 
+
+## Data
+
+AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html).
+
+Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 ).
 
 
 ## Method and results
-First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
-Second, summarize your results concisely. Make use of subheaders where appropriate.
+
+1. Introduce and motivate your chosen method, and explain how it contribtues to solving the research question/business problem.
+2. Summarize your results concisely. Make use of subheaders where appropriate. 
 
 ## Repository overview
-Provide an overview of the directory structure and files, for example:
-
-
-├── README.md  
-├── data  
-├── gen  
-│   ├── analysis  
-│   ├── data-preparation  
-│   └── paper  
-└── src  
-    ├── analysis  
-    ├── data-preparation  
-    └── paper  
-
+* code/ = stores all the codes.
+* data/ = stores the raw data. 
+* documentation/ = stores outlines, drafts, other text.
+* output/ = stores graphics from our data. 
 
 ## Running instructions
-Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
+
+1. Explain the potential users how to run/replicate your worklfow. Touch upon, if necessary, the required input data, which (secret) credentials are required (and how to obtain them), which software tools are needed to run the workflow (incl. links to the installation instructions), and how to run the workflow. Make use of subheaders where appropriate. 
 
 ## More resources
-**example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
-**documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
-**Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
-**python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
-**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-**check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-**github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
-**github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3  
-**github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4  
+
+* example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
+* documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
+* Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
+* python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
+* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+* github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
+* github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3  
+* github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4  
+
+## Contributors
+
+ Members of our team: 
+
+ * [Cas van Dijk](https://github.com/Cas-24), c.c.j.m.vandijk@tilburguniversity.edu
+
+ * [Chokie Tang](https://github.com/chokietang), c.k.tang@tilburguniversity.edu
+
+ * [Rob Esenkbrink](https://github.com/opgeROBt), r.m.esenkbrink@tilburguniversity.edu
+
+ * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
+ 
+ * [Anoesjka Raateland](https://github.com/Anoesjka97), a.Raateland@tilburguniversity.edu
+
+### Last Updated
+13 March 2022
+
+========
+VOORBEELD HANNES:
+========
 
 
+===================================================================
+PROJECT NAME
+===================================================================
 
-## About
-This repository has been created as part of the class _'data preparation and management'_  at Tilburg University. 
-The following people have contributed to this repository: 
-- Anoesjka Raateland 
-- Cas-24 
-- chokietang 
-- MihaiVladS
-- OpgeROBt  
+DESCRIPTION:
+------------
+Put project description here. You can use multiple lines, but keep
+the width of the text limited to the
+header.
+
+AUTHORS:
+--------
+Hannes Datta, h.datta@tilburguniversity.edu (maintainer)
+
+LAST UPDATED:
+-------------
+29 NOVEMBER 2019
 
 
-Test Cas Check VS Code
+BUILD INSTRUCTIONS
+==================
 
-Nog een testje..
+1) Dependencies
+
+Please follow the installation guide on
+https://www.tilburgsciencehub.com/ for
+
+- R and RStudio (3.6.x)
+  Install the following R packages:
+
+	packages <- c("data.table", "ggplot2")
+
+	install.packages(packages)
+
+- Gnu Make
+  Put GnuMake and R to path so that you can run it
+  from anywhere on your system. See http://www.tilburgsciencehub.com/
+
+- Obtain raw data files and put them into /data/
+
+2) Directory structure
+
+The project pipeline consists of the following stages:
+
+/src/collect                Code required to collect/download raw data
+/src/data-preparation       Data preparation
+/src/analysis               Data analysis
+/src/paper                  Stores literature reference, paper, and slides
+
+Each directory has a makefile, with running descriptions
+for each stage of the pipeline.
+
+For each pipeline stage, the /gen directory contains
+files generated on the basis of the /data and
+source code stored in /src.
+
+Each directory contains subdirectories,
+	/input (for input files)
+	/output (for final output files)
+	/temp (for any temporary files)
+	/audit (for any auditing files)
+
+3) How to run the project
+
+Navigate to the project's root directory, open a terminal,
+and run
+
+> make
+
 
