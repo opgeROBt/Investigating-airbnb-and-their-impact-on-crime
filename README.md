@@ -58,7 +58,8 @@ Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl
  
  * [Anoesjka Raateland](https://github.com/Anoesjka97), a.Raateland@tilburguniversity.edu
 
-
+### Last Updated
+13 March 2022
 
 ========
 VOORBEELD HANNES:
