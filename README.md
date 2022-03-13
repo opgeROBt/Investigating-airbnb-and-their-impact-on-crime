@@ -7,44 +7,10 @@ This is the repository for the course [Data Preparation and Workflow Management]
 
 __To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?__
 
-## Motivation
-..... 
+### Last Updated
+13 March 2022
 
-## Data
-
-AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html).
-
-Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 ).
-
-
-## Method and results
-
-1. Introduce and motivate your chosen method, and explain how it contribtues to solving the research question/business problem.
-2. Summarize your results concisely. Make use of subheaders where appropriate. 
-
-## Repository overview
-* code/ = stores all the codes.
-* data/ = stores the raw data. 
-* documentation/ = stores outlines, drafts, other text.
-* output/ = stores graphics from our data. 
-
-## Running instructions
-
-1. Explain the potential users how to run/replicate your worklfow. Touch upon, if necessary, the required input data, which (secret) credentials are required (and how to obtain them), which software tools are needed to run the workflow (incl. links to the installation instructions), and how to run the workflow. Make use of subheaders where appropriate. 
-
-## More resources
-
-* example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
-* documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
-* Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
-* python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
-* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-* github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
-* github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3  
-* github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4  
-
-## Contributors
+## Authors
 
  Members of our team: 
 
@@ -58,35 +24,8 @@ Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl
  
  * [Anoesjka Raateland](https://github.com/Anoesjka97), a.Raateland@tilburguniversity.edu
 
-### Last Updated
-13 March 2022
 
-========
-VOORBEELD HANNES:
-========
-
-
-===================================================================
-PROJECT NAME
-===================================================================
-
-DESCRIPTION:
-------------
-Put project description here. You can use multiple lines, but keep
-the width of the text limited to the
-header.
-
-AUTHORS:
---------
-Hannes Datta, h.datta@tilburguniversity.edu (maintainer)
-
-LAST UPDATED:
--------------
-29 NOVEMBER 2019
-
-
-BUILD INSTRUCTIONS
-==================
+## Build instructions
 
 1) Dependencies
 
@@ -108,12 +47,21 @@ https://www.tilburgsciencehub.com/ for
 
 2) Directory structure
 
+* code/ = stores all the codes.
+* data/ = stores the raw data. 
+* documentation/ = stores outlines, drafts, other text.
+* output/ = stores graphics from our data. 
+
 The project pipeline consists of the following stages:
 
 /src/collect                Code required to collect/download raw data
+
 /src/data-preparation       Data preparation
+
 /src/analysis               Data analysis
+
 /src/paper                  Stores literature reference, paper, and slides
+
 
 Each directory has a makefile, with running descriptions
 for each stage of the pipeline.
@@ -135,4 +83,21 @@ and run
 
 > make
 
+## Data
+
+AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html).
+
+Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 ).
+
+## More resources
+
+* example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
+* documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
+* Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
+* python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
+* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+* github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
+* github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3  
+* github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4  
 
