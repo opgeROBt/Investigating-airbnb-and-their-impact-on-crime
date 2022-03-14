@@ -9,16 +9,10 @@ __To what extent does the number of Airbnb listings affect crime rates within Am
 
 ## Authors
 
- Members of our team: 
-
  * [Cas van Dijk](https://github.com/Cas-24), c.c.j.m.vandijk@tilburguniversity.edu
-
  * [Chokie Tang](https://github.com/chokietang), c.k.tang@tilburguniversity.edu
-
  * [Rob Esenkbrink](https://github.com/opgeROBt), r.m.esenkbrink@tilburguniversity.edu
-
  * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
- 
  * [Anoesjka Raateland](https://github.com/Anoesjka97), a.Raateland@tilburguniversity.edu
 
 
@@ -82,9 +76,8 @@ and run
 
 ## Data
 
-* AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html).
-
-* Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 ).
+* AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html)
+* Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 )
 
 ## More resources
 
