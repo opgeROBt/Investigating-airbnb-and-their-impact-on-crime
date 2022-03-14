@@ -13,7 +13,7 @@ __To what extent does the number of Airbnb listings affect crime rates within Am
  * [Chokie Tang](https://github.com/chokietang), c.k.tang@tilburguniversity.edu
  * [Rob Esenkbrink](https://github.com/opgeROBt), r.m.esenkbrink@tilburguniversity.edu
  * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
- * [Anoesjka Raateland](https://github.com/Anoesjka97), a.Raateland@tilburguniversity.edu
+ * [Anoesjka Raateland](https://github.com/Anoesjka97), a.raateland@tilburguniversity.edu
 
 
 ## Build instructions
