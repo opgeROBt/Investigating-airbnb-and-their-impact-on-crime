@@ -7,9 +7,6 @@ This is the repository for the course [Data Preparation and Workflow Management]
 
 __To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?__
 
-### Last Updated
-13 March 2022
-
 ## Authors
 
  Members of our team: 
@@ -85,19 +82,19 @@ and run
 
 ## Data
 
-AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html).
+* AirBnB data used available at [Inside AirBnB](http://insideairbnb.com/get-the-data.html).
 
-Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 ).
+* Police data used available at [Data.Police](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238 ).
 
 ## More resources
 
-* example set data.politie.nl:** https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
-* documentation of dataset:** https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
-* Statline webpage (incl. user support):**: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
-* python quick guide api:** https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
-* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-* check the CBSoData api in the browser:** https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-* github of CBS R package:** https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
-* github v3** https://github.com/statistiekcbs/CBS-Open-Data-v3  
-* github v4** https://github.com/statistiekcbs/CBS-Open-Data-v4  
+* example set data.politie.nl: https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
+* documentation of dataset: https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
+* Statline webpage (incl. user support): https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
+* python quick guide api: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
+* check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+* check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
+* github of CBS R package: https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
+* github v3: https://github.com/statistiekcbs/CBS-Open-Data-v3  
+* github v4: https://github.com/statistiekcbs/CBS-Open-Data-v4  
 
