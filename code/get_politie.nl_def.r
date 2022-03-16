@@ -10,7 +10,7 @@
 
 
 
-# Remove the hashtag (#) below if you do not have the cbsodataR package installed, as this code requires it
+# Remove the hashtag (#) below if you do not have the cbsodataR package installed, as this code requires it.
 install.packages("cbsodataR")
 install.packages("stringr") # This package is necessaary to replace values.
 install.packages("dplyr")
@@ -23,7 +23,7 @@ library(dplyr)
 library(data.table)
 library(purrr)
 
-# Creating the basic tables
+# Creating the basic tables.
 table_of_content <- cbs_get_toc()
 catalogs <-  cbs_get_catalogs()
 metadata <- cbs_get_meta("47022NED", catalog = "politie")
@@ -37,7 +37,7 @@ WijkEnBuurten_police_ams_4 <- c("BU03636300","BU03636400","BU03636401","BU036364
 WijkEnBuurten_police_ams_5 <- c("BU03638604","BU03638605","BU03638700","BU03638701","BU03638702","BU03638703","BU03638704","BU03638705","BU03638800","BU03638801","BU03638802","BU03638803","BU03638804","BU03638805","BU03638806","BU03638807","BU03638808","BU03638809","BU03638900","BU03638901","BU03638902","BU03638903","BU03639000","BU03639002","BU03639003","BU03639004","BU03639008","BU03639009","BU03639100","BU03639101","BU03639102","BU03639103","BU03639200","BU03639201","BU03639202","BU03639203","BU03639204","BU03639205","BU03639206","BU03639500","BU03639501","BU03639502","BU03639600","BU03639601","BU03639602","BU03639603","BU03639604","BU03639605","BU03639606","BU03639700","BU03639701","BU03639702","BU03639703","BU03639800","BU03639801")
 WijkEnBuurten_combined <- c(WijkEnBuurten_police_ams_1, WijkEnBuurten_police_ams_2, WijkEnBuurten_police_ams_3, WijkEnBuurten_police_ams_4, WijkEnBuurten_police_ams_5)
 
-# Created a function which can be used to loop trough 'wijkenenbuurten' -> use WijkEnBuurten_combined as parameter
+# Created a function which can be used to loop trough 'wijkenenbuurten' -> use WijkEnBuurten_combined as parameter.
 api_call_cbsdata <- function(wijk) { 
   api_data <- cbs_get_data("47022NED", 
                            catalog = "politie",
@@ -51,14 +51,14 @@ politie_data <- lapply(WijkEnBuurten_combined, api_call_cbsdata)
 politie_data.datatable <- data.table(do.call(rbind, politie_data))
 View(politie_data.datatable)
 
-# Renaming the columns to English
+# Renaming the columns to English.
 names(politie_data.datatable)[names(politie_data.datatable) == "WijkenEnBuurten"] <- "Neighborhoods"
 names(politie_data.datatable)[names(politie_data.datatable) == "Perioden"] <- "Periods"
 names(politie_data.datatable)[names(politie_data.datatable) == "SoortMisdrijf"] <- "CrimeType"
 names(politie_data.datatable)[names(politie_data.datatable) == "GeregistreerdeMisdrijven_1"] <- "RegisteredCrimes"
 
 
-#attempting to map values to the crimetype codees
+#attempting to map values to the crimetype codees.
 politie_data.datatable <- politie_data.datatable %>% 
   mutate(CrimeType_Category = case_when(
     CrimeType == "0.0.0 " ~ "Total",
@@ -73,7 +73,7 @@ View(politie_data.datatable)
 
 
 
-#neighboorhood vectors
+#neighboorhood vectors.
 bijlmer_centrum <- c("BU03639200","BU03639201","BU03639203","BU03639204","BU03639205","BU03639202","BU03639206")
 bos_en_lommer <- c("BU03633601","BU03633600","BU03633700","BU03633702","BU03633703","BU03633704","BU03633706","BU03633705","BU03633802","BU03633803","BU03633900","BU03633901","BU03633902","BU03633903")
 buitenveldert_zuidas <- c("BU03632300","BU03632301","BU03632302","BU03632303","BU03632304","BU03635900","BU03635901","BU03639004","BU03639000","BU03639002","BU03639003","BU03639008","BU03639009","BU03639103","BU03639100","BU03639101","BU03639102")
@@ -96,7 +96,7 @@ slotervaart <- c("BU03638500","BU03638501","BU03638502","BU03638600","BU03638601
 watergraafsmeer <- c("BU03635501","BU03635502","BU03635503","BU03635504","BU03635505","BU03635506","BU03635507","BU03635508","BU03635602","BU03635606","BU03635608","BU03635600","BU03635601","BU03635603","BU03635604","BU03635605","BU03635607","BU03635700","BU03635701","BU03635702","BU03635801","BU03635805","BU03635809","BU03635804","BU03635806","BU03635807","BU03635808")
 westerpark <- c("BU03631201","BU03631200","BU03631300","BU03631303","BU03631302","BU03631306","BU03631301","BU03631304","BU03631305","BU03631307","BU03631400","BU03631401","BU03631402","BU03631403","BU03631404","BU03631405","BU03631500","BU03631501","BU03631503","BU03631502","BU03631600","BU03631601","BU03631602")							
 
-#mapping of neighborhoods ## isnt working yet
+#mapping of neighborhoods ## isnt working yet.
 politie_data.test <- politie_data.datatable %>% 
   mutate(neighborhood_name = case_when(
     Neighborhoods == bijlmer_centrum ~ "bijlmer_centrum",
@@ -119,8 +119,6 @@ politie_data.test <- politie_data.datatable %>%
     Neighborhoods == zuid ~ "zuid",
     Neighborhoods == westerpark ~ "westerpark",
   ))
-
-
 
 
 
@@ -192,13 +190,13 @@ westerpark <- c("BU03631201","BU03631200","BU03631300","BU03631303","BU03631302"
 for (item in westerpark) politie_data.datatable$Neighborhoods <- str_replace(politie_data.datatable$Neighborhoods, item, "Westerpark")
 
 
-##new format for the period column 
+##new format for the period column.
 old_date <- c("2021MM01", "2021MM02", "2021MM03", "2021MM04", "2021MM05", "2021MM06", "2021MM07" ,"2021MM08", "2021MM09", "2021MM10", "2021MM11", "2021MM12")
 new_date <- c("Jan2021", "Feb2021","Mrt2021","Apr2021","May2021","June021","July2021","Aug2021","Sept2021","Oct2021","Nov2021","Dec2021")
 politie_data.datatable$Periods <- str_replace(politie_data.datatable$Periods, old_date, new_date)
 View(politie_data.datatable)
 
-#summary of the dataset, create a subset 
+#summary of the dataset, create a subset.
 politie_data.datatable_crime_summarized <- na.omit(politie_data.datatable) %>% 
   group_by(Neighborhoods, Periods, CrimeType_Category) %>% 
   summarise(total_crime_sum = sum(RegisteredCrimes))
@@ -206,3 +204,5 @@ politie_data.datatable_crime_summarized <- na.omit(politie_data.datatable) %>%
 View(politie_data.datatable_crime_summarized)
 
 write.csv(politie_data.datatable_crime_summarized, "../data/police_dataset.csv", row.names = FALSE)
+
+
