@@ -1,18 +1,16 @@
 ## Explanation
-#This file makes use of publicly available politie.nl data (https://data.politie.nl/portal.html?_la=nl&_catalog=Politie&tableId=47022NED&_theme=97) 
-#to download a dataset pertaining to crime rates. For this, the cbsodatR package is used (and must be installed) to make use of the CBS API for data collection. 
-#Through the API, the table of contents and the uncatalogued data are downloaded and, in turn, used to download the metadata made available by politie.nl. 
-#Before downloading the data, it must be noted that there is a limit in the amount of observations that can be extracted at a time, hence the separation of all relevant parameters into 5 vectors (WijkEnBuurten_police_ams_1 through 5). 
-#Additionally, another vector is defined to signal the API as to the time periods of interest to the group (2021, January to December). 
-#5 data requests are issued through the CSB API, resulting in 5 different dataset fragments.
-#Each request is separated by a 5 second pause, which is not inherently neccesary, but used either way to avoid potentially overwhelming the server at a time of high use. 
-#The 5 separate datasets are combined into one via bind, and the result is saved as a csv file in the data folder of the repository. 
-
-
+# This file makes use of publicly available politie.nl data (https://data.politie.nl/portal.html?_la=nl&_catalog=Politie&tableId=47022NED&_theme=97) 
+# to download a dataset pertaining to crime rates. For this, the cbsodatR package is used (and must be installed) to make use of the CBS API for data collection. 
+# Through the API, the table of contents and the uncatalogued data are downloaded and, in turn, used to download the metadata made available by politie.nl. 
+# Before downloading the data, it must be noted that there is a limit in the amount of observations that can be extracted at a time, hence the separation of all relevant parameters into 5 vectors (WijkEnBuurten_police_ams_1 through 5). 
+# Additionally, another vector is defined to signal the API as to the time periods of interest to the group (2021, January to December). 
+# 5 data requests are issued through the CSB API, resulting in 5 different dataset fragments.
+# Each request is separated by a 5 second pause, which is not inherently neccesary, but used either way to avoid potentially overwhelming the server at a time of high use. 
+# The 5 separate datasets are combined into one via bind, and the result is saved as a csv file in the data folder of the repository. 
 
 # Remove the hashtag (#) below if you do not have the cbsodataR package installed, as this code requires it.
 install.packages("cbsodataR")
-install.packages("stringr") # This package is necessaary to replace values.
+install.packages("stringr")
 install.packages("dplyr")
 install.packages("data.table")
 install.packages("purrr")
@@ -49,7 +47,6 @@ api_call_cbsdata <- function(wijk) {
 # Using the lapply() function and the data.table() to combine it all in one dataframe. 
 politie_data <- lapply(WijkEnBuurten_combined, api_call_cbsdata)
 politie_data.datatable <- data.table(do.call(rbind, politie_data))
-View(politie_data.datatable)
 
 # Renaming the columns to English.
 names(politie_data.datatable)[names(politie_data.datatable) == "WijkenEnBuurten"] <- "Neighborhoods"
@@ -57,8 +54,7 @@ names(politie_data.datatable)[names(politie_data.datatable) == "Perioden"] <- "P
 names(politie_data.datatable)[names(politie_data.datatable) == "SoortMisdrijf"] <- "CrimeType"
 names(politie_data.datatable)[names(politie_data.datatable) == "GeregistreerdeMisdrijven_1"] <- "RegisteredCrimes"
 
-
-#attempting to map values to the crimetype codees.
+# Map values to the crimetype codes.
 politie_data.datatable <- politie_data.datatable %>% 
   mutate(CrimeType_Category = case_when(
     CrimeType == "0.0.0 " ~ "Total",
@@ -69,8 +65,6 @@ politie_data.datatable <- politie_data.datatable %>%
     CrimeType == "2.6.1 " | CrimeType == "2.6.2 " | CrimeType == "2.6.3 " | CrimeType == "2.6.4 " | CrimeType =="2.6.5 "| CrimeType =="2.6.7 " | CrimeType =="2.6.8 "|CrimeType =="2.6.9 " | CrimeType == "2.6.10" | CrimeType == "2.6.11" | CrimeType == "2.6.12" | CrimeType == "2.6.13" | CrimeType =="2.6.14"  ~ "Environment",
     CrimeType == "2.7.2 " | CrimeType == "2.7.3 " | CrimeType == "3.7.3 " | CrimeType == "3.7.4 " | CrimeType =="3.9.1 "| CrimeType =="3.9.2 " | CrimeType =="3.9.3 " ~ "Other"
     ))
-View(politie_data.datatable)
-
 
 # Categorizing the Neighborhood codes and assigning them under the correct City Area. 
 # This is necessary so we can combine the City Areas from the Police Data set with the City Areas in the AirBnB Dataset. 
@@ -123,14 +117,13 @@ for (i in seq(along=neighborhoods)) {
   for (item in neighborhoods[[i]]) politie_data.datatable$Neighborhoods <- str_replace(politie_data.datatable$Neighborhoods, item, names(neighborhoods)[i])
 }
 
-
-##new format for the period column.
+# New format for the period column.
 old_date <- c("2021MM01", "2021MM02", "2021MM03", "2021MM04", "2021MM05", "2021MM06", "2021MM07" ,"2021MM08", "2021MM09", "2021MM10", "2021MM11", "2021MM12")
 new_date <- c("2022-01", "2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12")
 politie_data.datatable$Periods <- str_replace(politie_data.datatable$Periods, old_date, new_date)
 View(politie_data.datatable)
 
-#summary of the dataset, create a subset.
+# Summary of the dataset, create a subset.
 politie_data.datatable_crime_summarized <- na.omit(politie_data.datatable) %>% 
   group_by(Neighborhoods, Periods, CrimeType_Category) %>% 
   summarise(total_crime_sum = sum(RegisteredCrimes))
@@ -138,5 +131,3 @@ politie_data.datatable_crime_summarized <- na.omit(politie_data.datatable) %>%
 View(politie_data.datatable_crime_summarized)
 
 write.csv(politie_data.datatable_crime_summarized, "../data/police_dataset.csv", row.names = FALSE)
-
-fwrite
