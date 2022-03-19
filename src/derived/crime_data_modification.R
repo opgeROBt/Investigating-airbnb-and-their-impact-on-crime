@@ -1,8 +1,8 @@
-install.packages("cbsodataR")
-install.packages("stringr")
-install.packages("dplyr")
-install.packages("data.table")
-install.packages("purrr")
+#install.packages("cbsodataR")
+#install.packages("stringr")
+#install.packages("dplyr")
+#install.packages("data.table")
+#install.packages("purrr")
 library(cbsodataR)
 library(stringr)
 library(plyr)
@@ -11,7 +11,7 @@ library(data.table)
 library(purrr)
 
 #Loads the crime data csv from the 'temp-data/raw' folder of the repository
-politie_data.datatable <- read.csv("../../temp-data/raw/crime_data.csv")
+politie_data.datatable <- read.csv("temp-data/raw/crime_data.csv")
 
 
 # Renaming the columns to English.
@@ -94,4 +94,4 @@ politie_data.datatable_crime_summarized <- na.omit(politie_data.datatable) %>%
   summarise(total_crime_sum = sum(RegisteredCrimes))
 
 # Save the csv file in 'temp-data/summarized'
-write.csv(politie_data.datatable_crime_summarized, "../../temp-data/summarized/crime_data_summarized.csv", row.names = FALSE)
+write.csv(politie_data.datatable_crime_summarized, "temp-data/summarized/crime_data_summarized.csv", row.names = FALSE)

@@ -12,7 +12,7 @@ library(dplyr)
 library(stringr)
 
 #Loads the listings csv from the 'temp-data/raw' folder of the repository
-airbnb_listings <- read.csv("../../temp-data/raw/airbnb_listings.csv")
+airbnb_listings <- read.csv("temp-data/raw/airbnb_listings.csv")
 
 #Create a new dataset with summarized statistics separated per Airbnb neighborhood
 airbnb_listings_modified <- airbnb_listings %>% 
@@ -27,7 +27,7 @@ airbnb_listings_modified <- airbnb_listings %>%
 names(airbnb_listings_modified)[names(airbnb_listings_modified) == "neighbourhood"] <- "Neighborhoods"
 
 #Create a new folder in 'temp-data' called 'summarized'
-dir.create('../../temp-data/summarized')
+dir.create('temp-data/summarized')
 
 #Save the new dataset as a csv in the 'temp-data/summarized' folder of the repository
-write.csv(na.omit(airbnb_listings_modified), "../../temp-data/summarized/airbnb_listings_summarized.csv", row.names = FALSE)
+write.csv(na.omit(airbnb_listings_modified), "temp-data/summarized/airbnb_listings_summarized.csv", row.names = FALSE)

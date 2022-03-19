@@ -9,11 +9,11 @@
 # The 5 separate datasets are combined into one via bind, and the result is saved as a csv file. 
 
 # Remove the hashtag (#) below if you do not have the cbsodataR package installed, as this code requires it.
-install.packages("cbsodataR")
-install.packages("stringr")
-install.packages("dplyr")
-install.packages("data.table")
-install.packages("purrr")
+#install.packages("cbsodataR")
+#install.packages("stringr")
+#install.packages("dplyr")
+#install.packages("data.table")
+#install.packages("purrr")
 library(cbsodataR)
 library(stringr)
 library(plyr)
@@ -49,4 +49,4 @@ politie_data <- lapply(WijkEnBuurten_combined, api_call_cbsdata)
 politie_data.datatable <- data.table(do.call(rbind, politie_data))
 
 #Save the data as csv file in the repository's 'temp-data/raw' folder
-write.csv(politie_data.datatable, "../../temp-data/raw/crime_data.csv", row.names = FALSE)
+write.csv(politie_data.datatable, "temp-data/raw/crime_data.csv", row.names = FALSE)

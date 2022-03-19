@@ -6,8 +6,8 @@
 airbnb_listings <- read.csv("http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2021-12-05/visualisations/listings.csv")
 
 #Creates the directory 'temp-data/raw' within the repository by creating the folder 'temp-data' and the folder 'raw' within it.
-dir.create('../../temp-data')
-dir.create('../../temp-data/raw')
+dir.create('temp-data')
+dir.create('temp-data/raw')
 
 #Save the data as csv file in the repository's 'temp-data/raw' folder
-write.csv(airbnb_listings, "../../temp-data/raw/airbnb_listings.csv", row.names = FALSE)
+write.csv(airbnb_listings, "temp-data/raw/airbnb_listings.csv", row.names = FALSE)
