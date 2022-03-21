@@ -1,0 +1,88 @@
+---
+title: "analysis"
+author: "Mihai Vlad Serbanescu"
+date: "21/03/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Motivation
+
+## Exploratory Analysis
+
+```{r, data-load, echo=FALSE}
+
+listings_crime_dataset <-read.csv("../../temp-data/analysis/listings_crime_dataset.csv")
+
+```
+
+```{r, library-load, echo=FALSE}
+#Load all libraries we need here, in one code chunk even if they are used in different sections
+library(dplyr)
+library(ggplot2)
+```
+
+```{r, descriptives, echo=FALSE}
+x = nrow(listings_crime_dataset)
+x_neigh = nrow(listings_crime_dataset %>%group_by(Neighborhoods) %>% summarise(count=n()))
+x_period = nrow(listings_crime_dataset %>%group_by(Periods) %>% summarise(count=n()))
+df_listings = listings_crime_dataset %>% group_by(Neighborhoods) %>% summarise(Total_listings = sum(Listing_sum))
+df_max_listings = df_listings[which.max(df_listings$Total_listings),]
+n_m_l = df_max_listings[1,1]
+n_m_l_n = df_max_listings[1,2]
+df_min_listings = df_listings[which.min(df_listings$Total_listings),]
+n_l_l = df_min_listings[1,1]
+n_l_l_n = df_min_listings[1,2]
+df_price = listings_crime_dataset %>% group_by(Neighborhoods) %>% summarise(Average_price)
+df_max_price = df_price[which.max(df_price$Average_price),]
+n_m_p = df_max_price[1,1]
+n_m_p_n = df_max_price[1,2]
+df_min_price = df_price[which.min(df_price$Average_price),]
+n_l_p = df_min_price[1,1]
+n_l_p_n = df_min_price[1,2]
+```
+To begin this analysis, this report will first highlight some descriptive statistics about the dataset used. To begin with, the dataset contains `r x` rows worth of data, with each row highlighting the amount of listings and crimes (per type), the average listings price, and percentages per listing types based on an Amsterdam neighborhood and time period. The dataset features `r x_neigh` unique Amsterdam neighborhoods and `r x_period` unique time periods (from x to x ).
+
+Based on this data, the area with the most amount of listings is `r n_m_l` with `r n_m_l_n` listings, while the area with the least is `r n_l_l` with `r n_l_l_n` listings. Furthermore, the most expensive area listings-wise is `r n_m_p` with `r n_m_p_n` average price, while the area with the least is `r n_l_p` with `r n_l_p_n` average price.
+
+The graphs below visualize how the number of crimes has evolved throughout the available time periods, as well as the occurrences of crimes per type
+
+```{r, crime-time, echo=FALSE}
+df_crime_time = filter(listings_crime_dataset, CrimeType_Category == "Total") %>% group_by(Periods) %>% summarise(Total_crime = sum(total_crime_sum))
+df_crime_time%>%
+  ggplot(aes(x = Periods, y = Total_crime, group = 1)) + geom_point() + geom_path() +
+  labs(x = "Periods (Month)", y = "Total Crime Cases" , title = "Total Crime Occurrences per Month")
+
+df_min_crime_time = df_crime_time[which.min(df_crime_time$Total_crime),]
+c_l_p = df_min_crime_time[1,1]
+c_l_p_n = df_min_crime_time[1,2]
+df_max_crime_time = df_crime_time[which.max(df_crime_time$Total_crime),]
+c_m_p = df_max_crime_time[1,1]
+c_m_p_n = df_max_crime_time[1,2]
+```
+As it can be seen from the Crime Occurrences per Month graph, the data exhibits no seasonality trend when viewed on a 12 month period. The lowest number of crime occurrences is on `r c_l_p` with `r c_l_p_n` crimes, while the highest is on `r c_m_p` with `r c_m_p_n` crimes.  
+
+```{r, crime-type-occur, echo=FALSE}
+df_crime_type = filter(listings_crime_dataset, CrimeType_Category != "Total") %>% group_by(CrimeType_Category) %>% summarise(Total_crime_sum = sum(total_crime_sum))
+df_crime_type %>%
+  ggplot(aes(x = CrimeType_Category, y = Total_crime_sum, fill = CrimeType_Category)) + geom_bar(stat = 'identity') +
+  labs(x = "Crime Type", y = "Crime Occurances" ,fill = "Crime Type", title = "Total Crime Occurances per Crime Category") +
+  scale_fill_viridis_d()
+
+df_min_crime_type = df_crime_type[which.min(df_crime_type$Total_crime_sum),]
+c_l_t = df_min_crime_type[1,1]
+c_l_t_n = df_min_crime_type[1,2]
+df_max_crime_type = df_crime_type[which.max(df_crime_type$Total_crime_sum),]
+c_m_t = df_max_crime_type[1,1]
+c_m_t_n = df_max_crime_type[1,2]
+```
+When observing the distribution of Crime Occurrences per Crime Category graph, it is clear that crime occurrences are highly different in frequency. The graph clearly shows how the lowest number of crime occurrences is for `r c_l_t` crimes with `r c_l_t_n` occurrences, while the highest is `r c_m_t`  crimes with `r c_m_t_n` occurrences.
+
+## Correlation Analysis
+
+## Discussion
+
+## Conclusion
