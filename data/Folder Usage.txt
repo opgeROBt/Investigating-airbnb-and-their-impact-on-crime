@@ -1,3 +1,0 @@
-Use this folder to store datasets i.e.:
-- raw data /downloaded data
-- changed & combined datasets
