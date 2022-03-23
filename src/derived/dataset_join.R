@@ -1,7 +1,7 @@
 ## Explanation
 #This file combines the previously downloaded and modified datasets of Airbnb listings and Police Crime data through a join statement.
 
-# Loading neccesary library
+# Loading necessary library
 library(dplyr)
 
 # Loading the modified Airbnb listings and Police Crime datasets.
@@ -10,6 +10,11 @@ crime_data_summarized <- read.csv("temp-data/summarized/crime_data_summarized.cs
 
 # Merging the two datasets via an outer join
 listings_crime_dataset = airbnb_listings_summarized %>% full_join(crime_data_summarized,by="Neighborhoods")
+
+# Changing column names for consistency and ease of use
+names(listings_crime_dataset) <- tolower(names(listings_crime_dataset))
+colnames(listings_crime_dataset)[which(names(listings_crime_dataset) == "neighborhoods")] <- "neighborhood" 
+colnames(listings_crime_dataset)[which(names(listings_crime_dataset) == "crimetype_category")] <- "crime_type_category"
 
 # Create a new folder in 'temp-data' called 'analysis'
 dir.create('temp-data/analysis')

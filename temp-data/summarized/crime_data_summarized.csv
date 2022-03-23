@@ -1,1765 +1,1765 @@
 "Neighborhoods","Periods","CrimeType_Category","total_crime_sum"
-"Bijlmer-Centrum","2022-01","Environment",0
-"Bijlmer-Centrum","2022-01","Inappropriateness",4
-"Bijlmer-Centrum","2022-01","Other",4
-"Bijlmer-Centrum","2022-01","Robbery/Theft",27
-"Bijlmer-Centrum","2022-01","Smuggling",3
-"Bijlmer-Centrum","2022-01","Total",55
-"Bijlmer-Centrum","2022-01","Violence",17
-"Bijlmer-Centrum","2022-02","Environment",0
-"Bijlmer-Centrum","2022-02","Inappropriateness",4
-"Bijlmer-Centrum","2022-02","Other",5
-"Bijlmer-Centrum","2022-02","Robbery/Theft",22
-"Bijlmer-Centrum","2022-02","Smuggling",0
-"Bijlmer-Centrum","2022-02","Total",43
-"Bijlmer-Centrum","2022-02","Violence",11
-"Bijlmer-Centrum","2022-03","Environment",1
-"Bijlmer-Centrum","2022-03","Inappropriateness",1
-"Bijlmer-Centrum","2022-03","Other",2
-"Bijlmer-Centrum","2022-03","Robbery/Theft",30
-"Bijlmer-Centrum","2022-03","Smuggling",0
-"Bijlmer-Centrum","2022-03","Total",48
-"Bijlmer-Centrum","2022-03","Violence",11
-"Bijlmer-Centrum","2022-04","Environment",1
-"Bijlmer-Centrum","2022-04","Inappropriateness",2
-"Bijlmer-Centrum","2022-04","Other",1
-"Bijlmer-Centrum","2022-04","Robbery/Theft",25
-"Bijlmer-Centrum","2022-04","Smuggling",0
-"Bijlmer-Centrum","2022-04","Total",54
-"Bijlmer-Centrum","2022-04","Violence",20
-"Bijlmer-Centrum","2022-05","Environment",0
-"Bijlmer-Centrum","2022-05","Inappropriateness",3
-"Bijlmer-Centrum","2022-05","Other",6
-"Bijlmer-Centrum","2022-05","Robbery/Theft",49
-"Bijlmer-Centrum","2022-05","Smuggling",5
-"Bijlmer-Centrum","2022-05","Total",86
-"Bijlmer-Centrum","2022-05","Violence",21
-"Bijlmer-Centrum","2022-06","Environment",1
-"Bijlmer-Centrum","2022-06","Inappropriateness",5
-"Bijlmer-Centrum","2022-06","Other",5
-"Bijlmer-Centrum","2022-06","Robbery/Theft",42
-"Bijlmer-Centrum","2022-06","Smuggling",0
-"Bijlmer-Centrum","2022-06","Total",81
-"Bijlmer-Centrum","2022-06","Violence",24
-"Bijlmer-Centrum","2022-07","Environment",0
-"Bijlmer-Centrum","2022-07","Inappropriateness",2
-"Bijlmer-Centrum","2022-07","Other",3
-"Bijlmer-Centrum","2022-07","Robbery/Theft",32
-"Bijlmer-Centrum","2022-07","Smuggling",0
-"Bijlmer-Centrum","2022-07","Total",61
-"Bijlmer-Centrum","2022-07","Violence",20
-"Bijlmer-Centrum","2022-08","Environment",0
-"Bijlmer-Centrum","2022-08","Inappropriateness",4
-"Bijlmer-Centrum","2022-08","Other",1
-"Bijlmer-Centrum","2022-08","Robbery/Theft",39
-"Bijlmer-Centrum","2022-08","Smuggling",3
-"Bijlmer-Centrum","2022-08","Total",76
-"Bijlmer-Centrum","2022-08","Violence",23
-"Bijlmer-Centrum","2022-09","Environment",2
-"Bijlmer-Centrum","2022-09","Inappropriateness",10
-"Bijlmer-Centrum","2022-09","Other",7
-"Bijlmer-Centrum","2022-09","Robbery/Theft",46
-"Bijlmer-Centrum","2022-09","Smuggling",1
-"Bijlmer-Centrum","2022-09","Total",86
-"Bijlmer-Centrum","2022-09","Violence",20
-"Bijlmer-Centrum","2022-10","Environment",1
-"Bijlmer-Centrum","2022-10","Inappropriateness",7
-"Bijlmer-Centrum","2022-10","Other",0
-"Bijlmer-Centrum","2022-10","Robbery/Theft",77
-"Bijlmer-Centrum","2022-10","Smuggling",14
-"Bijlmer-Centrum","2022-10","Total",133
-"Bijlmer-Centrum","2022-10","Violence",29
-"Bijlmer-Centrum","2022-11","Environment",0
-"Bijlmer-Centrum","2022-11","Inappropriateness",3
-"Bijlmer-Centrum","2022-11","Other",9
-"Bijlmer-Centrum","2022-11","Robbery/Theft",57
-"Bijlmer-Centrum","2022-11","Smuggling",1
-"Bijlmer-Centrum","2022-11","Total",94
-"Bijlmer-Centrum","2022-11","Violence",21
-"Bijlmer-Centrum","2022-12","Environment",2
-"Bijlmer-Centrum","2022-12","Inappropriateness",3
-"Bijlmer-Centrum","2022-12","Other",6
-"Bijlmer-Centrum","2022-12","Robbery/Theft",32
-"Bijlmer-Centrum","2022-12","Smuggling",1
-"Bijlmer-Centrum","2022-12","Total",53
-"Bijlmer-Centrum","2022-12","Violence",9
-"Bos en Lommer","2022-01","Environment",0
-"Bos en Lommer","2022-01","Inappropriateness",11
-"Bos en Lommer","2022-01","Other",22
-"Bos en Lommer","2022-01","Robbery/Theft",83
-"Bos en Lommer","2022-01","Smuggling",3
-"Bos en Lommer","2022-01","Total",182
-"Bos en Lommer","2022-01","Violence",60
-"Bos en Lommer","2022-02","Environment",0
-"Bos en Lommer","2022-02","Inappropriateness",3
-"Bos en Lommer","2022-02","Other",38
-"Bos en Lommer","2022-02","Robbery/Theft",74
-"Bos en Lommer","2022-02","Smuggling",5
-"Bos en Lommer","2022-02","Total",185
-"Bos en Lommer","2022-02","Violence",62
-"Bos en Lommer","2022-03","Environment",0
-"Bos en Lommer","2022-03","Inappropriateness",10
-"Bos en Lommer","2022-03","Other",24
-"Bos en Lommer","2022-03","Robbery/Theft",90
-"Bos en Lommer","2022-03","Smuggling",9
-"Bos en Lommer","2022-03","Total",181
-"Bos en Lommer","2022-03","Violence",40
-"Bos en Lommer","2022-04","Environment",0
-"Bos en Lommer","2022-04","Inappropriateness",11
-"Bos en Lommer","2022-04","Other",18
-"Bos en Lommer","2022-04","Robbery/Theft",87
-"Bos en Lommer","2022-04","Smuggling",3
-"Bos en Lommer","2022-04","Total",180
-"Bos en Lommer","2022-04","Violence",55
-"Bos en Lommer","2022-05","Environment",1
-"Bos en Lommer","2022-05","Inappropriateness",6
-"Bos en Lommer","2022-05","Other",25
-"Bos en Lommer","2022-05","Robbery/Theft",61
-"Bos en Lommer","2022-05","Smuggling",4
-"Bos en Lommer","2022-05","Total",167
-"Bos en Lommer","2022-05","Violence",63
-"Bos en Lommer","2022-06","Environment",0
-"Bos en Lommer","2022-06","Inappropriateness",10
-"Bos en Lommer","2022-06","Other",27
-"Bos en Lommer","2022-06","Robbery/Theft",106
-"Bos en Lommer","2022-06","Smuggling",6
-"Bos en Lommer","2022-06","Total",209
-"Bos en Lommer","2022-06","Violence",52
-"Bos en Lommer","2022-07","Environment",0
-"Bos en Lommer","2022-07","Inappropriateness",5
-"Bos en Lommer","2022-07","Other",22
-"Bos en Lommer","2022-07","Robbery/Theft",84
-"Bos en Lommer","2022-07","Smuggling",5
-"Bos en Lommer","2022-07","Total",163
-"Bos en Lommer","2022-07","Violence",44
-"Bos en Lommer","2022-08","Environment",0
-"Bos en Lommer","2022-08","Inappropriateness",6
-"Bos en Lommer","2022-08","Other",22
-"Bos en Lommer","2022-08","Robbery/Theft",75
-"Bos en Lommer","2022-08","Smuggling",5
-"Bos en Lommer","2022-08","Total",163
-"Bos en Lommer","2022-08","Violence",52
-"Bos en Lommer","2022-09","Environment",0
-"Bos en Lommer","2022-09","Inappropriateness",6
-"Bos en Lommer","2022-09","Other",14
-"Bos en Lommer","2022-09","Robbery/Theft",97
-"Bos en Lommer","2022-09","Smuggling",3
-"Bos en Lommer","2022-09","Total",186
-"Bos en Lommer","2022-09","Violence",58
-"Bos en Lommer","2022-10","Environment",0
-"Bos en Lommer","2022-10","Inappropriateness",6
-"Bos en Lommer","2022-10","Other",19
-"Bos en Lommer","2022-10","Robbery/Theft",126
-"Bos en Lommer","2022-10","Smuggling",2
-"Bos en Lommer","2022-10","Total",213
-"Bos en Lommer","2022-10","Violence",55
-"Bos en Lommer","2022-11","Environment",2
-"Bos en Lommer","2022-11","Inappropriateness",9
-"Bos en Lommer","2022-11","Other",24
-"Bos en Lommer","2022-11","Robbery/Theft",119
-"Bos en Lommer","2022-11","Smuggling",2
-"Bos en Lommer","2022-11","Total",224
-"Bos en Lommer","2022-11","Violence",61
-"Bos en Lommer","2022-12","Environment",1
-"Bos en Lommer","2022-12","Inappropriateness",3
-"Bos en Lommer","2022-12","Other",20
-"Bos en Lommer","2022-12","Robbery/Theft",73
-"Bos en Lommer","2022-12","Smuggling",5
-"Bos en Lommer","2022-12","Total",162
-"Bos en Lommer","2022-12","Violence",53
-"Buitenveldert - Zuidas","2022-01","Environment",0
-"Buitenveldert - Zuidas","2022-01","Inappropriateness",10
-"Buitenveldert - Zuidas","2022-01","Other",26
-"Buitenveldert - Zuidas","2022-01","Robbery/Theft",73
-"Buitenveldert - Zuidas","2022-01","Smuggling",7
-"Buitenveldert - Zuidas","2022-01","Total",179
-"Buitenveldert - Zuidas","2022-01","Violence",55
-"Buitenveldert - Zuidas","2022-02","Environment",0
-"Buitenveldert - Zuidas","2022-02","Inappropriateness",7
-"Buitenveldert - Zuidas","2022-02","Other",30
-"Buitenveldert - Zuidas","2022-02","Robbery/Theft",61
-"Buitenveldert - Zuidas","2022-02","Smuggling",3
-"Buitenveldert - Zuidas","2022-02","Total",142
-"Buitenveldert - Zuidas","2022-02","Violence",38
-"Buitenveldert - Zuidas","2022-03","Environment",0
-"Buitenveldert - Zuidas","2022-03","Inappropriateness",4
-"Buitenveldert - Zuidas","2022-03","Other",23
-"Buitenveldert - Zuidas","2022-03","Robbery/Theft",80
-"Buitenveldert - Zuidas","2022-03","Smuggling",2
-"Buitenveldert - Zuidas","2022-03","Total",157
-"Buitenveldert - Zuidas","2022-03","Violence",44
-"Buitenveldert - Zuidas","2022-04","Environment",0
-"Buitenveldert - Zuidas","2022-04","Inappropriateness",9
-"Buitenveldert - Zuidas","2022-04","Other",26
-"Buitenveldert - Zuidas","2022-04","Robbery/Theft",66
-"Buitenveldert - Zuidas","2022-04","Smuggling",3
-"Buitenveldert - Zuidas","2022-04","Total",155
-"Buitenveldert - Zuidas","2022-04","Violence",49
-"Buitenveldert - Zuidas","2022-05","Environment",0
-"Buitenveldert - Zuidas","2022-05","Inappropriateness",4
-"Buitenveldert - Zuidas","2022-05","Other",21
-"Buitenveldert - Zuidas","2022-05","Robbery/Theft",76
-"Buitenveldert - Zuidas","2022-05","Smuggling",0
-"Buitenveldert - Zuidas","2022-05","Total",152
-"Buitenveldert - Zuidas","2022-05","Violence",45
-"Buitenveldert - Zuidas","2022-06","Environment",0
-"Buitenveldert - Zuidas","2022-06","Inappropriateness",4
-"Buitenveldert - Zuidas","2022-06","Other",23
-"Buitenveldert - Zuidas","2022-06","Robbery/Theft",74
-"Buitenveldert - Zuidas","2022-06","Smuggling",2
-"Buitenveldert - Zuidas","2022-06","Total",134
-"Buitenveldert - Zuidas","2022-06","Violence",29
-"Buitenveldert - Zuidas","2022-07","Environment",0
-"Buitenveldert - Zuidas","2022-07","Inappropriateness",5
-"Buitenveldert - Zuidas","2022-07","Other",20
-"Buitenveldert - Zuidas","2022-07","Robbery/Theft",117
-"Buitenveldert - Zuidas","2022-07","Smuggling",2
-"Buitenveldert - Zuidas","2022-07","Total",196
-"Buitenveldert - Zuidas","2022-07","Violence",47
-"Buitenveldert - Zuidas","2022-08","Environment",0
-"Buitenveldert - Zuidas","2022-08","Inappropriateness",10
-"Buitenveldert - Zuidas","2022-08","Other",32
-"Buitenveldert - Zuidas","2022-08","Robbery/Theft",95
-"Buitenveldert - Zuidas","2022-08","Smuggling",3
-"Buitenveldert - Zuidas","2022-08","Total",178
-"Buitenveldert - Zuidas","2022-08","Violence",36
-"Buitenveldert - Zuidas","2022-09","Environment",0
-"Buitenveldert - Zuidas","2022-09","Inappropriateness",9
-"Buitenveldert - Zuidas","2022-09","Other",14
-"Buitenveldert - Zuidas","2022-09","Robbery/Theft",127
-"Buitenveldert - Zuidas","2022-09","Smuggling",1
-"Buitenveldert - Zuidas","2022-09","Total",197
-"Buitenveldert - Zuidas","2022-09","Violence",41
-"Buitenveldert - Zuidas","2022-10","Environment",0
-"Buitenveldert - Zuidas","2022-10","Inappropriateness",11
-"Buitenveldert - Zuidas","2022-10","Other",21
-"Buitenveldert - Zuidas","2022-10","Robbery/Theft",136
-"Buitenveldert - Zuidas","2022-10","Smuggling",3
-"Buitenveldert - Zuidas","2022-10","Total",228
-"Buitenveldert - Zuidas","2022-10","Violence",47
-"Buitenveldert - Zuidas","2022-11","Environment",0
-"Buitenveldert - Zuidas","2022-11","Inappropriateness",10
-"Buitenveldert - Zuidas","2022-11","Other",19
-"Buitenveldert - Zuidas","2022-11","Robbery/Theft",110
-"Buitenveldert - Zuidas","2022-11","Smuggling",4
-"Buitenveldert - Zuidas","2022-11","Total",216
-"Buitenveldert - Zuidas","2022-11","Violence",69
-"Buitenveldert - Zuidas","2022-12","Environment",0
-"Buitenveldert - Zuidas","2022-12","Inappropriateness",9
-"Buitenveldert - Zuidas","2022-12","Other",23
-"Buitenveldert - Zuidas","2022-12","Robbery/Theft",94
-"Buitenveldert - Zuidas","2022-12","Smuggling",5
-"Buitenveldert - Zuidas","2022-12","Total",172
-"Buitenveldert - Zuidas","2022-12","Violence",39
-"Centrum-Oost","2022-01","Environment",1
-"Centrum-Oost","2022-01","Inappropriateness",8
-"Centrum-Oost","2022-01","Other",34
-"Centrum-Oost","2022-01","Robbery/Theft",98
-"Centrum-Oost","2022-01","Smuggling",6
-"Centrum-Oost","2022-01","Total",212
-"Centrum-Oost","2022-01","Violence",60
-"Centrum-Oost","2022-02","Environment",0
-"Centrum-Oost","2022-02","Inappropriateness",6
-"Centrum-Oost","2022-02","Other",38
-"Centrum-Oost","2022-02","Robbery/Theft",90
-"Centrum-Oost","2022-02","Smuggling",2
-"Centrum-Oost","2022-02","Total",199
-"Centrum-Oost","2022-02","Violence",54
-"Centrum-Oost","2022-03","Environment",0
-"Centrum-Oost","2022-03","Inappropriateness",19
-"Centrum-Oost","2022-03","Other",43
-"Centrum-Oost","2022-03","Robbery/Theft",119
-"Centrum-Oost","2022-03","Smuggling",4
-"Centrum-Oost","2022-03","Total",298
-"Centrum-Oost","2022-03","Violence",106
-"Centrum-Oost","2022-04","Environment",0
-"Centrum-Oost","2022-04","Inappropriateness",16
-"Centrum-Oost","2022-04","Other",45
-"Centrum-Oost","2022-04","Robbery/Theft",116
-"Centrum-Oost","2022-04","Smuggling",8
-"Centrum-Oost","2022-04","Total",264
-"Centrum-Oost","2022-04","Violence",62
-"Centrum-Oost","2022-05","Environment",1
-"Centrum-Oost","2022-05","Inappropriateness",14
-"Centrum-Oost","2022-05","Other",31
-"Centrum-Oost","2022-05","Robbery/Theft",158
-"Centrum-Oost","2022-05","Smuggling",6
-"Centrum-Oost","2022-05","Total",301
-"Centrum-Oost","2022-05","Violence",77
-"Centrum-Oost","2022-06","Environment",0
-"Centrum-Oost","2022-06","Inappropriateness",23
-"Centrum-Oost","2022-06","Other",36
-"Centrum-Oost","2022-06","Robbery/Theft",218
-"Centrum-Oost","2022-06","Smuggling",5
-"Centrum-Oost","2022-06","Total",383
-"Centrum-Oost","2022-06","Violence",87
-"Centrum-Oost","2022-07","Environment",0
-"Centrum-Oost","2022-07","Inappropriateness",26
-"Centrum-Oost","2022-07","Other",42
-"Centrum-Oost","2022-07","Robbery/Theft",260
-"Centrum-Oost","2022-07","Smuggling",9
-"Centrum-Oost","2022-07","Total",450
-"Centrum-Oost","2022-07","Violence",101
-"Centrum-Oost","2022-08","Environment",0
-"Centrum-Oost","2022-08","Inappropriateness",18
-"Centrum-Oost","2022-08","Other",40
-"Centrum-Oost","2022-08","Robbery/Theft",265
-"Centrum-Oost","2022-08","Smuggling",13
-"Centrum-Oost","2022-08","Total",439
-"Centrum-Oost","2022-08","Violence",90
-"Centrum-Oost","2022-09","Environment",0
-"Centrum-Oost","2022-09","Inappropriateness",27
-"Centrum-Oost","2022-09","Other",34
-"Centrum-Oost","2022-09","Robbery/Theft",249
-"Centrum-Oost","2022-09","Smuggling",6
-"Centrum-Oost","2022-09","Total",400
-"Centrum-Oost","2022-09","Violence",79
-"Centrum-Oost","2022-10","Environment",0
-"Centrum-Oost","2022-10","Inappropriateness",22
-"Centrum-Oost","2022-10","Other",41
-"Centrum-Oost","2022-10","Robbery/Theft",307
-"Centrum-Oost","2022-10","Smuggling",18
-"Centrum-Oost","2022-10","Total",533
-"Centrum-Oost","2022-10","Violence",127
-"Centrum-Oost","2022-11","Environment",0
-"Centrum-Oost","2022-11","Inappropriateness",17
-"Centrum-Oost","2022-11","Other",35
-"Centrum-Oost","2022-11","Robbery/Theft",312
-"Centrum-Oost","2022-11","Smuggling",8
-"Centrum-Oost","2022-11","Total",482
-"Centrum-Oost","2022-11","Violence",102
-"Centrum-Oost","2022-12","Environment",1
-"Centrum-Oost","2022-12","Inappropriateness",21
-"Centrum-Oost","2022-12","Other",32
-"Centrum-Oost","2022-12","Robbery/Theft",167
-"Centrum-Oost","2022-12","Smuggling",2
-"Centrum-Oost","2022-12","Total",290
-"Centrum-Oost","2022-12","Violence",58
-"Centrum-West","2022-01","Environment",0
-"Centrum-West","2022-01","Inappropriateness",12
-"Centrum-West","2022-01","Other",48
-"Centrum-West","2022-01","Robbery/Theft",218
-"Centrum-West","2022-01","Smuggling",12
-"Centrum-West","2022-01","Total",400
-"Centrum-West","2022-01","Violence",90
-"Centrum-West","2022-02","Environment",0
-"Centrum-West","2022-02","Inappropriateness",11
-"Centrum-West","2022-02","Other",45
-"Centrum-West","2022-02","Robbery/Theft",181
-"Centrum-West","2022-02","Smuggling",9
-"Centrum-West","2022-02","Total",325
-"Centrum-West","2022-02","Violence",60
-"Centrum-West","2022-03","Environment",0
-"Centrum-West","2022-03","Inappropriateness",30
-"Centrum-West","2022-03","Other",70
-"Centrum-West","2022-03","Robbery/Theft",209
-"Centrum-West","2022-03","Smuggling",25
-"Centrum-West","2022-03","Total",453
-"Centrum-West","2022-03","Violence",88
-"Centrum-West","2022-04","Environment",0
-"Centrum-West","2022-04","Inappropriateness",19
-"Centrum-West","2022-04","Other",51
-"Centrum-West","2022-04","Robbery/Theft",227
-"Centrum-West","2022-04","Smuggling",14
-"Centrum-West","2022-04","Total",427
-"Centrum-West","2022-04","Violence",95
-"Centrum-West","2022-05","Environment",0
-"Centrum-West","2022-05","Inappropriateness",16
-"Centrum-West","2022-05","Other",53
-"Centrum-West","2022-05","Robbery/Theft",262
-"Centrum-West","2022-05","Smuggling",10
-"Centrum-West","2022-05","Total",481
-"Centrum-West","2022-05","Violence",111
-"Centrum-West","2022-06","Environment",0
-"Centrum-West","2022-06","Inappropriateness",19
-"Centrum-West","2022-06","Other",36
-"Centrum-West","2022-06","Robbery/Theft",378
-"Centrum-West","2022-06","Smuggling",29
-"Centrum-West","2022-06","Total",632
-"Centrum-West","2022-06","Violence",143
-"Centrum-West","2022-07","Environment",0
-"Centrum-West","2022-07","Inappropriateness",16
-"Centrum-West","2022-07","Other",34
-"Centrum-West","2022-07","Robbery/Theft",441
-"Centrum-West","2022-07","Smuggling",16
-"Centrum-West","2022-07","Total",670
-"Centrum-West","2022-07","Violence",133
-"Centrum-West","2022-08","Environment",0
-"Centrum-West","2022-08","Inappropriateness",30
-"Centrum-West","2022-08","Other",46
-"Centrum-West","2022-08","Robbery/Theft",458
-"Centrum-West","2022-08","Smuggling",13
-"Centrum-West","2022-08","Total",699
-"Centrum-West","2022-08","Violence",123
-"Centrum-West","2022-09","Environment",4
-"Centrum-West","2022-09","Inappropriateness",18
-"Centrum-West","2022-09","Other",40
-"Centrum-West","2022-09","Robbery/Theft",420
-"Centrum-West","2022-09","Smuggling",23
-"Centrum-West","2022-09","Total",699
-"Centrum-West","2022-09","Violence",155
-"Centrum-West","2022-10","Environment",0
-"Centrum-West","2022-10","Inappropriateness",35
-"Centrum-West","2022-10","Other",38
-"Centrum-West","2022-10","Robbery/Theft",518
-"Centrum-West","2022-10","Smuggling",16
-"Centrum-West","2022-10","Total",808
-"Centrum-West","2022-10","Violence",169
-"Centrum-West","2022-11","Environment",2
-"Centrum-West","2022-11","Inappropriateness",21
-"Centrum-West","2022-11","Other",43
-"Centrum-West","2022-11","Robbery/Theft",519
-"Centrum-West","2022-11","Smuggling",38
-"Centrum-West","2022-11","Total",801
-"Centrum-West","2022-11","Violence",155
-"Centrum-West","2022-12","Environment",0
-"Centrum-West","2022-12","Inappropriateness",16
-"Centrum-West","2022-12","Other",37
-"Centrum-West","2022-12","Robbery/Theft",329
-"Centrum-West","2022-12","Smuggling",5
-"Centrum-West","2022-12","Total",518
-"Centrum-West","2022-12","Violence",114
-"De Akker - Nieuw Sloten","2022-01","Environment",0
-"De Akker - Nieuw Sloten","2022-01","Inappropriateness",4
-"De Akker - Nieuw Sloten","2022-01","Other",18
-"De Akker - Nieuw Sloten","2022-01","Robbery/Theft",53
-"De Akker - Nieuw Sloten","2022-01","Smuggling",3
-"De Akker - Nieuw Sloten","2022-01","Total",110
-"De Akker - Nieuw Sloten","2022-01","Violence",29
-"De Akker - Nieuw Sloten","2022-02","Environment",0
-"De Akker - Nieuw Sloten","2022-02","Inappropriateness",4
-"De Akker - Nieuw Sloten","2022-02","Other",16
-"De Akker - Nieuw Sloten","2022-02","Robbery/Theft",31
-"De Akker - Nieuw Sloten","2022-02","Smuggling",3
-"De Akker - Nieuw Sloten","2022-02","Total",83
-"De Akker - Nieuw Sloten","2022-02","Violence",27
-"De Akker - Nieuw Sloten","2022-03","Environment",1
-"De Akker - Nieuw Sloten","2022-03","Inappropriateness",3
-"De Akker - Nieuw Sloten","2022-03","Other",22
-"De Akker - Nieuw Sloten","2022-03","Robbery/Theft",37
-"De Akker - Nieuw Sloten","2022-03","Smuggling",2
-"De Akker - Nieuw Sloten","2022-03","Total",103
-"De Akker - Nieuw Sloten","2022-03","Violence",37
-"De Akker - Nieuw Sloten","2022-04","Environment",0
-"De Akker - Nieuw Sloten","2022-04","Inappropriateness",2
-"De Akker - Nieuw Sloten","2022-04","Other",26
-"De Akker - Nieuw Sloten","2022-04","Robbery/Theft",31
-"De Akker - Nieuw Sloten","2022-04","Smuggling",7
-"De Akker - Nieuw Sloten","2022-04","Total",95
-"De Akker - Nieuw Sloten","2022-04","Violence",26
-"De Akker - Nieuw Sloten","2022-05","Environment",0
-"De Akker - Nieuw Sloten","2022-05","Inappropriateness",4
-"De Akker - Nieuw Sloten","2022-05","Other",23
-"De Akker - Nieuw Sloten","2022-05","Robbery/Theft",39
-"De Akker - Nieuw Sloten","2022-05","Smuggling",0
-"De Akker - Nieuw Sloten","2022-05","Total",97
-"De Akker - Nieuw Sloten","2022-05","Violence",29
-"De Akker - Nieuw Sloten","2022-06","Environment",0
-"De Akker - Nieuw Sloten","2022-06","Inappropriateness",1
-"De Akker - Nieuw Sloten","2022-06","Other",20
-"De Akker - Nieuw Sloten","2022-06","Robbery/Theft",38
-"De Akker - Nieuw Sloten","2022-06","Smuggling",4
-"De Akker - Nieuw Sloten","2022-06","Total",95
-"De Akker - Nieuw Sloten","2022-06","Violence",32
-"De Akker - Nieuw Sloten","2022-07","Environment",0
-"De Akker - Nieuw Sloten","2022-07","Inappropriateness",0
-"De Akker - Nieuw Sloten","2022-07","Other",25
-"De Akker - Nieuw Sloten","2022-07","Robbery/Theft",43
-"De Akker - Nieuw Sloten","2022-07","Smuggling",2
-"De Akker - Nieuw Sloten","2022-07","Total",99
-"De Akker - Nieuw Sloten","2022-07","Violence",27
-"De Akker - Nieuw Sloten","2022-08","Environment",0
-"De Akker - Nieuw Sloten","2022-08","Inappropriateness",8
-"De Akker - Nieuw Sloten","2022-08","Other",17
-"De Akker - Nieuw Sloten","2022-08","Robbery/Theft",50
-"De Akker - Nieuw Sloten","2022-08","Smuggling",4
-"De Akker - Nieuw Sloten","2022-08","Total",108
-"De Akker - Nieuw Sloten","2022-08","Violence",29
-"De Akker - Nieuw Sloten","2022-09","Environment",0
-"De Akker - Nieuw Sloten","2022-09","Inappropriateness",4
-"De Akker - Nieuw Sloten","2022-09","Other",21
-"De Akker - Nieuw Sloten","2022-09","Robbery/Theft",51
-"De Akker - Nieuw Sloten","2022-09","Smuggling",3
-"De Akker - Nieuw Sloten","2022-09","Total",107
-"De Akker - Nieuw Sloten","2022-09","Violence",24
-"De Akker - Nieuw Sloten","2022-10","Environment",0
-"De Akker - Nieuw Sloten","2022-10","Inappropriateness",6
-"De Akker - Nieuw Sloten","2022-10","Other",16
-"De Akker - Nieuw Sloten","2022-10","Robbery/Theft",53
-"De Akker - Nieuw Sloten","2022-10","Smuggling",4
-"De Akker - Nieuw Sloten","2022-10","Total",112
-"De Akker - Nieuw Sloten","2022-10","Violence",31
-"De Akker - Nieuw Sloten","2022-11","Environment",0
-"De Akker - Nieuw Sloten","2022-11","Inappropriateness",2
-"De Akker - Nieuw Sloten","2022-11","Other",18
-"De Akker - Nieuw Sloten","2022-11","Robbery/Theft",47
-"De Akker - Nieuw Sloten","2022-11","Smuggling",3
-"De Akker - Nieuw Sloten","2022-11","Total",100
-"De Akker - Nieuw Sloten","2022-11","Violence",29
-"De Akker - Nieuw Sloten","2022-12","Environment",0
-"De Akker - Nieuw Sloten","2022-12","Inappropriateness",2
-"De Akker - Nieuw Sloten","2022-12","Other",16
-"De Akker - Nieuw Sloten","2022-12","Robbery/Theft",22
-"De Akker - Nieuw Sloten","2022-12","Smuggling",3
-"De Akker - Nieuw Sloten","2022-12","Total",80
-"De Akker - Nieuw Sloten","2022-12","Violence",33
-"De Baarsjes - Oud-West","2022-01","Environment",0
-"De Baarsjes - Oud-West","2022-01","Inappropriateness",23
-"De Baarsjes - Oud-West","2022-01","Other",53
-"De Baarsjes - Oud-West","2022-01","Robbery/Theft",246
-"De Baarsjes - Oud-West","2022-01","Smuggling",5
-"De Baarsjes - Oud-West","2022-01","Total",444
-"De Baarsjes - Oud-West","2022-01","Violence",105
-"De Baarsjes - Oud-West","2022-02","Environment",0
-"De Baarsjes - Oud-West","2022-02","Inappropriateness",12
-"De Baarsjes - Oud-West","2022-02","Other",60
-"De Baarsjes - Oud-West","2022-02","Robbery/Theft",184
-"De Baarsjes - Oud-West","2022-02","Smuggling",5
-"De Baarsjes - Oud-West","2022-02","Total",336
-"De Baarsjes - Oud-West","2022-02","Violence",67
-"De Baarsjes - Oud-West","2022-03","Environment",0
-"De Baarsjes - Oud-West","2022-03","Inappropriateness",18
-"De Baarsjes - Oud-West","2022-03","Other",87
-"De Baarsjes - Oud-West","2022-03","Robbery/Theft",223
-"De Baarsjes - Oud-West","2022-03","Smuggling",11
-"De Baarsjes - Oud-West","2022-03","Total",444
-"De Baarsjes - Oud-West","2022-03","Violence",91
-"De Baarsjes - Oud-West","2022-04","Environment",0
-"De Baarsjes - Oud-West","2022-04","Inappropriateness",15
-"De Baarsjes - Oud-West","2022-04","Other",55
-"De Baarsjes - Oud-West","2022-04","Robbery/Theft",219
-"De Baarsjes - Oud-West","2022-04","Smuggling",2
-"De Baarsjes - Oud-West","2022-04","Total",394
-"De Baarsjes - Oud-West","2022-04","Violence",89
-"De Baarsjes - Oud-West","2022-05","Environment",1
-"De Baarsjes - Oud-West","2022-05","Inappropriateness",9
-"De Baarsjes - Oud-West","2022-05","Other",37
-"De Baarsjes - Oud-West","2022-05","Robbery/Theft",238
-"De Baarsjes - Oud-West","2022-05","Smuggling",14
-"De Baarsjes - Oud-West","2022-05","Total",395
-"De Baarsjes - Oud-West","2022-05","Violence",81
-"De Baarsjes - Oud-West","2022-06","Environment",0
-"De Baarsjes - Oud-West","2022-06","Inappropriateness",8
-"De Baarsjes - Oud-West","2022-06","Other",49
-"De Baarsjes - Oud-West","2022-06","Robbery/Theft",222
-"De Baarsjes - Oud-West","2022-06","Smuggling",4
-"De Baarsjes - Oud-West","2022-06","Total",391
-"De Baarsjes - Oud-West","2022-06","Violence",99
-"De Baarsjes - Oud-West","2022-07","Environment",0
-"De Baarsjes - Oud-West","2022-07","Inappropriateness",8
-"De Baarsjes - Oud-West","2022-07","Other",56
-"De Baarsjes - Oud-West","2022-07","Robbery/Theft",216
-"De Baarsjes - Oud-West","2022-07","Smuggling",4
-"De Baarsjes - Oud-West","2022-07","Total",385
-"De Baarsjes - Oud-West","2022-07","Violence",91
-"De Baarsjes - Oud-West","2022-08","Environment",1
-"De Baarsjes - Oud-West","2022-08","Inappropriateness",13
-"De Baarsjes - Oud-West","2022-08","Other",40
-"De Baarsjes - Oud-West","2022-08","Robbery/Theft",204
-"De Baarsjes - Oud-West","2022-08","Smuggling",3
-"De Baarsjes - Oud-West","2022-08","Total",365
-"De Baarsjes - Oud-West","2022-08","Violence",95
-"De Baarsjes - Oud-West","2022-09","Environment",0
-"De Baarsjes - Oud-West","2022-09","Inappropriateness",11
-"De Baarsjes - Oud-West","2022-09","Other",36
-"De Baarsjes - Oud-West","2022-09","Robbery/Theft",254
-"De Baarsjes - Oud-West","2022-09","Smuggling",4
-"De Baarsjes - Oud-West","2022-09","Total",409
-"De Baarsjes - Oud-West","2022-09","Violence",93
-"De Baarsjes - Oud-West","2022-10","Environment",0
-"De Baarsjes - Oud-West","2022-10","Inappropriateness",9
-"De Baarsjes - Oud-West","2022-10","Other",43
-"De Baarsjes - Oud-West","2022-10","Robbery/Theft",256
-"De Baarsjes - Oud-West","2022-10","Smuggling",7
-"De Baarsjes - Oud-West","2022-10","Total",442
-"De Baarsjes - Oud-West","2022-10","Violence",114
-"De Baarsjes - Oud-West","2022-11","Environment",0
-"De Baarsjes - Oud-West","2022-11","Inappropriateness",16
-"De Baarsjes - Oud-West","2022-11","Other",46
-"De Baarsjes - Oud-West","2022-11","Robbery/Theft",307
-"De Baarsjes - Oud-West","2022-11","Smuggling",7
-"De Baarsjes - Oud-West","2022-11","Total",483
-"De Baarsjes - Oud-West","2022-11","Violence",104
-"De Baarsjes - Oud-West","2022-12","Environment",1
-"De Baarsjes - Oud-West","2022-12","Inappropriateness",3
-"De Baarsjes - Oud-West","2022-12","Other",60
-"De Baarsjes - Oud-West","2022-12","Robbery/Theft",320
-"De Baarsjes - Oud-West","2022-12","Smuggling",15
-"De Baarsjes - Oud-West","2022-12","Total",512
-"De Baarsjes - Oud-West","2022-12","Violence",101
-"De Pijp - Rivierenbuurt","2022-01","Environment",0
-"De Pijp - Rivierenbuurt","2022-01","Inappropriateness",13
-"De Pijp - Rivierenbuurt","2022-01","Other",51
-"De Pijp - Rivierenbuurt","2022-01","Robbery/Theft",195
-"De Pijp - Rivierenbuurt","2022-01","Smuggling",9
-"De Pijp - Rivierenbuurt","2022-01","Total",351
-"De Pijp - Rivierenbuurt","2022-01","Violence",79
-"De Pijp - Rivierenbuurt","2022-02","Environment",0
-"De Pijp - Rivierenbuurt","2022-02","Inappropriateness",8
-"De Pijp - Rivierenbuurt","2022-02","Other",46
-"De Pijp - Rivierenbuurt","2022-02","Robbery/Theft",147
-"De Pijp - Rivierenbuurt","2022-02","Smuggling",5
-"De Pijp - Rivierenbuurt","2022-02","Total",279
-"De Pijp - Rivierenbuurt","2022-02","Violence",65
-"De Pijp - Rivierenbuurt","2022-03","Environment",0
-"De Pijp - Rivierenbuurt","2022-03","Inappropriateness",7
-"De Pijp - Rivierenbuurt","2022-03","Other",83
-"De Pijp - Rivierenbuurt","2022-03","Robbery/Theft",192
-"De Pijp - Rivierenbuurt","2022-03","Smuggling",7
-"De Pijp - Rivierenbuurt","2022-03","Total",386
-"De Pijp - Rivierenbuurt","2022-03","Violence",86
-"De Pijp - Rivierenbuurt","2022-04","Environment",1
-"De Pijp - Rivierenbuurt","2022-04","Inappropriateness",10
-"De Pijp - Rivierenbuurt","2022-04","Other",52
-"De Pijp - Rivierenbuurt","2022-04","Robbery/Theft",168
-"De Pijp - Rivierenbuurt","2022-04","Smuggling",13
-"De Pijp - Rivierenbuurt","2022-04","Total",334
-"De Pijp - Rivierenbuurt","2022-04","Violence",75
-"De Pijp - Rivierenbuurt","2022-05","Environment",1
-"De Pijp - Rivierenbuurt","2022-05","Inappropriateness",14
-"De Pijp - Rivierenbuurt","2022-05","Other",60
-"De Pijp - Rivierenbuurt","2022-05","Robbery/Theft",189
-"De Pijp - Rivierenbuurt","2022-05","Smuggling",8
-"De Pijp - Rivierenbuurt","2022-05","Total",357
-"De Pijp - Rivierenbuurt","2022-05","Violence",79
-"De Pijp - Rivierenbuurt","2022-06","Environment",0
-"De Pijp - Rivierenbuurt","2022-06","Inappropriateness",17
-"De Pijp - Rivierenbuurt","2022-06","Other",52
-"De Pijp - Rivierenbuurt","2022-06","Robbery/Theft",187
-"De Pijp - Rivierenbuurt","2022-06","Smuggling",9
-"De Pijp - Rivierenbuurt","2022-06","Total",349
-"De Pijp - Rivierenbuurt","2022-06","Violence",73
-"De Pijp - Rivierenbuurt","2022-07","Environment",0
-"De Pijp - Rivierenbuurt","2022-07","Inappropriateness",14
-"De Pijp - Rivierenbuurt","2022-07","Other",50
-"De Pijp - Rivierenbuurt","2022-07","Robbery/Theft",146
-"De Pijp - Rivierenbuurt","2022-07","Smuggling",8
-"De Pijp - Rivierenbuurt","2022-07","Total",317
-"De Pijp - Rivierenbuurt","2022-07","Violence",86
-"De Pijp - Rivierenbuurt","2022-08","Environment",0
-"De Pijp - Rivierenbuurt","2022-08","Inappropriateness",11
-"De Pijp - Rivierenbuurt","2022-08","Other",35
-"De Pijp - Rivierenbuurt","2022-08","Robbery/Theft",190
-"De Pijp - Rivierenbuurt","2022-08","Smuggling",9
-"De Pijp - Rivierenbuurt","2022-08","Total",335
-"De Pijp - Rivierenbuurt","2022-08","Violence",85
-"De Pijp - Rivierenbuurt","2022-09","Environment",1
-"De Pijp - Rivierenbuurt","2022-09","Inappropriateness",11
-"De Pijp - Rivierenbuurt","2022-09","Other",33
-"De Pijp - Rivierenbuurt","2022-09","Robbery/Theft",208
-"De Pijp - Rivierenbuurt","2022-09","Smuggling",4
-"De Pijp - Rivierenbuurt","2022-09","Total",334
-"De Pijp - Rivierenbuurt","2022-09","Violence",70
-"De Pijp - Rivierenbuurt","2022-10","Environment",0
-"De Pijp - Rivierenbuurt","2022-10","Inappropriateness",18
-"De Pijp - Rivierenbuurt","2022-10","Other",33
-"De Pijp - Rivierenbuurt","2022-10","Robbery/Theft",242
-"De Pijp - Rivierenbuurt","2022-10","Smuggling",13
-"De Pijp - Rivierenbuurt","2022-10","Total",389
-"De Pijp - Rivierenbuurt","2022-10","Violence",76
-"De Pijp - Rivierenbuurt","2022-11","Environment",0
-"De Pijp - Rivierenbuurt","2022-11","Inappropriateness",14
-"De Pijp - Rivierenbuurt","2022-11","Other",46
-"De Pijp - Rivierenbuurt","2022-11","Robbery/Theft",194
-"De Pijp - Rivierenbuurt","2022-11","Smuggling",5
-"De Pijp - Rivierenbuurt","2022-11","Total",355
-"De Pijp - Rivierenbuurt","2022-11","Violence",90
-"De Pijp - Rivierenbuurt","2022-12","Environment",0
-"De Pijp - Rivierenbuurt","2022-12","Inappropriateness",7
-"De Pijp - Rivierenbuurt","2022-12","Other",52
-"De Pijp - Rivierenbuurt","2022-12","Robbery/Theft",198
-"De Pijp - Rivierenbuurt","2022-12","Smuggling",5
-"De Pijp - Rivierenbuurt","2022-12","Total",375
-"De Pijp - Rivierenbuurt","2022-12","Violence",102
-"Gaasperdam - Driemond","2022-01","Environment",0
-"Gaasperdam - Driemond","2022-01","Inappropriateness",2
-"Gaasperdam - Driemond","2022-01","Other",28
-"Gaasperdam - Driemond","2022-01","Robbery/Theft",62
-"Gaasperdam - Driemond","2022-01","Smuggling",2
-"Gaasperdam - Driemond","2022-01","Total",154
-"Gaasperdam - Driemond","2022-01","Violence",51
-"Gaasperdam - Driemond","2022-02","Environment",0
-"Gaasperdam - Driemond","2022-02","Inappropriateness",3
-"Gaasperdam - Driemond","2022-02","Other",37
-"Gaasperdam - Driemond","2022-02","Robbery/Theft",51
-"Gaasperdam - Driemond","2022-02","Smuggling",1
-"Gaasperdam - Driemond","2022-02","Total",162
-"Gaasperdam - Driemond","2022-02","Violence",67
-"Gaasperdam - Driemond","2022-03","Environment",0
-"Gaasperdam - Driemond","2022-03","Inappropriateness",4
-"Gaasperdam - Driemond","2022-03","Other",46
-"Gaasperdam - Driemond","2022-03","Robbery/Theft",49
-"Gaasperdam - Driemond","2022-03","Smuggling",3
-"Gaasperdam - Driemond","2022-03","Total",157
-"Gaasperdam - Driemond","2022-03","Violence",44
-"Gaasperdam - Driemond","2022-04","Environment",0
-"Gaasperdam - Driemond","2022-04","Inappropriateness",6
-"Gaasperdam - Driemond","2022-04","Other",22
-"Gaasperdam - Driemond","2022-04","Robbery/Theft",47
-"Gaasperdam - Driemond","2022-04","Smuggling",8
-"Gaasperdam - Driemond","2022-04","Total",142
-"Gaasperdam - Driemond","2022-04","Violence",53
-"Gaasperdam - Driemond","2022-05","Environment",1
-"Gaasperdam - Driemond","2022-05","Inappropriateness",7
-"Gaasperdam - Driemond","2022-05","Other",30
-"Gaasperdam - Driemond","2022-05","Robbery/Theft",52
-"Gaasperdam - Driemond","2022-05","Smuggling",3
-"Gaasperdam - Driemond","2022-05","Total",153
-"Gaasperdam - Driemond","2022-05","Violence",56
-"Gaasperdam - Driemond","2022-06","Environment",1
-"Gaasperdam - Driemond","2022-06","Inappropriateness",3
-"Gaasperdam - Driemond","2022-06","Other",23
-"Gaasperdam - Driemond","2022-06","Robbery/Theft",78
-"Gaasperdam - Driemond","2022-06","Smuggling",5
-"Gaasperdam - Driemond","2022-06","Total",154
-"Gaasperdam - Driemond","2022-06","Violence",40
-"Gaasperdam - Driemond","2022-07","Environment",0
-"Gaasperdam - Driemond","2022-07","Inappropriateness",4
-"Gaasperdam - Driemond","2022-07","Other",23
-"Gaasperdam - Driemond","2022-07","Robbery/Theft",64
-"Gaasperdam - Driemond","2022-07","Smuggling",0
-"Gaasperdam - Driemond","2022-07","Total",136
-"Gaasperdam - Driemond","2022-07","Violence",41
-"Gaasperdam - Driemond","2022-08","Environment",1
-"Gaasperdam - Driemond","2022-08","Inappropriateness",12
-"Gaasperdam - Driemond","2022-08","Other",18
-"Gaasperdam - Driemond","2022-08","Robbery/Theft",53
-"Gaasperdam - Driemond","2022-08","Smuggling",0
-"Gaasperdam - Driemond","2022-08","Total",134
-"Gaasperdam - Driemond","2022-08","Violence",46
-"Gaasperdam - Driemond","2022-09","Environment",0
-"Gaasperdam - Driemond","2022-09","Inappropriateness",3
-"Gaasperdam - Driemond","2022-09","Other",23
-"Gaasperdam - Driemond","2022-09","Robbery/Theft",43
-"Gaasperdam - Driemond","2022-09","Smuggling",7
-"Gaasperdam - Driemond","2022-09","Total",115
-"Gaasperdam - Driemond","2022-09","Violence",36
-"Gaasperdam - Driemond","2022-10","Environment",0
-"Gaasperdam - Driemond","2022-10","Inappropriateness",2
-"Gaasperdam - Driemond","2022-10","Other",23
-"Gaasperdam - Driemond","2022-10","Robbery/Theft",68
-"Gaasperdam - Driemond","2022-10","Smuggling",4
-"Gaasperdam - Driemond","2022-10","Total",140
-"Gaasperdam - Driemond","2022-10","Violence",34
-"Gaasperdam - Driemond","2022-11","Environment",3
-"Gaasperdam - Driemond","2022-11","Inappropriateness",7
-"Gaasperdam - Driemond","2022-11","Other",17
-"Gaasperdam - Driemond","2022-11","Robbery/Theft",48
-"Gaasperdam - Driemond","2022-11","Smuggling",1
-"Gaasperdam - Driemond","2022-11","Total",140
-"Gaasperdam - Driemond","2022-11","Violence",62
-"Gaasperdam - Driemond","2022-12","Environment",0
-"Gaasperdam - Driemond","2022-12","Inappropriateness",9
-"Gaasperdam - Driemond","2022-12","Other",27
-"Gaasperdam - Driemond","2022-12","Robbery/Theft",70
-"Gaasperdam - Driemond","2022-12","Smuggling",8
-"Gaasperdam - Driemond","2022-12","Total",165
-"Gaasperdam - Driemond","2022-12","Violence",45
-"Geuzenveld - Slotermeer","2022-01","Environment",3
-"Geuzenveld - Slotermeer","2022-01","Inappropriateness",13
-"Geuzenveld - Slotermeer","2022-01","Other",38
-"Geuzenveld - Slotermeer","2022-01","Robbery/Theft",146
-"Geuzenveld - Slotermeer","2022-01","Smuggling",12
-"Geuzenveld - Slotermeer","2022-01","Total",332
-"Geuzenveld - Slotermeer","2022-01","Violence",110
-"Geuzenveld - Slotermeer","2022-02","Environment",0
-"Geuzenveld - Slotermeer","2022-02","Inappropriateness",14
-"Geuzenveld - Slotermeer","2022-02","Other",49
-"Geuzenveld - Slotermeer","2022-02","Robbery/Theft",126
-"Geuzenveld - Slotermeer","2022-02","Smuggling",12
-"Geuzenveld - Slotermeer","2022-02","Total",320
-"Geuzenveld - Slotermeer","2022-02","Violence",112
-"Geuzenveld - Slotermeer","2022-03","Environment",1
-"Geuzenveld - Slotermeer","2022-03","Inappropriateness",13
-"Geuzenveld - Slotermeer","2022-03","Other",64
-"Geuzenveld - Slotermeer","2022-03","Robbery/Theft",165
-"Geuzenveld - Slotermeer","2022-03","Smuggling",10
-"Geuzenveld - Slotermeer","2022-03","Total",387
-"Geuzenveld - Slotermeer","2022-03","Violence",119
-"Geuzenveld - Slotermeer","2022-04","Environment",2
-"Geuzenveld - Slotermeer","2022-04","Inappropriateness",14
-"Geuzenveld - Slotermeer","2022-04","Other",38
-"Geuzenveld - Slotermeer","2022-04","Robbery/Theft",131
-"Geuzenveld - Slotermeer","2022-04","Smuggling",7
-"Geuzenveld - Slotermeer","2022-04","Total",311
-"Geuzenveld - Slotermeer","2022-04","Violence",105
-"Geuzenveld - Slotermeer","2022-05","Environment",7
-"Geuzenveld - Slotermeer","2022-05","Inappropriateness",18
-"Geuzenveld - Slotermeer","2022-05","Other",39
-"Geuzenveld - Slotermeer","2022-05","Robbery/Theft",161
-"Geuzenveld - Slotermeer","2022-05","Smuggling",11
-"Geuzenveld - Slotermeer","2022-05","Total",355
-"Geuzenveld - Slotermeer","2022-05","Violence",108
-"Geuzenveld - Slotermeer","2022-06","Environment",1
-"Geuzenveld - Slotermeer","2022-06","Inappropriateness",9
-"Geuzenveld - Slotermeer","2022-06","Other",54
-"Geuzenveld - Slotermeer","2022-06","Robbery/Theft",175
-"Geuzenveld - Slotermeer","2022-06","Smuggling",8
-"Geuzenveld - Slotermeer","2022-06","Total",331
-"Geuzenveld - Slotermeer","2022-06","Violence",74
-"Geuzenveld - Slotermeer","2022-07","Environment",0
-"Geuzenveld - Slotermeer","2022-07","Inappropriateness",16
-"Geuzenveld - Slotermeer","2022-07","Other",39
-"Geuzenveld - Slotermeer","2022-07","Robbery/Theft",210
-"Geuzenveld - Slotermeer","2022-07","Smuggling",7
-"Geuzenveld - Slotermeer","2022-07","Total",390
-"Geuzenveld - Slotermeer","2022-07","Violence",114
-"Geuzenveld - Slotermeer","2022-08","Environment",0
-"Geuzenveld - Slotermeer","2022-08","Inappropriateness",13
-"Geuzenveld - Slotermeer","2022-08","Other",33
-"Geuzenveld - Slotermeer","2022-08","Robbery/Theft",186
-"Geuzenveld - Slotermeer","2022-08","Smuggling",3
-"Geuzenveld - Slotermeer","2022-08","Total",319
-"Geuzenveld - Slotermeer","2022-08","Violence",80
-"Geuzenveld - Slotermeer","2022-09","Environment",0
-"Geuzenveld - Slotermeer","2022-09","Inappropriateness",13
-"Geuzenveld - Slotermeer","2022-09","Other",28
-"Geuzenveld - Slotermeer","2022-09","Robbery/Theft",162
-"Geuzenveld - Slotermeer","2022-09","Smuggling",9
-"Geuzenveld - Slotermeer","2022-09","Total",301
-"Geuzenveld - Slotermeer","2022-09","Violence",78
-"Geuzenveld - Slotermeer","2022-10","Environment",3
-"Geuzenveld - Slotermeer","2022-10","Inappropriateness",20
-"Geuzenveld - Slotermeer","2022-10","Other",48
-"Geuzenveld - Slotermeer","2022-10","Robbery/Theft",198
-"Geuzenveld - Slotermeer","2022-10","Smuggling",11
-"Geuzenveld - Slotermeer","2022-10","Total",405
-"Geuzenveld - Slotermeer","2022-10","Violence",119
-"Geuzenveld - Slotermeer","2022-11","Environment",2
-"Geuzenveld - Slotermeer","2022-11","Inappropriateness",15
-"Geuzenveld - Slotermeer","2022-11","Other",32
-"Geuzenveld - Slotermeer","2022-11","Robbery/Theft",193
-"Geuzenveld - Slotermeer","2022-11","Smuggling",6
-"Geuzenveld - Slotermeer","2022-11","Total",360
-"Geuzenveld - Slotermeer","2022-11","Violence",106
-"Geuzenveld - Slotermeer","2022-12","Environment",2
-"Geuzenveld - Slotermeer","2022-12","Inappropriateness",22
-"Geuzenveld - Slotermeer","2022-12","Other",34
-"Geuzenveld - Slotermeer","2022-12","Robbery/Theft",156
-"Geuzenveld - Slotermeer","2022-12","Smuggling",11
-"Geuzenveld - Slotermeer","2022-12","Total",354
-"Geuzenveld - Slotermeer","2022-12","Violence",125
-"IJburg - Zeeburgereiland","2022-01","Environment",0
-"IJburg - Zeeburgereiland","2022-01","Inappropriateness",4
-"IJburg - Zeeburgereiland","2022-01","Other",29
-"IJburg - Zeeburgereiland","2022-01","Robbery/Theft",41
-"IJburg - Zeeburgereiland","2022-01","Smuggling",3
-"IJburg - Zeeburgereiland","2022-01","Total",117
-"IJburg - Zeeburgereiland","2022-01","Violence",35
-"IJburg - Zeeburgereiland","2022-02","Environment",0
-"IJburg - Zeeburgereiland","2022-02","Inappropriateness",1
-"IJburg - Zeeburgereiland","2022-02","Other",23
-"IJburg - Zeeburgereiland","2022-02","Robbery/Theft",33
-"IJburg - Zeeburgereiland","2022-02","Smuggling",4
-"IJburg - Zeeburgereiland","2022-02","Total",106
-"IJburg - Zeeburgereiland","2022-02","Violence",44
-"IJburg - Zeeburgereiland","2022-03","Environment",0
-"IJburg - Zeeburgereiland","2022-03","Inappropriateness",2
-"IJburg - Zeeburgereiland","2022-03","Other",30
-"IJburg - Zeeburgereiland","2022-03","Robbery/Theft",46
-"IJburg - Zeeburgereiland","2022-03","Smuggling",4
-"IJburg - Zeeburgereiland","2022-03","Total",114
-"IJburg - Zeeburgereiland","2022-03","Violence",29
-"IJburg - Zeeburgereiland","2022-04","Environment",0
-"IJburg - Zeeburgereiland","2022-04","Inappropriateness",2
-"IJburg - Zeeburgereiland","2022-04","Other",21
-"IJburg - Zeeburgereiland","2022-04","Robbery/Theft",42
-"IJburg - Zeeburgereiland","2022-04","Smuggling",2
-"IJburg - Zeeburgereiland","2022-04","Total",95
-"IJburg - Zeeburgereiland","2022-04","Violence",27
-"IJburg - Zeeburgereiland","2022-05","Environment",0
-"IJburg - Zeeburgereiland","2022-05","Inappropriateness",5
-"IJburg - Zeeburgereiland","2022-05","Other",22
-"IJburg - Zeeburgereiland","2022-05","Robbery/Theft",48
-"IJburg - Zeeburgereiland","2022-05","Smuggling",2
-"IJburg - Zeeburgereiland","2022-05","Total",112
-"IJburg - Zeeburgereiland","2022-05","Violence",35
-"IJburg - Zeeburgereiland","2022-06","Environment",0
-"IJburg - Zeeburgereiland","2022-06","Inappropriateness",3
-"IJburg - Zeeburgereiland","2022-06","Other",22
-"IJburg - Zeeburgereiland","2022-06","Robbery/Theft",48
-"IJburg - Zeeburgereiland","2022-06","Smuggling",2
-"IJburg - Zeeburgereiland","2022-06","Total",119
-"IJburg - Zeeburgereiland","2022-06","Violence",38
-"IJburg - Zeeburgereiland","2022-07","Environment",0
-"IJburg - Zeeburgereiland","2022-07","Inappropriateness",3
-"IJburg - Zeeburgereiland","2022-07","Other",15
-"IJburg - Zeeburgereiland","2022-07","Robbery/Theft",51
-"IJburg - Zeeburgereiland","2022-07","Smuggling",1
-"IJburg - Zeeburgereiland","2022-07","Total",98
-"IJburg - Zeeburgereiland","2022-07","Violence",25
-"IJburg - Zeeburgereiland","2022-08","Environment",0
-"IJburg - Zeeburgereiland","2022-08","Inappropriateness",6
-"IJburg - Zeeburgereiland","2022-08","Other",15
-"IJburg - Zeeburgereiland","2022-08","Robbery/Theft",44
-"IJburg - Zeeburgereiland","2022-08","Smuggling",2
-"IJburg - Zeeburgereiland","2022-08","Total",95
-"IJburg - Zeeburgereiland","2022-08","Violence",26
-"IJburg - Zeeburgereiland","2022-09","Environment",0
-"IJburg - Zeeburgereiland","2022-09","Inappropriateness",4
-"IJburg - Zeeburgereiland","2022-09","Other",15
-"IJburg - Zeeburgereiland","2022-09","Robbery/Theft",40
-"IJburg - Zeeburgereiland","2022-09","Smuggling",2
-"IJburg - Zeeburgereiland","2022-09","Total",91
-"IJburg - Zeeburgereiland","2022-09","Violence",27
-"IJburg - Zeeburgereiland","2022-10","Environment",0
-"IJburg - Zeeburgereiland","2022-10","Inappropriateness",4
-"IJburg - Zeeburgereiland","2022-10","Other",22
-"IJburg - Zeeburgereiland","2022-10","Robbery/Theft",47
-"IJburg - Zeeburgereiland","2022-10","Smuggling",1
-"IJburg - Zeeburgereiland","2022-10","Total",107
-"IJburg - Zeeburgereiland","2022-10","Violence",28
-"IJburg - Zeeburgereiland","2022-11","Environment",0
-"IJburg - Zeeburgereiland","2022-11","Inappropriateness",2
-"IJburg - Zeeburgereiland","2022-11","Other",24
-"IJburg - Zeeburgereiland","2022-11","Robbery/Theft",43
-"IJburg - Zeeburgereiland","2022-11","Smuggling",1
-"IJburg - Zeeburgereiland","2022-11","Total",120
-"IJburg - Zeeburgereiland","2022-11","Violence",44
-"IJburg - Zeeburgereiland","2022-12","Environment",0
-"IJburg - Zeeburgereiland","2022-12","Inappropriateness",1
-"IJburg - Zeeburgereiland","2022-12","Other",24
-"IJburg - Zeeburgereiland","2022-12","Robbery/Theft",54
-"IJburg - Zeeburgereiland","2022-12","Smuggling",3
-"IJburg - Zeeburgereiland","2022-12","Total",115
-"IJburg - Zeeburgereiland","2022-12","Violence",33
-"Noord-Oost","2022-01","Environment",0
-"Noord-Oost","2022-01","Inappropriateness",12
-"Noord-Oost","2022-01","Other",16
-"Noord-Oost","2022-01","Robbery/Theft",75
-"Noord-Oost","2022-01","Smuggling",3
-"Noord-Oost","2022-01","Total",161
-"Noord-Oost","2022-01","Violence",49
-"Noord-Oost","2022-02","Environment",0
-"Noord-Oost","2022-02","Inappropriateness",5
-"Noord-Oost","2022-02","Other",19
-"Noord-Oost","2022-02","Robbery/Theft",50
-"Noord-Oost","2022-02","Smuggling",5
-"Noord-Oost","2022-02","Total",132
-"Noord-Oost","2022-02","Violence",50
-"Noord-Oost","2022-03","Environment",1
-"Noord-Oost","2022-03","Inappropriateness",9
-"Noord-Oost","2022-03","Other",34
-"Noord-Oost","2022-03","Robbery/Theft",68
-"Noord-Oost","2022-03","Smuggling",3
-"Noord-Oost","2022-03","Total",166
-"Noord-Oost","2022-03","Violence",46
-"Noord-Oost","2022-04","Environment",0
-"Noord-Oost","2022-04","Inappropriateness",5
-"Noord-Oost","2022-04","Other",16
-"Noord-Oost","2022-04","Robbery/Theft",65
-"Noord-Oost","2022-04","Smuggling",5
-"Noord-Oost","2022-04","Total",157
-"Noord-Oost","2022-04","Violence",60
-"Noord-Oost","2022-05","Environment",0
-"Noord-Oost","2022-05","Inappropriateness",3
-"Noord-Oost","2022-05","Other",28
-"Noord-Oost","2022-05","Robbery/Theft",80
-"Noord-Oost","2022-05","Smuggling",1
-"Noord-Oost","2022-05","Total",175
-"Noord-Oost","2022-05","Violence",59
-"Noord-Oost","2022-06","Environment",0
-"Noord-Oost","2022-06","Inappropriateness",1
-"Noord-Oost","2022-06","Other",33
-"Noord-Oost","2022-06","Robbery/Theft",75
-"Noord-Oost","2022-06","Smuggling",5
-"Noord-Oost","2022-06","Total",170
-"Noord-Oost","2022-06","Violence",50
-"Noord-Oost","2022-07","Environment",0
-"Noord-Oost","2022-07","Inappropriateness",9
-"Noord-Oost","2022-07","Other",25
-"Noord-Oost","2022-07","Robbery/Theft",78
-"Noord-Oost","2022-07","Smuggling",7
-"Noord-Oost","2022-07","Total",172
-"Noord-Oost","2022-07","Violence",49
-"Noord-Oost","2022-08","Environment",0
-"Noord-Oost","2022-08","Inappropriateness",5
-"Noord-Oost","2022-08","Other",25
-"Noord-Oost","2022-08","Robbery/Theft",80
-"Noord-Oost","2022-08","Smuggling",2
-"Noord-Oost","2022-08","Total",164
-"Noord-Oost","2022-08","Violence",50
-"Noord-Oost","2022-09","Environment",0
-"Noord-Oost","2022-09","Inappropriateness",5
-"Noord-Oost","2022-09","Other",21
-"Noord-Oost","2022-09","Robbery/Theft",75
-"Noord-Oost","2022-09","Smuggling",5
-"Noord-Oost","2022-09","Total",160
-"Noord-Oost","2022-09","Violence",54
-"Noord-Oost","2022-10","Environment",0
-"Noord-Oost","2022-10","Inappropriateness",4
-"Noord-Oost","2022-10","Other",23
-"Noord-Oost","2022-10","Robbery/Theft",100
-"Noord-Oost","2022-10","Smuggling",3
-"Noord-Oost","2022-10","Total",189
-"Noord-Oost","2022-10","Violence",55
-"Noord-Oost","2022-11","Environment",0
-"Noord-Oost","2022-11","Inappropriateness",4
-"Noord-Oost","2022-11","Other",25
-"Noord-Oost","2022-11","Robbery/Theft",98
-"Noord-Oost","2022-11","Smuggling",3
-"Noord-Oost","2022-11","Total",198
-"Noord-Oost","2022-11","Violence",64
-"Noord-Oost","2022-12","Environment",2
-"Noord-Oost","2022-12","Inappropriateness",7
-"Noord-Oost","2022-12","Other",27
-"Noord-Oost","2022-12","Robbery/Theft",82
-"Noord-Oost","2022-12","Smuggling",5
-"Noord-Oost","2022-12","Total",166
-"Noord-Oost","2022-12","Violence",39
-"Noord-West","2022-01","Environment",0
-"Noord-West","2022-01","Inappropriateness",7
-"Noord-West","2022-01","Other",39
-"Noord-West","2022-01","Robbery/Theft",73
-"Noord-West","2022-01","Smuggling",1
-"Noord-West","2022-01","Total",184
-"Noord-West","2022-01","Violence",63
-"Noord-West","2022-02","Environment",0
-"Noord-West","2022-02","Inappropriateness",9
-"Noord-West","2022-02","Other",24
-"Noord-West","2022-02","Robbery/Theft",57
-"Noord-West","2022-02","Smuggling",3
-"Noord-West","2022-02","Total",145
-"Noord-West","2022-02","Violence",50
-"Noord-West","2022-03","Environment",0
-"Noord-West","2022-03","Inappropriateness",8
-"Noord-West","2022-03","Other",39
-"Noord-West","2022-03","Robbery/Theft",80
-"Noord-West","2022-03","Smuggling",3
-"Noord-West","2022-03","Total",198
-"Noord-West","2022-03","Violence",64
-"Noord-West","2022-04","Environment",1
-"Noord-West","2022-04","Inappropriateness",11
-"Noord-West","2022-04","Other",23
-"Noord-West","2022-04","Robbery/Theft",77
-"Noord-West","2022-04","Smuggling",7
-"Noord-West","2022-04","Total",180
-"Noord-West","2022-04","Violence",58
-"Noord-West","2022-05","Environment",1
-"Noord-West","2022-05","Inappropriateness",5
-"Noord-West","2022-05","Other",30
-"Noord-West","2022-05","Robbery/Theft",64
-"Noord-West","2022-05","Smuggling",3
-"Noord-West","2022-05","Total",153
-"Noord-West","2022-05","Violence",48
-"Noord-West","2022-06","Environment",0
-"Noord-West","2022-06","Inappropriateness",10
-"Noord-West","2022-06","Other",28
-"Noord-West","2022-06","Robbery/Theft",53
-"Noord-West","2022-06","Smuggling",4
-"Noord-West","2022-06","Total",161
-"Noord-West","2022-06","Violence",60
-"Noord-West","2022-07","Environment",1
-"Noord-West","2022-07","Inappropriateness",5
-"Noord-West","2022-07","Other",30
-"Noord-West","2022-07","Robbery/Theft",53
-"Noord-West","2022-07","Smuggling",5
-"Noord-West","2022-07","Total",158
-"Noord-West","2022-07","Violence",63
-"Noord-West","2022-08","Environment",0
-"Noord-West","2022-08","Inappropriateness",8
-"Noord-West","2022-08","Other",37
-"Noord-West","2022-08","Robbery/Theft",54
-"Noord-West","2022-08","Smuggling",1
-"Noord-West","2022-08","Total",140
-"Noord-West","2022-08","Violence",39
-"Noord-West","2022-09","Environment",0
-"Noord-West","2022-09","Inappropriateness",10
-"Noord-West","2022-09","Other",27
-"Noord-West","2022-09","Robbery/Theft",61
-"Noord-West","2022-09","Smuggling",1
-"Noord-West","2022-09","Total",153
-"Noord-West","2022-09","Violence",51
-"Noord-West","2022-10","Environment",0
-"Noord-West","2022-10","Inappropriateness",4
-"Noord-West","2022-10","Other",27
-"Noord-West","2022-10","Robbery/Theft",99
-"Noord-West","2022-10","Smuggling",5
-"Noord-West","2022-10","Total",192
-"Noord-West","2022-10","Violence",56
-"Noord-West","2022-11","Environment",0
-"Noord-West","2022-11","Inappropriateness",6
-"Noord-West","2022-11","Other",33
-"Noord-West","2022-11","Robbery/Theft",78
-"Noord-West","2022-11","Smuggling",8
-"Noord-West","2022-11","Total",190
-"Noord-West","2022-11","Violence",64
-"Noord-West","2022-12","Environment",0
-"Noord-West","2022-12","Inappropriateness",10
-"Noord-West","2022-12","Other",28
-"Noord-West","2022-12","Robbery/Theft",87
-"Noord-West","2022-12","Smuggling",2
-"Noord-West","2022-12","Total",207
-"Noord-West","2022-12","Violence",76
-"Oostelijk Havengebied - Indische Buurt","2022-01","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-01","Inappropriateness",7
-"Oostelijk Havengebied - Indische Buurt","2022-01","Other",30
-"Oostelijk Havengebied - Indische Buurt","2022-01","Robbery/Theft",65
-"Oostelijk Havengebied - Indische Buurt","2022-01","Smuggling",4
-"Oostelijk Havengebied - Indische Buurt","2022-01","Total",159
-"Oostelijk Havengebied - Indische Buurt","2022-01","Violence",47
-"Oostelijk Havengebied - Indische Buurt","2022-02","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-02","Inappropriateness",4
-"Oostelijk Havengebied - Indische Buurt","2022-02","Other",30
-"Oostelijk Havengebied - Indische Buurt","2022-02","Robbery/Theft",42
-"Oostelijk Havengebied - Indische Buurt","2022-02","Smuggling",2
-"Oostelijk Havengebied - Indische Buurt","2022-02","Total",124
-"Oostelijk Havengebied - Indische Buurt","2022-02","Violence",40
-"Oostelijk Havengebied - Indische Buurt","2022-03","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-03","Inappropriateness",8
-"Oostelijk Havengebied - Indische Buurt","2022-03","Other",41
-"Oostelijk Havengebied - Indische Buurt","2022-03","Robbery/Theft",53
-"Oostelijk Havengebied - Indische Buurt","2022-03","Smuggling",4
-"Oostelijk Havengebied - Indische Buurt","2022-03","Total",162
-"Oostelijk Havengebied - Indische Buurt","2022-03","Violence",52
-"Oostelijk Havengebied - Indische Buurt","2022-04","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-04","Inappropriateness",2
-"Oostelijk Havengebied - Indische Buurt","2022-04","Other",26
-"Oostelijk Havengebied - Indische Buurt","2022-04","Robbery/Theft",56
-"Oostelijk Havengebied - Indische Buurt","2022-04","Smuggling",3
-"Oostelijk Havengebied - Indische Buurt","2022-04","Total",137
-"Oostelijk Havengebied - Indische Buurt","2022-04","Violence",41
-"Oostelijk Havengebied - Indische Buurt","2022-05","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-05","Inappropriateness",6
-"Oostelijk Havengebied - Indische Buurt","2022-05","Other",22
-"Oostelijk Havengebied - Indische Buurt","2022-05","Robbery/Theft",63
-"Oostelijk Havengebied - Indische Buurt","2022-05","Smuggling",4
-"Oostelijk Havengebied - Indische Buurt","2022-05","Total",152
-"Oostelijk Havengebied - Indische Buurt","2022-05","Violence",56
-"Oostelijk Havengebied - Indische Buurt","2022-06","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-06","Inappropriateness",1
-"Oostelijk Havengebied - Indische Buurt","2022-06","Other",26
-"Oostelijk Havengebied - Indische Buurt","2022-06","Robbery/Theft",73
-"Oostelijk Havengebied - Indische Buurt","2022-06","Smuggling",2
-"Oostelijk Havengebied - Indische Buurt","2022-06","Total",160
-"Oostelijk Havengebied - Indische Buurt","2022-06","Violence",53
-"Oostelijk Havengebied - Indische Buurt","2022-07","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-07","Inappropriateness",10
-"Oostelijk Havengebied - Indische Buurt","2022-07","Other",22
-"Oostelijk Havengebied - Indische Buurt","2022-07","Robbery/Theft",77
-"Oostelijk Havengebied - Indische Buurt","2022-07","Smuggling",0
-"Oostelijk Havengebied - Indische Buurt","2022-07","Total",157
-"Oostelijk Havengebied - Indische Buurt","2022-07","Violence",40
-"Oostelijk Havengebied - Indische Buurt","2022-08","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-08","Inappropriateness",5
-"Oostelijk Havengebied - Indische Buurt","2022-08","Other",33
-"Oostelijk Havengebied - Indische Buurt","2022-08","Robbery/Theft",71
-"Oostelijk Havengebied - Indische Buurt","2022-08","Smuggling",0
-"Oostelijk Havengebied - Indische Buurt","2022-08","Total",144
-"Oostelijk Havengebied - Indische Buurt","2022-08","Violence",30
-"Oostelijk Havengebied - Indische Buurt","2022-09","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-09","Inappropriateness",11
-"Oostelijk Havengebied - Indische Buurt","2022-09","Other",24
-"Oostelijk Havengebied - Indische Buurt","2022-09","Robbery/Theft",67
-"Oostelijk Havengebied - Indische Buurt","2022-09","Smuggling",2
-"Oostelijk Havengebied - Indische Buurt","2022-09","Total",166
-"Oostelijk Havengebied - Indische Buurt","2022-09","Violence",56
-"Oostelijk Havengebied - Indische Buurt","2022-10","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-10","Inappropriateness",10
-"Oostelijk Havengebied - Indische Buurt","2022-10","Other",30
-"Oostelijk Havengebied - Indische Buurt","2022-10","Robbery/Theft",74
-"Oostelijk Havengebied - Indische Buurt","2022-10","Smuggling",3
-"Oostelijk Havengebied - Indische Buurt","2022-10","Total",158
-"Oostelijk Havengebied - Indische Buurt","2022-10","Violence",37
-"Oostelijk Havengebied - Indische Buurt","2022-11","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-11","Inappropriateness",5
-"Oostelijk Havengebied - Indische Buurt","2022-11","Other",23
-"Oostelijk Havengebied - Indische Buurt","2022-11","Robbery/Theft",70
-"Oostelijk Havengebied - Indische Buurt","2022-11","Smuggling",2
-"Oostelijk Havengebied - Indische Buurt","2022-11","Total",148
-"Oostelijk Havengebied - Indische Buurt","2022-11","Violence",47
-"Oostelijk Havengebied - Indische Buurt","2022-12","Environment",0
-"Oostelijk Havengebied - Indische Buurt","2022-12","Inappropriateness",5
-"Oostelijk Havengebied - Indische Buurt","2022-12","Other",24
-"Oostelijk Havengebied - Indische Buurt","2022-12","Robbery/Theft",74
-"Oostelijk Havengebied - Indische Buurt","2022-12","Smuggling",4
-"Oostelijk Havengebied - Indische Buurt","2022-12","Total",146
-"Oostelijk Havengebied - Indische Buurt","2022-12","Violence",36
-"Osdorp","2022-01","Environment",0
-"Osdorp","2022-01","Inappropriateness",6
-"Osdorp","2022-01","Other",40
-"Osdorp","2022-01","Robbery/Theft",79
-"Osdorp","2022-01","Smuggling",7
-"Osdorp","2022-01","Total",228
-"Osdorp","2022-01","Violence",83
-"Osdorp","2022-02","Environment",0
-"Osdorp","2022-02","Inappropriateness",5
-"Osdorp","2022-02","Other",37
-"Osdorp","2022-02","Robbery/Theft",63
-"Osdorp","2022-02","Smuggling",7
-"Osdorp","2022-02","Total",182
-"Osdorp","2022-02","Violence",59
-"Osdorp","2022-03","Environment",0
-"Osdorp","2022-03","Inappropriateness",7
-"Osdorp","2022-03","Other",48
-"Osdorp","2022-03","Robbery/Theft",61
-"Osdorp","2022-03","Smuggling",7
-"Osdorp","2022-03","Total",192
-"Osdorp","2022-03","Violence",62
-"Osdorp","2022-04","Environment",0
-"Osdorp","2022-04","Inappropriateness",4
-"Osdorp","2022-04","Other",17
-"Osdorp","2022-04","Robbery/Theft",60
-"Osdorp","2022-04","Smuggling",6
-"Osdorp","2022-04","Total",177
-"Osdorp","2022-04","Violence",85
-"Osdorp","2022-05","Environment",0
-"Osdorp","2022-05","Inappropriateness",6
-"Osdorp","2022-05","Other",22
-"Osdorp","2022-05","Robbery/Theft",79
-"Osdorp","2022-05","Smuggling",2
-"Osdorp","2022-05","Total",183
-"Osdorp","2022-05","Violence",71
-"Osdorp","2022-06","Environment",0
-"Osdorp","2022-06","Inappropriateness",12
-"Osdorp","2022-06","Other",33
-"Osdorp","2022-06","Robbery/Theft",71
-"Osdorp","2022-06","Smuggling",2
-"Osdorp","2022-06","Total",193
-"Osdorp","2022-06","Violence",67
-"Osdorp","2022-07","Environment",0
-"Osdorp","2022-07","Inappropriateness",10
-"Osdorp","2022-07","Other",27
-"Osdorp","2022-07","Robbery/Theft",97
-"Osdorp","2022-07","Smuggling",7
-"Osdorp","2022-07","Total",211
-"Osdorp","2022-07","Violence",63
-"Osdorp","2022-08","Environment",0
-"Osdorp","2022-08","Inappropriateness",9
-"Osdorp","2022-08","Other",40
-"Osdorp","2022-08","Robbery/Theft",91
-"Osdorp","2022-08","Smuggling",6
-"Osdorp","2022-08","Total",242
-"Osdorp","2022-08","Violence",88
-"Osdorp","2022-09","Environment",0
-"Osdorp","2022-09","Inappropriateness",6
-"Osdorp","2022-09","Other",25
-"Osdorp","2022-09","Robbery/Theft",101
-"Osdorp","2022-09","Smuggling",10
-"Osdorp","2022-09","Total",213
-"Osdorp","2022-09","Violence",63
-"Osdorp","2022-10","Environment",0
-"Osdorp","2022-10","Inappropriateness",5
-"Osdorp","2022-10","Other",31
-"Osdorp","2022-10","Robbery/Theft",101
-"Osdorp","2022-10","Smuggling",7
-"Osdorp","2022-10","Total",208
-"Osdorp","2022-10","Violence",63
-"Osdorp","2022-11","Environment",0
-"Osdorp","2022-11","Inappropriateness",9
-"Osdorp","2022-11","Other",39
-"Osdorp","2022-11","Robbery/Theft",88
-"Osdorp","2022-11","Smuggling",10
-"Osdorp","2022-11","Total",224
-"Osdorp","2022-11","Violence",74
-"Osdorp","2022-12","Environment",1
-"Osdorp","2022-12","Inappropriateness",3
-"Osdorp","2022-12","Other",24
-"Osdorp","2022-12","Robbery/Theft",75
-"Osdorp","2022-12","Smuggling",13
-"Osdorp","2022-12","Total",206
-"Osdorp","2022-12","Violence",82
-"Oud-Noord","2022-01","Environment",0
-"Oud-Noord","2022-01","Inappropriateness",5
-"Oud-Noord","2022-01","Other",31
-"Oud-Noord","2022-01","Robbery/Theft",56
-"Oud-Noord","2022-01","Smuggling",9
-"Oud-Noord","2022-01","Total",154
-"Oud-Noord","2022-01","Violence",46
-"Oud-Noord","2022-02","Environment",0
-"Oud-Noord","2022-02","Inappropriateness",1
-"Oud-Noord","2022-02","Other",28
-"Oud-Noord","2022-02","Robbery/Theft",52
-"Oud-Noord","2022-02","Smuggling",2
-"Oud-Noord","2022-02","Total",125
-"Oud-Noord","2022-02","Violence",42
-"Oud-Noord","2022-03","Environment",1
-"Oud-Noord","2022-03","Inappropriateness",5
-"Oud-Noord","2022-03","Other",38
-"Oud-Noord","2022-03","Robbery/Theft",53
-"Oud-Noord","2022-03","Smuggling",3
-"Oud-Noord","2022-03","Total",151
-"Oud-Noord","2022-03","Violence",48
-"Oud-Noord","2022-04","Environment",0
-"Oud-Noord","2022-04","Inappropriateness",4
-"Oud-Noord","2022-04","Other",24
-"Oud-Noord","2022-04","Robbery/Theft",51
-"Oud-Noord","2022-04","Smuggling",5
-"Oud-Noord","2022-04","Total",122
-"Oud-Noord","2022-04","Violence",35
-"Oud-Noord","2022-05","Environment",0
-"Oud-Noord","2022-05","Inappropriateness",6
-"Oud-Noord","2022-05","Other",23
-"Oud-Noord","2022-05","Robbery/Theft",65
-"Oud-Noord","2022-05","Smuggling",3
-"Oud-Noord","2022-05","Total",158
-"Oud-Noord","2022-05","Violence",57
-"Oud-Noord","2022-06","Environment",0
-"Oud-Noord","2022-06","Inappropriateness",13
-"Oud-Noord","2022-06","Other",26
-"Oud-Noord","2022-06","Robbery/Theft",77
-"Oud-Noord","2022-06","Smuggling",7
-"Oud-Noord","2022-06","Total",190
-"Oud-Noord","2022-06","Violence",61
-"Oud-Noord","2022-07","Environment",0
-"Oud-Noord","2022-07","Inappropriateness",10
-"Oud-Noord","2022-07","Other",29
-"Oud-Noord","2022-07","Robbery/Theft",85
-"Oud-Noord","2022-07","Smuggling",4
-"Oud-Noord","2022-07","Total",163
-"Oud-Noord","2022-07","Violence",33
-"Oud-Noord","2022-08","Environment",0
-"Oud-Noord","2022-08","Inappropriateness",9
-"Oud-Noord","2022-08","Other",18
-"Oud-Noord","2022-08","Robbery/Theft",83
-"Oud-Noord","2022-08","Smuggling",5
-"Oud-Noord","2022-08","Total",152
-"Oud-Noord","2022-08","Violence",36
-"Oud-Noord","2022-09","Environment",0
-"Oud-Noord","2022-09","Inappropriateness",5
-"Oud-Noord","2022-09","Other",17
-"Oud-Noord","2022-09","Robbery/Theft",113
-"Oud-Noord","2022-09","Smuggling",3
-"Oud-Noord","2022-09","Total",200
-"Oud-Noord","2022-09","Violence",59
-"Oud-Noord","2022-10","Environment",0
-"Oud-Noord","2022-10","Inappropriateness",9
-"Oud-Noord","2022-10","Other",29
-"Oud-Noord","2022-10","Robbery/Theft",215
-"Oud-Noord","2022-10","Smuggling",13
-"Oud-Noord","2022-10","Total",307
-"Oud-Noord","2022-10","Violence",39
-"Oud-Noord","2022-11","Environment",0
-"Oud-Noord","2022-11","Inappropriateness",8
-"Oud-Noord","2022-11","Other",38
-"Oud-Noord","2022-11","Robbery/Theft",95
-"Oud-Noord","2022-11","Smuggling",4
-"Oud-Noord","2022-11","Total",187
-"Oud-Noord","2022-11","Violence",37
-"Oud-Noord","2022-12","Environment",1
-"Oud-Noord","2022-12","Inappropriateness",2
-"Oud-Noord","2022-12","Other",29
-"Oud-Noord","2022-12","Robbery/Theft",68
-"Oud-Noord","2022-12","Smuggling",3
-"Oud-Noord","2022-12","Total",165
-"Oud-Noord","2022-12","Violence",57
-"Oud-Oost","2022-01","Environment",0
-"Oud-Oost","2022-01","Inappropriateness",8
-"Oud-Oost","2022-01","Other",19
-"Oud-Oost","2022-01","Robbery/Theft",95
-"Oud-Oost","2022-01","Smuggling",4
-"Oud-Oost","2022-01","Total",180
-"Oud-Oost","2022-01","Violence",47
-"Oud-Oost","2022-02","Environment",0
-"Oud-Oost","2022-02","Inappropriateness",6
-"Oud-Oost","2022-02","Other",32
-"Oud-Oost","2022-02","Robbery/Theft",74
-"Oud-Oost","2022-02","Smuggling",2
-"Oud-Oost","2022-02","Total",152
-"Oud-Oost","2022-02","Violence",32
-"Oud-Oost","2022-03","Environment",0
-"Oud-Oost","2022-03","Inappropriateness",6
-"Oud-Oost","2022-03","Other",35
-"Oud-Oost","2022-03","Robbery/Theft",131
-"Oud-Oost","2022-03","Smuggling",3
-"Oud-Oost","2022-03","Total",231
-"Oud-Oost","2022-03","Violence",45
-"Oud-Oost","2022-04","Environment",0
-"Oud-Oost","2022-04","Inappropriateness",7
-"Oud-Oost","2022-04","Other",32
-"Oud-Oost","2022-04","Robbery/Theft",90
-"Oud-Oost","2022-04","Smuggling",3
-"Oud-Oost","2022-04","Total",196
-"Oud-Oost","2022-04","Violence",57
-"Oud-Oost","2022-05","Environment",1
-"Oud-Oost","2022-05","Inappropriateness",5
-"Oud-Oost","2022-05","Other",24
-"Oud-Oost","2022-05","Robbery/Theft",138
-"Oud-Oost","2022-05","Smuggling",1
-"Oud-Oost","2022-05","Total",238
-"Oud-Oost","2022-05","Violence",65
-"Oud-Oost","2022-06","Environment",0
-"Oud-Oost","2022-06","Inappropriateness",13
-"Oud-Oost","2022-06","Other",27
-"Oud-Oost","2022-06","Robbery/Theft",132
-"Oud-Oost","2022-06","Smuggling",12
-"Oud-Oost","2022-06","Total",256
-"Oud-Oost","2022-06","Violence",65
-"Oud-Oost","2022-07","Environment",0
-"Oud-Oost","2022-07","Inappropriateness",10
-"Oud-Oost","2022-07","Other",23
-"Oud-Oost","2022-07","Robbery/Theft",148
-"Oud-Oost","2022-07","Smuggling",2
-"Oud-Oost","2022-07","Total",240
-"Oud-Oost","2022-07","Violence",54
-"Oud-Oost","2022-08","Environment",0
-"Oud-Oost","2022-08","Inappropriateness",13
-"Oud-Oost","2022-08","Other",28
-"Oud-Oost","2022-08","Robbery/Theft",140
-"Oud-Oost","2022-08","Smuggling",6
-"Oud-Oost","2022-08","Total",267
-"Oud-Oost","2022-08","Violence",74
-"Oud-Oost","2022-09","Environment",0
-"Oud-Oost","2022-09","Inappropriateness",9
-"Oud-Oost","2022-09","Other",13
-"Oud-Oost","2022-09","Robbery/Theft",139
-"Oud-Oost","2022-09","Smuggling",6
-"Oud-Oost","2022-09","Total",224
-"Oud-Oost","2022-09","Violence",50
-"Oud-Oost","2022-10","Environment",0
-"Oud-Oost","2022-10","Inappropriateness",10
-"Oud-Oost","2022-10","Other",18
-"Oud-Oost","2022-10","Robbery/Theft",173
-"Oud-Oost","2022-10","Smuggling",6
-"Oud-Oost","2022-10","Total",296
-"Oud-Oost","2022-10","Violence",78
-"Oud-Oost","2022-11","Environment",2
-"Oud-Oost","2022-11","Inappropriateness",8
-"Oud-Oost","2022-11","Other",18
-"Oud-Oost","2022-11","Robbery/Theft",180
-"Oud-Oost","2022-11","Smuggling",12
-"Oud-Oost","2022-11","Total",285
-"Oud-Oost","2022-11","Violence",62
-"Oud-Oost","2022-12","Environment",0
-"Oud-Oost","2022-12","Inappropriateness",8
-"Oud-Oost","2022-12","Other",30
-"Oud-Oost","2022-12","Robbery/Theft",151
-"Oud-Oost","2022-12","Smuggling",8
-"Oud-Oost","2022-12","Total",266
-"Oud-Oost","2022-12","Violence",67
-"Slotervaart","2022-01","Environment",1
-"Slotervaart","2022-01","Inappropriateness",10
-"Slotervaart","2022-01","Other",30
-"Slotervaart","2022-01","Robbery/Theft",110
-"Slotervaart","2022-01","Smuggling",15
-"Slotervaart","2022-01","Total",248
-"Slotervaart","2022-01","Violence",72
-"Slotervaart","2022-02","Environment",0
-"Slotervaart","2022-02","Inappropriateness",4
-"Slotervaart","2022-02","Other",54
-"Slotervaart","2022-02","Robbery/Theft",62
-"Slotervaart","2022-02","Smuggling",8
-"Slotervaart","2022-02","Total",189
-"Slotervaart","2022-02","Violence",58
-"Slotervaart","2022-03","Environment",0
-"Slotervaart","2022-03","Inappropriateness",13
-"Slotervaart","2022-03","Other",49
-"Slotervaart","2022-03","Robbery/Theft",96
-"Slotervaart","2022-03","Smuggling",9
-"Slotervaart","2022-03","Total",254
-"Slotervaart","2022-03","Violence",74
-"Slotervaart","2022-04","Environment",0
-"Slotervaart","2022-04","Inappropriateness",10
-"Slotervaart","2022-04","Other",32
-"Slotervaart","2022-04","Robbery/Theft",99
-"Slotervaart","2022-04","Smuggling",5
-"Slotervaart","2022-04","Total",228
-"Slotervaart","2022-04","Violence",76
-"Slotervaart","2022-05","Environment",0
-"Slotervaart","2022-05","Inappropriateness",7
-"Slotervaart","2022-05","Other",34
-"Slotervaart","2022-05","Robbery/Theft",123
-"Slotervaart","2022-05","Smuggling",7
-"Slotervaart","2022-05","Total",235
-"Slotervaart","2022-05","Violence",61
-"Slotervaart","2022-06","Environment",1
-"Slotervaart","2022-06","Inappropriateness",10
-"Slotervaart","2022-06","Other",32
-"Slotervaart","2022-06","Robbery/Theft",84
-"Slotervaart","2022-06","Smuggling",7
-"Slotervaart","2022-06","Total",207
-"Slotervaart","2022-06","Violence",67
-"Slotervaart","2022-07","Environment",0
-"Slotervaart","2022-07","Inappropriateness",8
-"Slotervaart","2022-07","Other",39
-"Slotervaart","2022-07","Robbery/Theft",96
-"Slotervaart","2022-07","Smuggling",5
-"Slotervaart","2022-07","Total",203
-"Slotervaart","2022-07","Violence",48
-"Slotervaart","2022-08","Environment",1
-"Slotervaart","2022-08","Inappropriateness",9
-"Slotervaart","2022-08","Other",16
-"Slotervaart","2022-08","Robbery/Theft",135
-"Slotervaart","2022-08","Smuggling",4
-"Slotervaart","2022-08","Total",244
-"Slotervaart","2022-08","Violence",71
-"Slotervaart","2022-09","Environment",2
-"Slotervaart","2022-09","Inappropriateness",8
-"Slotervaart","2022-09","Other",34
-"Slotervaart","2022-09","Robbery/Theft",115
-"Slotervaart","2022-09","Smuggling",8
-"Slotervaart","2022-09","Total",234
-"Slotervaart","2022-09","Violence",61
-"Slotervaart","2022-10","Environment",0
-"Slotervaart","2022-10","Inappropriateness",18
-"Slotervaart","2022-10","Other",33
-"Slotervaart","2022-10","Robbery/Theft",153
-"Slotervaart","2022-10","Smuggling",3
-"Slotervaart","2022-10","Total",282
-"Slotervaart","2022-10","Violence",70
-"Slotervaart","2022-11","Environment",0
-"Slotervaart","2022-11","Inappropriateness",10
-"Slotervaart","2022-11","Other",34
-"Slotervaart","2022-11","Robbery/Theft",126
-"Slotervaart","2022-11","Smuggling",5
-"Slotervaart","2022-11","Total",244
-"Slotervaart","2022-11","Violence",60
-"Slotervaart","2022-12","Environment",0
-"Slotervaart","2022-12","Inappropriateness",8
-"Slotervaart","2022-12","Other",28
-"Slotervaart","2022-12","Robbery/Theft",102
-"Slotervaart","2022-12","Smuggling",8
-"Slotervaart","2022-12","Total",217
-"Slotervaart","2022-12","Violence",65
-"Watergraafsmeer","2022-01","Environment",0
-"Watergraafsmeer","2022-01","Inappropriateness",6
-"Watergraafsmeer","2022-01","Other",16
-"Watergraafsmeer","2022-01","Robbery/Theft",114
-"Watergraafsmeer","2022-01","Smuggling",1
-"Watergraafsmeer","2022-01","Total",180
-"Watergraafsmeer","2022-01","Violence",40
-"Watergraafsmeer","2022-02","Environment",0
-"Watergraafsmeer","2022-02","Inappropriateness",3
-"Watergraafsmeer","2022-02","Other",34
-"Watergraafsmeer","2022-02","Robbery/Theft",61
-"Watergraafsmeer","2022-02","Smuggling",5
-"Watergraafsmeer","2022-02","Total",148
-"Watergraafsmeer","2022-02","Violence",40
-"Watergraafsmeer","2022-03","Environment",0
-"Watergraafsmeer","2022-03","Inappropriateness",6
-"Watergraafsmeer","2022-03","Other",44
-"Watergraafsmeer","2022-03","Robbery/Theft",82
-"Watergraafsmeer","2022-03","Smuggling",1
-"Watergraafsmeer","2022-03","Total",162
-"Watergraafsmeer","2022-03","Violence",26
-"Watergraafsmeer","2022-04","Environment",0
-"Watergraafsmeer","2022-04","Inappropriateness",12
-"Watergraafsmeer","2022-04","Other",26
-"Watergraafsmeer","2022-04","Robbery/Theft",98
-"Watergraafsmeer","2022-04","Smuggling",0
-"Watergraafsmeer","2022-04","Total",171
-"Watergraafsmeer","2022-04","Violence",30
-"Watergraafsmeer","2022-05","Environment",0
-"Watergraafsmeer","2022-05","Inappropriateness",6
-"Watergraafsmeer","2022-05","Other",13
-"Watergraafsmeer","2022-05","Robbery/Theft",106
-"Watergraafsmeer","2022-05","Smuggling",0
-"Watergraafsmeer","2022-05","Total",186
-"Watergraafsmeer","2022-05","Violence",54
-"Watergraafsmeer","2022-06","Environment",0
-"Watergraafsmeer","2022-06","Inappropriateness",8
-"Watergraafsmeer","2022-06","Other",17
-"Watergraafsmeer","2022-06","Robbery/Theft",109
-"Watergraafsmeer","2022-06","Smuggling",0
-"Watergraafsmeer","2022-06","Total",191
-"Watergraafsmeer","2022-06","Violence",53
-"Watergraafsmeer","2022-07","Environment",0
-"Watergraafsmeer","2022-07","Inappropriateness",17
-"Watergraafsmeer","2022-07","Other",28
-"Watergraafsmeer","2022-07","Robbery/Theft",120
-"Watergraafsmeer","2022-07","Smuggling",2
-"Watergraafsmeer","2022-07","Total",216
-"Watergraafsmeer","2022-07","Violence",45
-"Watergraafsmeer","2022-08","Environment",0
-"Watergraafsmeer","2022-08","Inappropriateness",6
-"Watergraafsmeer","2022-08","Other",25
-"Watergraafsmeer","2022-08","Robbery/Theft",97
-"Watergraafsmeer","2022-08","Smuggling",3
-"Watergraafsmeer","2022-08","Total",179
-"Watergraafsmeer","2022-08","Violence",43
-"Watergraafsmeer","2022-09","Environment",2
-"Watergraafsmeer","2022-09","Inappropriateness",9
-"Watergraafsmeer","2022-09","Other",16
-"Watergraafsmeer","2022-09","Robbery/Theft",101
-"Watergraafsmeer","2022-09","Smuggling",1
-"Watergraafsmeer","2022-09","Total",181
-"Watergraafsmeer","2022-09","Violence",47
-"Watergraafsmeer","2022-10","Environment",0
-"Watergraafsmeer","2022-10","Inappropriateness",15
-"Watergraafsmeer","2022-10","Other",22
-"Watergraafsmeer","2022-10","Robbery/Theft",133
-"Watergraafsmeer","2022-10","Smuggling",3
-"Watergraafsmeer","2022-10","Total",231
-"Watergraafsmeer","2022-10","Violence",52
-"Watergraafsmeer","2022-11","Environment",0
-"Watergraafsmeer","2022-11","Inappropriateness",11
-"Watergraafsmeer","2022-11","Other",29
-"Watergraafsmeer","2022-11","Robbery/Theft",116
-"Watergraafsmeer","2022-11","Smuggling",7
-"Watergraafsmeer","2022-11","Total",226
-"Watergraafsmeer","2022-11","Violence",58
-"Watergraafsmeer","2022-12","Environment",1
-"Watergraafsmeer","2022-12","Inappropriateness",7
-"Watergraafsmeer","2022-12","Other",11
-"Watergraafsmeer","2022-12","Robbery/Theft",107
-"Watergraafsmeer","2022-12","Smuggling",1
-"Watergraafsmeer","2022-12","Total",176
-"Watergraafsmeer","2022-12","Violence",47
-"Westerpark","2022-01","Environment",1
-"Westerpark","2022-01","Inappropriateness",6
-"Westerpark","2022-01","Other",30
-"Westerpark","2022-01","Robbery/Theft",88
-"Westerpark","2022-01","Smuggling",2
-"Westerpark","2022-01","Total",197
-"Westerpark","2022-01","Violence",61
-"Westerpark","2022-02","Environment",0
-"Westerpark","2022-02","Inappropriateness",3
-"Westerpark","2022-02","Other",34
-"Westerpark","2022-02","Robbery/Theft",87
-"Westerpark","2022-02","Smuggling",4
-"Westerpark","2022-02","Total",170
-"Westerpark","2022-02","Violence",40
-"Westerpark","2022-03","Environment",1
-"Westerpark","2022-03","Inappropriateness",6
-"Westerpark","2022-03","Other",44
-"Westerpark","2022-03","Robbery/Theft",109
-"Westerpark","2022-03","Smuggling",2
-"Westerpark","2022-03","Total",207
-"Westerpark","2022-03","Violence",38
-"Westerpark","2022-04","Environment",0
-"Westerpark","2022-04","Inappropriateness",4
-"Westerpark","2022-04","Other",22
-"Westerpark","2022-04","Robbery/Theft",113
-"Westerpark","2022-04","Smuggling",4
-"Westerpark","2022-04","Total",183
-"Westerpark","2022-04","Violence",38
-"Westerpark","2022-05","Environment",0
-"Westerpark","2022-05","Inappropriateness",6
-"Westerpark","2022-05","Other",15
-"Westerpark","2022-05","Robbery/Theft",104
-"Westerpark","2022-05","Smuggling",2
-"Westerpark","2022-05","Total",168
-"Westerpark","2022-05","Violence",38
-"Westerpark","2022-06","Environment",0
-"Westerpark","2022-06","Inappropriateness",5
-"Westerpark","2022-06","Other",22
-"Westerpark","2022-06","Robbery/Theft",111
-"Westerpark","2022-06","Smuggling",2
-"Westerpark","2022-06","Total",174
-"Westerpark","2022-06","Violence",33
-"Westerpark","2022-07","Environment",0
-"Westerpark","2022-07","Inappropriateness",7
-"Westerpark","2022-07","Other",19
-"Westerpark","2022-07","Robbery/Theft",100
-"Westerpark","2022-07","Smuggling",4
-"Westerpark","2022-07","Total",182
-"Westerpark","2022-07","Violence",45
-"Westerpark","2022-08","Environment",1
-"Westerpark","2022-08","Inappropriateness",16
-"Westerpark","2022-08","Other",18
-"Westerpark","2022-08","Robbery/Theft",95
-"Westerpark","2022-08","Smuggling",4
-"Westerpark","2022-08","Total",188
-"Westerpark","2022-08","Violence",53
-"Westerpark","2022-09","Environment",0
-"Westerpark","2022-09","Inappropriateness",12
-"Westerpark","2022-09","Other",24
-"Westerpark","2022-09","Robbery/Theft",93
-"Westerpark","2022-09","Smuggling",4
-"Westerpark","2022-09","Total",207
-"Westerpark","2022-09","Violence",66
-"Westerpark","2022-10","Environment",3
-"Westerpark","2022-10","Inappropriateness",9
-"Westerpark","2022-10","Other",23
-"Westerpark","2022-10","Robbery/Theft",98
-"Westerpark","2022-10","Smuggling",12
-"Westerpark","2022-10","Total",197
-"Westerpark","2022-10","Violence",47
-"Westerpark","2022-11","Environment",2
-"Westerpark","2022-11","Inappropriateness",9
-"Westerpark","2022-11","Other",31
-"Westerpark","2022-11","Robbery/Theft",110
-"Westerpark","2022-11","Smuggling",2
-"Westerpark","2022-11","Total",203
-"Westerpark","2022-11","Violence",41
-"Westerpark","2022-12","Environment",0
-"Westerpark","2022-12","Inappropriateness",3
-"Westerpark","2022-12","Other",29
-"Westerpark","2022-12","Robbery/Theft",79
-"Westerpark","2022-12","Smuggling",1
-"Westerpark","2022-12","Total",151
-"Westerpark","2022-12","Violence",37
-"Zuid","2022-01","Environment",1
-"Zuid","2022-01","Inappropriateness",5
-"Zuid","2022-01","Other",54
-"Zuid","2022-01","Robbery/Theft",186
-"Zuid","2022-01","Smuggling",10
-"Zuid","2022-01","Total",614
-"Zuid","2022-01","Violence",345
-"Zuid","2022-02","Environment",3
-"Zuid","2022-02","Inappropriateness",4
-"Zuid","2022-02","Other",46
-"Zuid","2022-02","Robbery/Theft",136
-"Zuid","2022-02","Smuggling",6
-"Zuid","2022-02","Total",305
-"Zuid","2022-02","Violence",98
-"Zuid","2022-03","Environment",0
-"Zuid","2022-03","Inappropriateness",7
-"Zuid","2022-03","Other",50
-"Zuid","2022-03","Robbery/Theft",219
-"Zuid","2022-03","Smuggling",5
-"Zuid","2022-03","Total",797
-"Zuid","2022-03","Violence",492
-"Zuid","2022-04","Environment",0
-"Zuid","2022-04","Inappropriateness",8
-"Zuid","2022-04","Other",32
-"Zuid","2022-04","Robbery/Theft",192
-"Zuid","2022-04","Smuggling",5
-"Zuid","2022-04","Total",320
-"Zuid","2022-04","Violence",76
-"Zuid","2022-05","Environment",0
-"Zuid","2022-05","Inappropriateness",10
-"Zuid","2022-05","Other",47
-"Zuid","2022-05","Robbery/Theft",206
-"Zuid","2022-05","Smuggling",2
-"Zuid","2022-05","Total",335
-"Zuid","2022-05","Violence",66
-"Zuid","2022-06","Environment",0
-"Zuid","2022-06","Inappropriateness",10
-"Zuid","2022-06","Other",46
-"Zuid","2022-06","Robbery/Theft",227
-"Zuid","2022-06","Smuggling",5
-"Zuid","2022-06","Total",373
-"Zuid","2022-06","Violence",76
-"Zuid","2022-07","Environment",0
-"Zuid","2022-07","Inappropriateness",17
-"Zuid","2022-07","Other",36
-"Zuid","2022-07","Robbery/Theft",226
-"Zuid","2022-07","Smuggling",4
-"Zuid","2022-07","Total",366
-"Zuid","2022-07","Violence",80
-"Zuid","2022-08","Environment",0
-"Zuid","2022-08","Inappropriateness",11
-"Zuid","2022-08","Other",32
-"Zuid","2022-08","Robbery/Theft",230
-"Zuid","2022-08","Smuggling",6
-"Zuid","2022-08","Total",347
-"Zuid","2022-08","Violence",61
-"Zuid","2022-09","Environment",0
-"Zuid","2022-09","Inappropriateness",7
-"Zuid","2022-09","Other",36
-"Zuid","2022-09","Robbery/Theft",249
-"Zuid","2022-09","Smuggling",2
-"Zuid","2022-09","Total",364
-"Zuid","2022-09","Violence",64
-"Zuid","2022-10","Environment",0
-"Zuid","2022-10","Inappropriateness",6
-"Zuid","2022-10","Other",32
-"Zuid","2022-10","Robbery/Theft",259
-"Zuid","2022-10","Smuggling",3
-"Zuid","2022-10","Total",394
-"Zuid","2022-10","Violence",90
-"Zuid","2022-11","Environment",0
-"Zuid","2022-11","Inappropriateness",9
-"Zuid","2022-11","Other",43
-"Zuid","2022-11","Robbery/Theft",234
-"Zuid","2022-11","Smuggling",3
-"Zuid","2022-11","Total",379
-"Zuid","2022-11","Violence",80
-"Zuid","2022-12","Environment",0
-"Zuid","2022-12","Inappropriateness",11
-"Zuid","2022-12","Other",29
-"Zuid","2022-12","Robbery/Theft",192
-"Zuid","2022-12","Smuggling",6
-"Zuid","2022-12","Total",316
-"Zuid","2022-12","Violence",75
+"Bijlmer-Centrum","2021-01","Environment",0
+"Bijlmer-Centrum","2021-01","Inappropriateness",4
+"Bijlmer-Centrum","2021-01","Other",4
+"Bijlmer-Centrum","2021-01","Robbery/Theft",27
+"Bijlmer-Centrum","2021-01","Smuggling",3
+"Bijlmer-Centrum","2021-01","Total",55
+"Bijlmer-Centrum","2021-01","Violence",17
+"Bijlmer-Centrum","2021-02","Environment",0
+"Bijlmer-Centrum","2021-02","Inappropriateness",4
+"Bijlmer-Centrum","2021-02","Other",5
+"Bijlmer-Centrum","2021-02","Robbery/Theft",22
+"Bijlmer-Centrum","2021-02","Smuggling",0
+"Bijlmer-Centrum","2021-02","Total",43
+"Bijlmer-Centrum","2021-02","Violence",11
+"Bijlmer-Centrum","2021-03","Environment",1
+"Bijlmer-Centrum","2021-03","Inappropriateness",1
+"Bijlmer-Centrum","2021-03","Other",2
+"Bijlmer-Centrum","2021-03","Robbery/Theft",30
+"Bijlmer-Centrum","2021-03","Smuggling",0
+"Bijlmer-Centrum","2021-03","Total",48
+"Bijlmer-Centrum","2021-03","Violence",11
+"Bijlmer-Centrum","2021-04","Environment",1
+"Bijlmer-Centrum","2021-04","Inappropriateness",2
+"Bijlmer-Centrum","2021-04","Other",1
+"Bijlmer-Centrum","2021-04","Robbery/Theft",25
+"Bijlmer-Centrum","2021-04","Smuggling",0
+"Bijlmer-Centrum","2021-04","Total",54
+"Bijlmer-Centrum","2021-04","Violence",20
+"Bijlmer-Centrum","2021-05","Environment",0
+"Bijlmer-Centrum","2021-05","Inappropriateness",3
+"Bijlmer-Centrum","2021-05","Other",6
+"Bijlmer-Centrum","2021-05","Robbery/Theft",49
+"Bijlmer-Centrum","2021-05","Smuggling",5
+"Bijlmer-Centrum","2021-05","Total",86
+"Bijlmer-Centrum","2021-05","Violence",21
+"Bijlmer-Centrum","2021-06","Environment",1
+"Bijlmer-Centrum","2021-06","Inappropriateness",5
+"Bijlmer-Centrum","2021-06","Other",5
+"Bijlmer-Centrum","2021-06","Robbery/Theft",42
+"Bijlmer-Centrum","2021-06","Smuggling",0
+"Bijlmer-Centrum","2021-06","Total",81
+"Bijlmer-Centrum","2021-06","Violence",24
+"Bijlmer-Centrum","2021-07","Environment",0
+"Bijlmer-Centrum","2021-07","Inappropriateness",2
+"Bijlmer-Centrum","2021-07","Other",3
+"Bijlmer-Centrum","2021-07","Robbery/Theft",32
+"Bijlmer-Centrum","2021-07","Smuggling",0
+"Bijlmer-Centrum","2021-07","Total",61
+"Bijlmer-Centrum","2021-07","Violence",20
+"Bijlmer-Centrum","2021-08","Environment",0
+"Bijlmer-Centrum","2021-08","Inappropriateness",4
+"Bijlmer-Centrum","2021-08","Other",1
+"Bijlmer-Centrum","2021-08","Robbery/Theft",39
+"Bijlmer-Centrum","2021-08","Smuggling",3
+"Bijlmer-Centrum","2021-08","Total",76
+"Bijlmer-Centrum","2021-08","Violence",23
+"Bijlmer-Centrum","2021-09","Environment",2
+"Bijlmer-Centrum","2021-09","Inappropriateness",10
+"Bijlmer-Centrum","2021-09","Other",7
+"Bijlmer-Centrum","2021-09","Robbery/Theft",46
+"Bijlmer-Centrum","2021-09","Smuggling",1
+"Bijlmer-Centrum","2021-09","Total",86
+"Bijlmer-Centrum","2021-09","Violence",20
+"Bijlmer-Centrum","2021-10","Environment",1
+"Bijlmer-Centrum","2021-10","Inappropriateness",7
+"Bijlmer-Centrum","2021-10","Other",0
+"Bijlmer-Centrum","2021-10","Robbery/Theft",77
+"Bijlmer-Centrum","2021-10","Smuggling",14
+"Bijlmer-Centrum","2021-10","Total",133
+"Bijlmer-Centrum","2021-10","Violence",29
+"Bijlmer-Centrum","2021-11","Environment",0
+"Bijlmer-Centrum","2021-11","Inappropriateness",3
+"Bijlmer-Centrum","2021-11","Other",9
+"Bijlmer-Centrum","2021-11","Robbery/Theft",57
+"Bijlmer-Centrum","2021-11","Smuggling",1
+"Bijlmer-Centrum","2021-11","Total",94
+"Bijlmer-Centrum","2021-11","Violence",21
+"Bijlmer-Centrum","2021-12","Environment",2
+"Bijlmer-Centrum","2021-12","Inappropriateness",3
+"Bijlmer-Centrum","2021-12","Other",6
+"Bijlmer-Centrum","2021-12","Robbery/Theft",32
+"Bijlmer-Centrum","2021-12","Smuggling",1
+"Bijlmer-Centrum","2021-12","Total",53
+"Bijlmer-Centrum","2021-12","Violence",9
+"Bos en Lommer","2021-01","Environment",0
+"Bos en Lommer","2021-01","Inappropriateness",11
+"Bos en Lommer","2021-01","Other",22
+"Bos en Lommer","2021-01","Robbery/Theft",83
+"Bos en Lommer","2021-01","Smuggling",3
+"Bos en Lommer","2021-01","Total",182
+"Bos en Lommer","2021-01","Violence",60
+"Bos en Lommer","2021-02","Environment",0
+"Bos en Lommer","2021-02","Inappropriateness",3
+"Bos en Lommer","2021-02","Other",38
+"Bos en Lommer","2021-02","Robbery/Theft",74
+"Bos en Lommer","2021-02","Smuggling",5
+"Bos en Lommer","2021-02","Total",185
+"Bos en Lommer","2021-02","Violence",62
+"Bos en Lommer","2021-03","Environment",0
+"Bos en Lommer","2021-03","Inappropriateness",10
+"Bos en Lommer","2021-03","Other",24
+"Bos en Lommer","2021-03","Robbery/Theft",90
+"Bos en Lommer","2021-03","Smuggling",9
+"Bos en Lommer","2021-03","Total",181
+"Bos en Lommer","2021-03","Violence",40
+"Bos en Lommer","2021-04","Environment",0
+"Bos en Lommer","2021-04","Inappropriateness",11
+"Bos en Lommer","2021-04","Other",18
+"Bos en Lommer","2021-04","Robbery/Theft",87
+"Bos en Lommer","2021-04","Smuggling",3
+"Bos en Lommer","2021-04","Total",180
+"Bos en Lommer","2021-04","Violence",55
+"Bos en Lommer","2021-05","Environment",1
+"Bos en Lommer","2021-05","Inappropriateness",6
+"Bos en Lommer","2021-05","Other",25
+"Bos en Lommer","2021-05","Robbery/Theft",61
+"Bos en Lommer","2021-05","Smuggling",4
+"Bos en Lommer","2021-05","Total",167
+"Bos en Lommer","2021-05","Violence",63
+"Bos en Lommer","2021-06","Environment",0
+"Bos en Lommer","2021-06","Inappropriateness",10
+"Bos en Lommer","2021-06","Other",27
+"Bos en Lommer","2021-06","Robbery/Theft",106
+"Bos en Lommer","2021-06","Smuggling",6
+"Bos en Lommer","2021-06","Total",209
+"Bos en Lommer","2021-06","Violence",52
+"Bos en Lommer","2021-07","Environment",0
+"Bos en Lommer","2021-07","Inappropriateness",5
+"Bos en Lommer","2021-07","Other",22
+"Bos en Lommer","2021-07","Robbery/Theft",84
+"Bos en Lommer","2021-07","Smuggling",5
+"Bos en Lommer","2021-07","Total",163
+"Bos en Lommer","2021-07","Violence",44
+"Bos en Lommer","2021-08","Environment",0
+"Bos en Lommer","2021-08","Inappropriateness",6
+"Bos en Lommer","2021-08","Other",22
+"Bos en Lommer","2021-08","Robbery/Theft",75
+"Bos en Lommer","2021-08","Smuggling",5
+"Bos en Lommer","2021-08","Total",163
+"Bos en Lommer","2021-08","Violence",52
+"Bos en Lommer","2021-09","Environment",0
+"Bos en Lommer","2021-09","Inappropriateness",6
+"Bos en Lommer","2021-09","Other",14
+"Bos en Lommer","2021-09","Robbery/Theft",97
+"Bos en Lommer","2021-09","Smuggling",3
+"Bos en Lommer","2021-09","Total",186
+"Bos en Lommer","2021-09","Violence",58
+"Bos en Lommer","2021-10","Environment",0
+"Bos en Lommer","2021-10","Inappropriateness",6
+"Bos en Lommer","2021-10","Other",19
+"Bos en Lommer","2021-10","Robbery/Theft",126
+"Bos en Lommer","2021-10","Smuggling",2
+"Bos en Lommer","2021-10","Total",213
+"Bos en Lommer","2021-10","Violence",55
+"Bos en Lommer","2021-11","Environment",2
+"Bos en Lommer","2021-11","Inappropriateness",9
+"Bos en Lommer","2021-11","Other",24
+"Bos en Lommer","2021-11","Robbery/Theft",119
+"Bos en Lommer","2021-11","Smuggling",2
+"Bos en Lommer","2021-11","Total",224
+"Bos en Lommer","2021-11","Violence",61
+"Bos en Lommer","2021-12","Environment",1
+"Bos en Lommer","2021-12","Inappropriateness",3
+"Bos en Lommer","2021-12","Other",20
+"Bos en Lommer","2021-12","Robbery/Theft",73
+"Bos en Lommer","2021-12","Smuggling",5
+"Bos en Lommer","2021-12","Total",162
+"Bos en Lommer","2021-12","Violence",53
+"Buitenveldert - Zuidas","2021-01","Environment",0
+"Buitenveldert - Zuidas","2021-01","Inappropriateness",10
+"Buitenveldert - Zuidas","2021-01","Other",26
+"Buitenveldert - Zuidas","2021-01","Robbery/Theft",73
+"Buitenveldert - Zuidas","2021-01","Smuggling",7
+"Buitenveldert - Zuidas","2021-01","Total",179
+"Buitenveldert - Zuidas","2021-01","Violence",55
+"Buitenveldert - Zuidas","2021-02","Environment",0
+"Buitenveldert - Zuidas","2021-02","Inappropriateness",7
+"Buitenveldert - Zuidas","2021-02","Other",30
+"Buitenveldert - Zuidas","2021-02","Robbery/Theft",61
+"Buitenveldert - Zuidas","2021-02","Smuggling",3
+"Buitenveldert - Zuidas","2021-02","Total",142
+"Buitenveldert - Zuidas","2021-02","Violence",38
+"Buitenveldert - Zuidas","2021-03","Environment",0
+"Buitenveldert - Zuidas","2021-03","Inappropriateness",4
+"Buitenveldert - Zuidas","2021-03","Other",23
+"Buitenveldert - Zuidas","2021-03","Robbery/Theft",80
+"Buitenveldert - Zuidas","2021-03","Smuggling",2
+"Buitenveldert - Zuidas","2021-03","Total",157
+"Buitenveldert - Zuidas","2021-03","Violence",44
+"Buitenveldert - Zuidas","2021-04","Environment",0
+"Buitenveldert - Zuidas","2021-04","Inappropriateness",9
+"Buitenveldert - Zuidas","2021-04","Other",26
+"Buitenveldert - Zuidas","2021-04","Robbery/Theft",66
+"Buitenveldert - Zuidas","2021-04","Smuggling",3
+"Buitenveldert - Zuidas","2021-04","Total",155
+"Buitenveldert - Zuidas","2021-04","Violence",49
+"Buitenveldert - Zuidas","2021-05","Environment",0
+"Buitenveldert - Zuidas","2021-05","Inappropriateness",4
+"Buitenveldert - Zuidas","2021-05","Other",21
+"Buitenveldert - Zuidas","2021-05","Robbery/Theft",76
+"Buitenveldert - Zuidas","2021-05","Smuggling",0
+"Buitenveldert - Zuidas","2021-05","Total",152
+"Buitenveldert - Zuidas","2021-05","Violence",45
+"Buitenveldert - Zuidas","2021-06","Environment",0
+"Buitenveldert - Zuidas","2021-06","Inappropriateness",4
+"Buitenveldert - Zuidas","2021-06","Other",23
+"Buitenveldert - Zuidas","2021-06","Robbery/Theft",74
+"Buitenveldert - Zuidas","2021-06","Smuggling",2
+"Buitenveldert - Zuidas","2021-06","Total",134
+"Buitenveldert - Zuidas","2021-06","Violence",29
+"Buitenveldert - Zuidas","2021-07","Environment",0
+"Buitenveldert - Zuidas","2021-07","Inappropriateness",5
+"Buitenveldert - Zuidas","2021-07","Other",20
+"Buitenveldert - Zuidas","2021-07","Robbery/Theft",117
+"Buitenveldert - Zuidas","2021-07","Smuggling",2
+"Buitenveldert - Zuidas","2021-07","Total",196
+"Buitenveldert - Zuidas","2021-07","Violence",47
+"Buitenveldert - Zuidas","2021-08","Environment",0
+"Buitenveldert - Zuidas","2021-08","Inappropriateness",10
+"Buitenveldert - Zuidas","2021-08","Other",32
+"Buitenveldert - Zuidas","2021-08","Robbery/Theft",95
+"Buitenveldert - Zuidas","2021-08","Smuggling",3
+"Buitenveldert - Zuidas","2021-08","Total",178
+"Buitenveldert - Zuidas","2021-08","Violence",36
+"Buitenveldert - Zuidas","2021-09","Environment",0
+"Buitenveldert - Zuidas","2021-09","Inappropriateness",9
+"Buitenveldert - Zuidas","2021-09","Other",14
+"Buitenveldert - Zuidas","2021-09","Robbery/Theft",127
+"Buitenveldert - Zuidas","2021-09","Smuggling",1
+"Buitenveldert - Zuidas","2021-09","Total",197
+"Buitenveldert - Zuidas","2021-09","Violence",41
+"Buitenveldert - Zuidas","2021-10","Environment",0
+"Buitenveldert - Zuidas","2021-10","Inappropriateness",11
+"Buitenveldert - Zuidas","2021-10","Other",21
+"Buitenveldert - Zuidas","2021-10","Robbery/Theft",136
+"Buitenveldert - Zuidas","2021-10","Smuggling",3
+"Buitenveldert - Zuidas","2021-10","Total",228
+"Buitenveldert - Zuidas","2021-10","Violence",47
+"Buitenveldert - Zuidas","2021-11","Environment",0
+"Buitenveldert - Zuidas","2021-11","Inappropriateness",10
+"Buitenveldert - Zuidas","2021-11","Other",19
+"Buitenveldert - Zuidas","2021-11","Robbery/Theft",110
+"Buitenveldert - Zuidas","2021-11","Smuggling",4
+"Buitenveldert - Zuidas","2021-11","Total",216
+"Buitenveldert - Zuidas","2021-11","Violence",69
+"Buitenveldert - Zuidas","2021-12","Environment",0
+"Buitenveldert - Zuidas","2021-12","Inappropriateness",9
+"Buitenveldert - Zuidas","2021-12","Other",23
+"Buitenveldert - Zuidas","2021-12","Robbery/Theft",94
+"Buitenveldert - Zuidas","2021-12","Smuggling",5
+"Buitenveldert - Zuidas","2021-12","Total",172
+"Buitenveldert - Zuidas","2021-12","Violence",39
+"Centrum-Oost","2021-01","Environment",1
+"Centrum-Oost","2021-01","Inappropriateness",8
+"Centrum-Oost","2021-01","Other",34
+"Centrum-Oost","2021-01","Robbery/Theft",98
+"Centrum-Oost","2021-01","Smuggling",6
+"Centrum-Oost","2021-01","Total",212
+"Centrum-Oost","2021-01","Violence",60
+"Centrum-Oost","2021-02","Environment",0
+"Centrum-Oost","2021-02","Inappropriateness",6
+"Centrum-Oost","2021-02","Other",38
+"Centrum-Oost","2021-02","Robbery/Theft",90
+"Centrum-Oost","2021-02","Smuggling",2
+"Centrum-Oost","2021-02","Total",199
+"Centrum-Oost","2021-02","Violence",54
+"Centrum-Oost","2021-03","Environment",0
+"Centrum-Oost","2021-03","Inappropriateness",19
+"Centrum-Oost","2021-03","Other",43
+"Centrum-Oost","2021-03","Robbery/Theft",119
+"Centrum-Oost","2021-03","Smuggling",4
+"Centrum-Oost","2021-03","Total",298
+"Centrum-Oost","2021-03","Violence",106
+"Centrum-Oost","2021-04","Environment",0
+"Centrum-Oost","2021-04","Inappropriateness",16
+"Centrum-Oost","2021-04","Other",45
+"Centrum-Oost","2021-04","Robbery/Theft",116
+"Centrum-Oost","2021-04","Smuggling",8
+"Centrum-Oost","2021-04","Total",264
+"Centrum-Oost","2021-04","Violence",62
+"Centrum-Oost","2021-05","Environment",1
+"Centrum-Oost","2021-05","Inappropriateness",14
+"Centrum-Oost","2021-05","Other",31
+"Centrum-Oost","2021-05","Robbery/Theft",158
+"Centrum-Oost","2021-05","Smuggling",6
+"Centrum-Oost","2021-05","Total",301
+"Centrum-Oost","2021-05","Violence",77
+"Centrum-Oost","2021-06","Environment",0
+"Centrum-Oost","2021-06","Inappropriateness",23
+"Centrum-Oost","2021-06","Other",36
+"Centrum-Oost","2021-06","Robbery/Theft",218
+"Centrum-Oost","2021-06","Smuggling",5
+"Centrum-Oost","2021-06","Total",383
+"Centrum-Oost","2021-06","Violence",87
+"Centrum-Oost","2021-07","Environment",0
+"Centrum-Oost","2021-07","Inappropriateness",26
+"Centrum-Oost","2021-07","Other",42
+"Centrum-Oost","2021-07","Robbery/Theft",260
+"Centrum-Oost","2021-07","Smuggling",9
+"Centrum-Oost","2021-07","Total",450
+"Centrum-Oost","2021-07","Violence",101
+"Centrum-Oost","2021-08","Environment",0
+"Centrum-Oost","2021-08","Inappropriateness",18
+"Centrum-Oost","2021-08","Other",40
+"Centrum-Oost","2021-08","Robbery/Theft",265
+"Centrum-Oost","2021-08","Smuggling",13
+"Centrum-Oost","2021-08","Total",439
+"Centrum-Oost","2021-08","Violence",90
+"Centrum-Oost","2021-09","Environment",0
+"Centrum-Oost","2021-09","Inappropriateness",27
+"Centrum-Oost","2021-09","Other",34
+"Centrum-Oost","2021-09","Robbery/Theft",249
+"Centrum-Oost","2021-09","Smuggling",6
+"Centrum-Oost","2021-09","Total",400
+"Centrum-Oost","2021-09","Violence",79
+"Centrum-Oost","2021-10","Environment",0
+"Centrum-Oost","2021-10","Inappropriateness",22
+"Centrum-Oost","2021-10","Other",41
+"Centrum-Oost","2021-10","Robbery/Theft",307
+"Centrum-Oost","2021-10","Smuggling",18
+"Centrum-Oost","2021-10","Total",533
+"Centrum-Oost","2021-10","Violence",127
+"Centrum-Oost","2021-11","Environment",0
+"Centrum-Oost","2021-11","Inappropriateness",17
+"Centrum-Oost","2021-11","Other",35
+"Centrum-Oost","2021-11","Robbery/Theft",312
+"Centrum-Oost","2021-11","Smuggling",8
+"Centrum-Oost","2021-11","Total",482
+"Centrum-Oost","2021-11","Violence",102
+"Centrum-Oost","2021-12","Environment",1
+"Centrum-Oost","2021-12","Inappropriateness",21
+"Centrum-Oost","2021-12","Other",32
+"Centrum-Oost","2021-12","Robbery/Theft",167
+"Centrum-Oost","2021-12","Smuggling",2
+"Centrum-Oost","2021-12","Total",290
+"Centrum-Oost","2021-12","Violence",58
+"Centrum-West","2021-01","Environment",0
+"Centrum-West","2021-01","Inappropriateness",12
+"Centrum-West","2021-01","Other",48
+"Centrum-West","2021-01","Robbery/Theft",218
+"Centrum-West","2021-01","Smuggling",12
+"Centrum-West","2021-01","Total",400
+"Centrum-West","2021-01","Violence",90
+"Centrum-West","2021-02","Environment",0
+"Centrum-West","2021-02","Inappropriateness",11
+"Centrum-West","2021-02","Other",45
+"Centrum-West","2021-02","Robbery/Theft",181
+"Centrum-West","2021-02","Smuggling",9
+"Centrum-West","2021-02","Total",325
+"Centrum-West","2021-02","Violence",60
+"Centrum-West","2021-03","Environment",0
+"Centrum-West","2021-03","Inappropriateness",30
+"Centrum-West","2021-03","Other",70
+"Centrum-West","2021-03","Robbery/Theft",209
+"Centrum-West","2021-03","Smuggling",25
+"Centrum-West","2021-03","Total",453
+"Centrum-West","2021-03","Violence",88
+"Centrum-West","2021-04","Environment",0
+"Centrum-West","2021-04","Inappropriateness",19
+"Centrum-West","2021-04","Other",51
+"Centrum-West","2021-04","Robbery/Theft",227
+"Centrum-West","2021-04","Smuggling",14
+"Centrum-West","2021-04","Total",427
+"Centrum-West","2021-04","Violence",95
+"Centrum-West","2021-05","Environment",0
+"Centrum-West","2021-05","Inappropriateness",16
+"Centrum-West","2021-05","Other",53
+"Centrum-West","2021-05","Robbery/Theft",262
+"Centrum-West","2021-05","Smuggling",10
+"Centrum-West","2021-05","Total",481
+"Centrum-West","2021-05","Violence",111
+"Centrum-West","2021-06","Environment",0
+"Centrum-West","2021-06","Inappropriateness",19
+"Centrum-West","2021-06","Other",36
+"Centrum-West","2021-06","Robbery/Theft",378
+"Centrum-West","2021-06","Smuggling",29
+"Centrum-West","2021-06","Total",632
+"Centrum-West","2021-06","Violence",143
+"Centrum-West","2021-07","Environment",0
+"Centrum-West","2021-07","Inappropriateness",16
+"Centrum-West","2021-07","Other",34
+"Centrum-West","2021-07","Robbery/Theft",441
+"Centrum-West","2021-07","Smuggling",16
+"Centrum-West","2021-07","Total",670
+"Centrum-West","2021-07","Violence",133
+"Centrum-West","2021-08","Environment",0
+"Centrum-West","2021-08","Inappropriateness",30
+"Centrum-West","2021-08","Other",46
+"Centrum-West","2021-08","Robbery/Theft",458
+"Centrum-West","2021-08","Smuggling",13
+"Centrum-West","2021-08","Total",699
+"Centrum-West","2021-08","Violence",123
+"Centrum-West","2021-09","Environment",4
+"Centrum-West","2021-09","Inappropriateness",18
+"Centrum-West","2021-09","Other",40
+"Centrum-West","2021-09","Robbery/Theft",420
+"Centrum-West","2021-09","Smuggling",23
+"Centrum-West","2021-09","Total",699
+"Centrum-West","2021-09","Violence",155
+"Centrum-West","2021-10","Environment",0
+"Centrum-West","2021-10","Inappropriateness",35
+"Centrum-West","2021-10","Other",38
+"Centrum-West","2021-10","Robbery/Theft",518
+"Centrum-West","2021-10","Smuggling",16
+"Centrum-West","2021-10","Total",808
+"Centrum-West","2021-10","Violence",169
+"Centrum-West","2021-11","Environment",2
+"Centrum-West","2021-11","Inappropriateness",21
+"Centrum-West","2021-11","Other",43
+"Centrum-West","2021-11","Robbery/Theft",519
+"Centrum-West","2021-11","Smuggling",38
+"Centrum-West","2021-11","Total",801
+"Centrum-West","2021-11","Violence",155
+"Centrum-West","2021-12","Environment",0
+"Centrum-West","2021-12","Inappropriateness",16
+"Centrum-West","2021-12","Other",37
+"Centrum-West","2021-12","Robbery/Theft",329
+"Centrum-West","2021-12","Smuggling",5
+"Centrum-West","2021-12","Total",518
+"Centrum-West","2021-12","Violence",114
+"De Akker - Nieuw Sloten","2021-01","Environment",0
+"De Akker - Nieuw Sloten","2021-01","Inappropriateness",4
+"De Akker - Nieuw Sloten","2021-01","Other",18
+"De Akker - Nieuw Sloten","2021-01","Robbery/Theft",53
+"De Akker - Nieuw Sloten","2021-01","Smuggling",3
+"De Akker - Nieuw Sloten","2021-01","Total",110
+"De Akker - Nieuw Sloten","2021-01","Violence",29
+"De Akker - Nieuw Sloten","2021-02","Environment",0
+"De Akker - Nieuw Sloten","2021-02","Inappropriateness",4
+"De Akker - Nieuw Sloten","2021-02","Other",16
+"De Akker - Nieuw Sloten","2021-02","Robbery/Theft",31
+"De Akker - Nieuw Sloten","2021-02","Smuggling",3
+"De Akker - Nieuw Sloten","2021-02","Total",83
+"De Akker - Nieuw Sloten","2021-02","Violence",27
+"De Akker - Nieuw Sloten","2021-03","Environment",1
+"De Akker - Nieuw Sloten","2021-03","Inappropriateness",3
+"De Akker - Nieuw Sloten","2021-03","Other",22
+"De Akker - Nieuw Sloten","2021-03","Robbery/Theft",37
+"De Akker - Nieuw Sloten","2021-03","Smuggling",2
+"De Akker - Nieuw Sloten","2021-03","Total",103
+"De Akker - Nieuw Sloten","2021-03","Violence",37
+"De Akker - Nieuw Sloten","2021-04","Environment",0
+"De Akker - Nieuw Sloten","2021-04","Inappropriateness",2
+"De Akker - Nieuw Sloten","2021-04","Other",26
+"De Akker - Nieuw Sloten","2021-04","Robbery/Theft",31
+"De Akker - Nieuw Sloten","2021-04","Smuggling",7
+"De Akker - Nieuw Sloten","2021-04","Total",95
+"De Akker - Nieuw Sloten","2021-04","Violence",26
+"De Akker - Nieuw Sloten","2021-05","Environment",0
+"De Akker - Nieuw Sloten","2021-05","Inappropriateness",4
+"De Akker - Nieuw Sloten","2021-05","Other",23
+"De Akker - Nieuw Sloten","2021-05","Robbery/Theft",39
+"De Akker - Nieuw Sloten","2021-05","Smuggling",0
+"De Akker - Nieuw Sloten","2021-05","Total",97
+"De Akker - Nieuw Sloten","2021-05","Violence",29
+"De Akker - Nieuw Sloten","2021-06","Environment",0
+"De Akker - Nieuw Sloten","2021-06","Inappropriateness",1
+"De Akker - Nieuw Sloten","2021-06","Other",20
+"De Akker - Nieuw Sloten","2021-06","Robbery/Theft",38
+"De Akker - Nieuw Sloten","2021-06","Smuggling",4
+"De Akker - Nieuw Sloten","2021-06","Total",95
+"De Akker - Nieuw Sloten","2021-06","Violence",32
+"De Akker - Nieuw Sloten","2021-07","Environment",0
+"De Akker - Nieuw Sloten","2021-07","Inappropriateness",0
+"De Akker - Nieuw Sloten","2021-07","Other",25
+"De Akker - Nieuw Sloten","2021-07","Robbery/Theft",43
+"De Akker - Nieuw Sloten","2021-07","Smuggling",2
+"De Akker - Nieuw Sloten","2021-07","Total",99
+"De Akker - Nieuw Sloten","2021-07","Violence",27
+"De Akker - Nieuw Sloten","2021-08","Environment",0
+"De Akker - Nieuw Sloten","2021-08","Inappropriateness",8
+"De Akker - Nieuw Sloten","2021-08","Other",17
+"De Akker - Nieuw Sloten","2021-08","Robbery/Theft",50
+"De Akker - Nieuw Sloten","2021-08","Smuggling",4
+"De Akker - Nieuw Sloten","2021-08","Total",108
+"De Akker - Nieuw Sloten","2021-08","Violence",29
+"De Akker - Nieuw Sloten","2021-09","Environment",0
+"De Akker - Nieuw Sloten","2021-09","Inappropriateness",4
+"De Akker - Nieuw Sloten","2021-09","Other",21
+"De Akker - Nieuw Sloten","2021-09","Robbery/Theft",51
+"De Akker - Nieuw Sloten","2021-09","Smuggling",3
+"De Akker - Nieuw Sloten","2021-09","Total",107
+"De Akker - Nieuw Sloten","2021-09","Violence",24
+"De Akker - Nieuw Sloten","2021-10","Environment",0
+"De Akker - Nieuw Sloten","2021-10","Inappropriateness",6
+"De Akker - Nieuw Sloten","2021-10","Other",16
+"De Akker - Nieuw Sloten","2021-10","Robbery/Theft",53
+"De Akker - Nieuw Sloten","2021-10","Smuggling",4
+"De Akker - Nieuw Sloten","2021-10","Total",112
+"De Akker - Nieuw Sloten","2021-10","Violence",31
+"De Akker - Nieuw Sloten","2021-11","Environment",0
+"De Akker - Nieuw Sloten","2021-11","Inappropriateness",2
+"De Akker - Nieuw Sloten","2021-11","Other",18
+"De Akker - Nieuw Sloten","2021-11","Robbery/Theft",47
+"De Akker - Nieuw Sloten","2021-11","Smuggling",3
+"De Akker - Nieuw Sloten","2021-11","Total",100
+"De Akker - Nieuw Sloten","2021-11","Violence",29
+"De Akker - Nieuw Sloten","2021-12","Environment",0
+"De Akker - Nieuw Sloten","2021-12","Inappropriateness",2
+"De Akker - Nieuw Sloten","2021-12","Other",16
+"De Akker - Nieuw Sloten","2021-12","Robbery/Theft",22
+"De Akker - Nieuw Sloten","2021-12","Smuggling",3
+"De Akker - Nieuw Sloten","2021-12","Total",80
+"De Akker - Nieuw Sloten","2021-12","Violence",33
+"De Baarsjes - Oud-West","2021-01","Environment",0
+"De Baarsjes - Oud-West","2021-01","Inappropriateness",23
+"De Baarsjes - Oud-West","2021-01","Other",53
+"De Baarsjes - Oud-West","2021-01","Robbery/Theft",246
+"De Baarsjes - Oud-West","2021-01","Smuggling",5
+"De Baarsjes - Oud-West","2021-01","Total",444
+"De Baarsjes - Oud-West","2021-01","Violence",105
+"De Baarsjes - Oud-West","2021-02","Environment",0
+"De Baarsjes - Oud-West","2021-02","Inappropriateness",12
+"De Baarsjes - Oud-West","2021-02","Other",60
+"De Baarsjes - Oud-West","2021-02","Robbery/Theft",184
+"De Baarsjes - Oud-West","2021-02","Smuggling",5
+"De Baarsjes - Oud-West","2021-02","Total",336
+"De Baarsjes - Oud-West","2021-02","Violence",67
+"De Baarsjes - Oud-West","2021-03","Environment",0
+"De Baarsjes - Oud-West","2021-03","Inappropriateness",18
+"De Baarsjes - Oud-West","2021-03","Other",87
+"De Baarsjes - Oud-West","2021-03","Robbery/Theft",223
+"De Baarsjes - Oud-West","2021-03","Smuggling",11
+"De Baarsjes - Oud-West","2021-03","Total",444
+"De Baarsjes - Oud-West","2021-03","Violence",91
+"De Baarsjes - Oud-West","2021-04","Environment",0
+"De Baarsjes - Oud-West","2021-04","Inappropriateness",15
+"De Baarsjes - Oud-West","2021-04","Other",55
+"De Baarsjes - Oud-West","2021-04","Robbery/Theft",219
+"De Baarsjes - Oud-West","2021-04","Smuggling",2
+"De Baarsjes - Oud-West","2021-04","Total",394
+"De Baarsjes - Oud-West","2021-04","Violence",89
+"De Baarsjes - Oud-West","2021-05","Environment",1
+"De Baarsjes - Oud-West","2021-05","Inappropriateness",9
+"De Baarsjes - Oud-West","2021-05","Other",37
+"De Baarsjes - Oud-West","2021-05","Robbery/Theft",238
+"De Baarsjes - Oud-West","2021-05","Smuggling",14
+"De Baarsjes - Oud-West","2021-05","Total",395
+"De Baarsjes - Oud-West","2021-05","Violence",81
+"De Baarsjes - Oud-West","2021-06","Environment",0
+"De Baarsjes - Oud-West","2021-06","Inappropriateness",8
+"De Baarsjes - Oud-West","2021-06","Other",49
+"De Baarsjes - Oud-West","2021-06","Robbery/Theft",222
+"De Baarsjes - Oud-West","2021-06","Smuggling",4
+"De Baarsjes - Oud-West","2021-06","Total",391
+"De Baarsjes - Oud-West","2021-06","Violence",99
+"De Baarsjes - Oud-West","2021-07","Environment",0
+"De Baarsjes - Oud-West","2021-07","Inappropriateness",8
+"De Baarsjes - Oud-West","2021-07","Other",56
+"De Baarsjes - Oud-West","2021-07","Robbery/Theft",216
+"De Baarsjes - Oud-West","2021-07","Smuggling",4
+"De Baarsjes - Oud-West","2021-07","Total",385
+"De Baarsjes - Oud-West","2021-07","Violence",91
+"De Baarsjes - Oud-West","2021-08","Environment",1
+"De Baarsjes - Oud-West","2021-08","Inappropriateness",13
+"De Baarsjes - Oud-West","2021-08","Other",40
+"De Baarsjes - Oud-West","2021-08","Robbery/Theft",204
+"De Baarsjes - Oud-West","2021-08","Smuggling",3
+"De Baarsjes - Oud-West","2021-08","Total",365
+"De Baarsjes - Oud-West","2021-08","Violence",95
+"De Baarsjes - Oud-West","2021-09","Environment",0
+"De Baarsjes - Oud-West","2021-09","Inappropriateness",11
+"De Baarsjes - Oud-West","2021-09","Other",36
+"De Baarsjes - Oud-West","2021-09","Robbery/Theft",254
+"De Baarsjes - Oud-West","2021-09","Smuggling",4
+"De Baarsjes - Oud-West","2021-09","Total",409
+"De Baarsjes - Oud-West","2021-09","Violence",93
+"De Baarsjes - Oud-West","2021-10","Environment",0
+"De Baarsjes - Oud-West","2021-10","Inappropriateness",9
+"De Baarsjes - Oud-West","2021-10","Other",43
+"De Baarsjes - Oud-West","2021-10","Robbery/Theft",256
+"De Baarsjes - Oud-West","2021-10","Smuggling",7
+"De Baarsjes - Oud-West","2021-10","Total",442
+"De Baarsjes - Oud-West","2021-10","Violence",114
+"De Baarsjes - Oud-West","2021-11","Environment",0
+"De Baarsjes - Oud-West","2021-11","Inappropriateness",16
+"De Baarsjes - Oud-West","2021-11","Other",46
+"De Baarsjes - Oud-West","2021-11","Robbery/Theft",307
+"De Baarsjes - Oud-West","2021-11","Smuggling",7
+"De Baarsjes - Oud-West","2021-11","Total",483
+"De Baarsjes - Oud-West","2021-11","Violence",104
+"De Baarsjes - Oud-West","2021-12","Environment",1
+"De Baarsjes - Oud-West","2021-12","Inappropriateness",3
+"De Baarsjes - Oud-West","2021-12","Other",60
+"De Baarsjes - Oud-West","2021-12","Robbery/Theft",320
+"De Baarsjes - Oud-West","2021-12","Smuggling",15
+"De Baarsjes - Oud-West","2021-12","Total",512
+"De Baarsjes - Oud-West","2021-12","Violence",101
+"De Pijp - Rivierenbuurt","2021-01","Environment",0
+"De Pijp - Rivierenbuurt","2021-01","Inappropriateness",13
+"De Pijp - Rivierenbuurt","2021-01","Other",51
+"De Pijp - Rivierenbuurt","2021-01","Robbery/Theft",195
+"De Pijp - Rivierenbuurt","2021-01","Smuggling",9
+"De Pijp - Rivierenbuurt","2021-01","Total",351
+"De Pijp - Rivierenbuurt","2021-01","Violence",79
+"De Pijp - Rivierenbuurt","2021-02","Environment",0
+"De Pijp - Rivierenbuurt","2021-02","Inappropriateness",8
+"De Pijp - Rivierenbuurt","2021-02","Other",46
+"De Pijp - Rivierenbuurt","2021-02","Robbery/Theft",147
+"De Pijp - Rivierenbuurt","2021-02","Smuggling",5
+"De Pijp - Rivierenbuurt","2021-02","Total",279
+"De Pijp - Rivierenbuurt","2021-02","Violence",65
+"De Pijp - Rivierenbuurt","2021-03","Environment",0
+"De Pijp - Rivierenbuurt","2021-03","Inappropriateness",7
+"De Pijp - Rivierenbuurt","2021-03","Other",83
+"De Pijp - Rivierenbuurt","2021-03","Robbery/Theft",192
+"De Pijp - Rivierenbuurt","2021-03","Smuggling",7
+"De Pijp - Rivierenbuurt","2021-03","Total",386
+"De Pijp - Rivierenbuurt","2021-03","Violence",86
+"De Pijp - Rivierenbuurt","2021-04","Environment",1
+"De Pijp - Rivierenbuurt","2021-04","Inappropriateness",10
+"De Pijp - Rivierenbuurt","2021-04","Other",52
+"De Pijp - Rivierenbuurt","2021-04","Robbery/Theft",168
+"De Pijp - Rivierenbuurt","2021-04","Smuggling",13
+"De Pijp - Rivierenbuurt","2021-04","Total",334
+"De Pijp - Rivierenbuurt","2021-04","Violence",75
+"De Pijp - Rivierenbuurt","2021-05","Environment",1
+"De Pijp - Rivierenbuurt","2021-05","Inappropriateness",14
+"De Pijp - Rivierenbuurt","2021-05","Other",60
+"De Pijp - Rivierenbuurt","2021-05","Robbery/Theft",189
+"De Pijp - Rivierenbuurt","2021-05","Smuggling",8
+"De Pijp - Rivierenbuurt","2021-05","Total",357
+"De Pijp - Rivierenbuurt","2021-05","Violence",79
+"De Pijp - Rivierenbuurt","2021-06","Environment",0
+"De Pijp - Rivierenbuurt","2021-06","Inappropriateness",17
+"De Pijp - Rivierenbuurt","2021-06","Other",52
+"De Pijp - Rivierenbuurt","2021-06","Robbery/Theft",187
+"De Pijp - Rivierenbuurt","2021-06","Smuggling",9
+"De Pijp - Rivierenbuurt","2021-06","Total",349
+"De Pijp - Rivierenbuurt","2021-06","Violence",73
+"De Pijp - Rivierenbuurt","2021-07","Environment",0
+"De Pijp - Rivierenbuurt","2021-07","Inappropriateness",14
+"De Pijp - Rivierenbuurt","2021-07","Other",50
+"De Pijp - Rivierenbuurt","2021-07","Robbery/Theft",146
+"De Pijp - Rivierenbuurt","2021-07","Smuggling",8
+"De Pijp - Rivierenbuurt","2021-07","Total",317
+"De Pijp - Rivierenbuurt","2021-07","Violence",86
+"De Pijp - Rivierenbuurt","2021-08","Environment",0
+"De Pijp - Rivierenbuurt","2021-08","Inappropriateness",11
+"De Pijp - Rivierenbuurt","2021-08","Other",35
+"De Pijp - Rivierenbuurt","2021-08","Robbery/Theft",190
+"De Pijp - Rivierenbuurt","2021-08","Smuggling",9
+"De Pijp - Rivierenbuurt","2021-08","Total",335
+"De Pijp - Rivierenbuurt","2021-08","Violence",85
+"De Pijp - Rivierenbuurt","2021-09","Environment",1
+"De Pijp - Rivierenbuurt","2021-09","Inappropriateness",11
+"De Pijp - Rivierenbuurt","2021-09","Other",33
+"De Pijp - Rivierenbuurt","2021-09","Robbery/Theft",208
+"De Pijp - Rivierenbuurt","2021-09","Smuggling",4
+"De Pijp - Rivierenbuurt","2021-09","Total",334
+"De Pijp - Rivierenbuurt","2021-09","Violence",70
+"De Pijp - Rivierenbuurt","2021-10","Environment",0
+"De Pijp - Rivierenbuurt","2021-10","Inappropriateness",18
+"De Pijp - Rivierenbuurt","2021-10","Other",33
+"De Pijp - Rivierenbuurt","2021-10","Robbery/Theft",242
+"De Pijp - Rivierenbuurt","2021-10","Smuggling",13
+"De Pijp - Rivierenbuurt","2021-10","Total",389
+"De Pijp - Rivierenbuurt","2021-10","Violence",76
+"De Pijp - Rivierenbuurt","2021-11","Environment",0
+"De Pijp - Rivierenbuurt","2021-11","Inappropriateness",14
+"De Pijp - Rivierenbuurt","2021-11","Other",46
+"De Pijp - Rivierenbuurt","2021-11","Robbery/Theft",194
+"De Pijp - Rivierenbuurt","2021-11","Smuggling",5
+"De Pijp - Rivierenbuurt","2021-11","Total",355
+"De Pijp - Rivierenbuurt","2021-11","Violence",90
+"De Pijp - Rivierenbuurt","2021-12","Environment",0
+"De Pijp - Rivierenbuurt","2021-12","Inappropriateness",7
+"De Pijp - Rivierenbuurt","2021-12","Other",52
+"De Pijp - Rivierenbuurt","2021-12","Robbery/Theft",198
+"De Pijp - Rivierenbuurt","2021-12","Smuggling",5
+"De Pijp - Rivierenbuurt","2021-12","Total",375
+"De Pijp - Rivierenbuurt","2021-12","Violence",102
+"Gaasperdam - Driemond","2021-01","Environment",0
+"Gaasperdam - Driemond","2021-01","Inappropriateness",2
+"Gaasperdam - Driemond","2021-01","Other",28
+"Gaasperdam - Driemond","2021-01","Robbery/Theft",62
+"Gaasperdam - Driemond","2021-01","Smuggling",2
+"Gaasperdam - Driemond","2021-01","Total",154
+"Gaasperdam - Driemond","2021-01","Violence",51
+"Gaasperdam - Driemond","2021-02","Environment",0
+"Gaasperdam - Driemond","2021-02","Inappropriateness",3
+"Gaasperdam - Driemond","2021-02","Other",37
+"Gaasperdam - Driemond","2021-02","Robbery/Theft",51
+"Gaasperdam - Driemond","2021-02","Smuggling",1
+"Gaasperdam - Driemond","2021-02","Total",162
+"Gaasperdam - Driemond","2021-02","Violence",67
+"Gaasperdam - Driemond","2021-03","Environment",0
+"Gaasperdam - Driemond","2021-03","Inappropriateness",4
+"Gaasperdam - Driemond","2021-03","Other",46
+"Gaasperdam - Driemond","2021-03","Robbery/Theft",49
+"Gaasperdam - Driemond","2021-03","Smuggling",3
+"Gaasperdam - Driemond","2021-03","Total",157
+"Gaasperdam - Driemond","2021-03","Violence",44
+"Gaasperdam - Driemond","2021-04","Environment",0
+"Gaasperdam - Driemond","2021-04","Inappropriateness",6
+"Gaasperdam - Driemond","2021-04","Other",22
+"Gaasperdam - Driemond","2021-04","Robbery/Theft",47
+"Gaasperdam - Driemond","2021-04","Smuggling",8
+"Gaasperdam - Driemond","2021-04","Total",142
+"Gaasperdam - Driemond","2021-04","Violence",53
+"Gaasperdam - Driemond","2021-05","Environment",1
+"Gaasperdam - Driemond","2021-05","Inappropriateness",7
+"Gaasperdam - Driemond","2021-05","Other",30
+"Gaasperdam - Driemond","2021-05","Robbery/Theft",52
+"Gaasperdam - Driemond","2021-05","Smuggling",3
+"Gaasperdam - Driemond","2021-05","Total",153
+"Gaasperdam - Driemond","2021-05","Violence",56
+"Gaasperdam - Driemond","2021-06","Environment",1
+"Gaasperdam - Driemond","2021-06","Inappropriateness",3
+"Gaasperdam - Driemond","2021-06","Other",23
+"Gaasperdam - Driemond","2021-06","Robbery/Theft",78
+"Gaasperdam - Driemond","2021-06","Smuggling",5
+"Gaasperdam - Driemond","2021-06","Total",154
+"Gaasperdam - Driemond","2021-06","Violence",40
+"Gaasperdam - Driemond","2021-07","Environment",0
+"Gaasperdam - Driemond","2021-07","Inappropriateness",4
+"Gaasperdam - Driemond","2021-07","Other",23
+"Gaasperdam - Driemond","2021-07","Robbery/Theft",64
+"Gaasperdam - Driemond","2021-07","Smuggling",0
+"Gaasperdam - Driemond","2021-07","Total",136
+"Gaasperdam - Driemond","2021-07","Violence",41
+"Gaasperdam - Driemond","2021-08","Environment",1
+"Gaasperdam - Driemond","2021-08","Inappropriateness",12
+"Gaasperdam - Driemond","2021-08","Other",18
+"Gaasperdam - Driemond","2021-08","Robbery/Theft",53
+"Gaasperdam - Driemond","2021-08","Smuggling",0
+"Gaasperdam - Driemond","2021-08","Total",134
+"Gaasperdam - Driemond","2021-08","Violence",46
+"Gaasperdam - Driemond","2021-09","Environment",0
+"Gaasperdam - Driemond","2021-09","Inappropriateness",3
+"Gaasperdam - Driemond","2021-09","Other",23
+"Gaasperdam - Driemond","2021-09","Robbery/Theft",43
+"Gaasperdam - Driemond","2021-09","Smuggling",7
+"Gaasperdam - Driemond","2021-09","Total",115
+"Gaasperdam - Driemond","2021-09","Violence",36
+"Gaasperdam - Driemond","2021-10","Environment",0
+"Gaasperdam - Driemond","2021-10","Inappropriateness",2
+"Gaasperdam - Driemond","2021-10","Other",23
+"Gaasperdam - Driemond","2021-10","Robbery/Theft",68
+"Gaasperdam - Driemond","2021-10","Smuggling",4
+"Gaasperdam - Driemond","2021-10","Total",140
+"Gaasperdam - Driemond","2021-10","Violence",34
+"Gaasperdam - Driemond","2021-11","Environment",3
+"Gaasperdam - Driemond","2021-11","Inappropriateness",7
+"Gaasperdam - Driemond","2021-11","Other",17
+"Gaasperdam - Driemond","2021-11","Robbery/Theft",48
+"Gaasperdam - Driemond","2021-11","Smuggling",1
+"Gaasperdam - Driemond","2021-11","Total",140
+"Gaasperdam - Driemond","2021-11","Violence",62
+"Gaasperdam - Driemond","2021-12","Environment",0
+"Gaasperdam - Driemond","2021-12","Inappropriateness",9
+"Gaasperdam - Driemond","2021-12","Other",27
+"Gaasperdam - Driemond","2021-12","Robbery/Theft",70
+"Gaasperdam - Driemond","2021-12","Smuggling",8
+"Gaasperdam - Driemond","2021-12","Total",165
+"Gaasperdam - Driemond","2021-12","Violence",45
+"Geuzenveld - Slotermeer","2021-01","Environment",3
+"Geuzenveld - Slotermeer","2021-01","Inappropriateness",13
+"Geuzenveld - Slotermeer","2021-01","Other",38
+"Geuzenveld - Slotermeer","2021-01","Robbery/Theft",146
+"Geuzenveld - Slotermeer","2021-01","Smuggling",12
+"Geuzenveld - Slotermeer","2021-01","Total",332
+"Geuzenveld - Slotermeer","2021-01","Violence",110
+"Geuzenveld - Slotermeer","2021-02","Environment",0
+"Geuzenveld - Slotermeer","2021-02","Inappropriateness",14
+"Geuzenveld - Slotermeer","2021-02","Other",49
+"Geuzenveld - Slotermeer","2021-02","Robbery/Theft",126
+"Geuzenveld - Slotermeer","2021-02","Smuggling",12
+"Geuzenveld - Slotermeer","2021-02","Total",320
+"Geuzenveld - Slotermeer","2021-02","Violence",112
+"Geuzenveld - Slotermeer","2021-03","Environment",1
+"Geuzenveld - Slotermeer","2021-03","Inappropriateness",13
+"Geuzenveld - Slotermeer","2021-03","Other",64
+"Geuzenveld - Slotermeer","2021-03","Robbery/Theft",165
+"Geuzenveld - Slotermeer","2021-03","Smuggling",10
+"Geuzenveld - Slotermeer","2021-03","Total",387
+"Geuzenveld - Slotermeer","2021-03","Violence",119
+"Geuzenveld - Slotermeer","2021-04","Environment",2
+"Geuzenveld - Slotermeer","2021-04","Inappropriateness",14
+"Geuzenveld - Slotermeer","2021-04","Other",38
+"Geuzenveld - Slotermeer","2021-04","Robbery/Theft",131
+"Geuzenveld - Slotermeer","2021-04","Smuggling",7
+"Geuzenveld - Slotermeer","2021-04","Total",311
+"Geuzenveld - Slotermeer","2021-04","Violence",105
+"Geuzenveld - Slotermeer","2021-05","Environment",7
+"Geuzenveld - Slotermeer","2021-05","Inappropriateness",18
+"Geuzenveld - Slotermeer","2021-05","Other",39
+"Geuzenveld - Slotermeer","2021-05","Robbery/Theft",161
+"Geuzenveld - Slotermeer","2021-05","Smuggling",11
+"Geuzenveld - Slotermeer","2021-05","Total",355
+"Geuzenveld - Slotermeer","2021-05","Violence",108
+"Geuzenveld - Slotermeer","2021-06","Environment",1
+"Geuzenveld - Slotermeer","2021-06","Inappropriateness",9
+"Geuzenveld - Slotermeer","2021-06","Other",54
+"Geuzenveld - Slotermeer","2021-06","Robbery/Theft",175
+"Geuzenveld - Slotermeer","2021-06","Smuggling",8
+"Geuzenveld - Slotermeer","2021-06","Total",331
+"Geuzenveld - Slotermeer","2021-06","Violence",74
+"Geuzenveld - Slotermeer","2021-07","Environment",0
+"Geuzenveld - Slotermeer","2021-07","Inappropriateness",16
+"Geuzenveld - Slotermeer","2021-07","Other",39
+"Geuzenveld - Slotermeer","2021-07","Robbery/Theft",210
+"Geuzenveld - Slotermeer","2021-07","Smuggling",7
+"Geuzenveld - Slotermeer","2021-07","Total",390
+"Geuzenveld - Slotermeer","2021-07","Violence",114
+"Geuzenveld - Slotermeer","2021-08","Environment",0
+"Geuzenveld - Slotermeer","2021-08","Inappropriateness",13
+"Geuzenveld - Slotermeer","2021-08","Other",33
+"Geuzenveld - Slotermeer","2021-08","Robbery/Theft",186
+"Geuzenveld - Slotermeer","2021-08","Smuggling",3
+"Geuzenveld - Slotermeer","2021-08","Total",319
+"Geuzenveld - Slotermeer","2021-08","Violence",80
+"Geuzenveld - Slotermeer","2021-09","Environment",0
+"Geuzenveld - Slotermeer","2021-09","Inappropriateness",13
+"Geuzenveld - Slotermeer","2021-09","Other",28
+"Geuzenveld - Slotermeer","2021-09","Robbery/Theft",162
+"Geuzenveld - Slotermeer","2021-09","Smuggling",9
+"Geuzenveld - Slotermeer","2021-09","Total",301
+"Geuzenveld - Slotermeer","2021-09","Violence",78
+"Geuzenveld - Slotermeer","2021-10","Environment",3
+"Geuzenveld - Slotermeer","2021-10","Inappropriateness",20
+"Geuzenveld - Slotermeer","2021-10","Other",48
+"Geuzenveld - Slotermeer","2021-10","Robbery/Theft",198
+"Geuzenveld - Slotermeer","2021-10","Smuggling",11
+"Geuzenveld - Slotermeer","2021-10","Total",405
+"Geuzenveld - Slotermeer","2021-10","Violence",119
+"Geuzenveld - Slotermeer","2021-11","Environment",2
+"Geuzenveld - Slotermeer","2021-11","Inappropriateness",15
+"Geuzenveld - Slotermeer","2021-11","Other",32
+"Geuzenveld - Slotermeer","2021-11","Robbery/Theft",193
+"Geuzenveld - Slotermeer","2021-11","Smuggling",6
+"Geuzenveld - Slotermeer","2021-11","Total",360
+"Geuzenveld - Slotermeer","2021-11","Violence",106
+"Geuzenveld - Slotermeer","2021-12","Environment",2
+"Geuzenveld - Slotermeer","2021-12","Inappropriateness",22
+"Geuzenveld - Slotermeer","2021-12","Other",34
+"Geuzenveld - Slotermeer","2021-12","Robbery/Theft",156
+"Geuzenveld - Slotermeer","2021-12","Smuggling",11
+"Geuzenveld - Slotermeer","2021-12","Total",354
+"Geuzenveld - Slotermeer","2021-12","Violence",125
+"IJburg - Zeeburgereiland","2021-01","Environment",0
+"IJburg - Zeeburgereiland","2021-01","Inappropriateness",4
+"IJburg - Zeeburgereiland","2021-01","Other",29
+"IJburg - Zeeburgereiland","2021-01","Robbery/Theft",41
+"IJburg - Zeeburgereiland","2021-01","Smuggling",3
+"IJburg - Zeeburgereiland","2021-01","Total",117
+"IJburg - Zeeburgereiland","2021-01","Violence",35
+"IJburg - Zeeburgereiland","2021-02","Environment",0
+"IJburg - Zeeburgereiland","2021-02","Inappropriateness",1
+"IJburg - Zeeburgereiland","2021-02","Other",23
+"IJburg - Zeeburgereiland","2021-02","Robbery/Theft",33
+"IJburg - Zeeburgereiland","2021-02","Smuggling",4
+"IJburg - Zeeburgereiland","2021-02","Total",106
+"IJburg - Zeeburgereiland","2021-02","Violence",44
+"IJburg - Zeeburgereiland","2021-03","Environment",0
+"IJburg - Zeeburgereiland","2021-03","Inappropriateness",2
+"IJburg - Zeeburgereiland","2021-03","Other",30
+"IJburg - Zeeburgereiland","2021-03","Robbery/Theft",46
+"IJburg - Zeeburgereiland","2021-03","Smuggling",4
+"IJburg - Zeeburgereiland","2021-03","Total",114
+"IJburg - Zeeburgereiland","2021-03","Violence",29
+"IJburg - Zeeburgereiland","2021-04","Environment",0
+"IJburg - Zeeburgereiland","2021-04","Inappropriateness",2
+"IJburg - Zeeburgereiland","2021-04","Other",21
+"IJburg - Zeeburgereiland","2021-04","Robbery/Theft",42
+"IJburg - Zeeburgereiland","2021-04","Smuggling",2
+"IJburg - Zeeburgereiland","2021-04","Total",95
+"IJburg - Zeeburgereiland","2021-04","Violence",27
+"IJburg - Zeeburgereiland","2021-05","Environment",0
+"IJburg - Zeeburgereiland","2021-05","Inappropriateness",5
+"IJburg - Zeeburgereiland","2021-05","Other",22
+"IJburg - Zeeburgereiland","2021-05","Robbery/Theft",48
+"IJburg - Zeeburgereiland","2021-05","Smuggling",2
+"IJburg - Zeeburgereiland","2021-05","Total",112
+"IJburg - Zeeburgereiland","2021-05","Violence",35
+"IJburg - Zeeburgereiland","2021-06","Environment",0
+"IJburg - Zeeburgereiland","2021-06","Inappropriateness",3
+"IJburg - Zeeburgereiland","2021-06","Other",22
+"IJburg - Zeeburgereiland","2021-06","Robbery/Theft",48
+"IJburg - Zeeburgereiland","2021-06","Smuggling",2
+"IJburg - Zeeburgereiland","2021-06","Total",119
+"IJburg - Zeeburgereiland","2021-06","Violence",38
+"IJburg - Zeeburgereiland","2021-07","Environment",0
+"IJburg - Zeeburgereiland","2021-07","Inappropriateness",3
+"IJburg - Zeeburgereiland","2021-07","Other",15
+"IJburg - Zeeburgereiland","2021-07","Robbery/Theft",51
+"IJburg - Zeeburgereiland","2021-07","Smuggling",1
+"IJburg - Zeeburgereiland","2021-07","Total",98
+"IJburg - Zeeburgereiland","2021-07","Violence",25
+"IJburg - Zeeburgereiland","2021-08","Environment",0
+"IJburg - Zeeburgereiland","2021-08","Inappropriateness",6
+"IJburg - Zeeburgereiland","2021-08","Other",15
+"IJburg - Zeeburgereiland","2021-08","Robbery/Theft",44
+"IJburg - Zeeburgereiland","2021-08","Smuggling",2
+"IJburg - Zeeburgereiland","2021-08","Total",95
+"IJburg - Zeeburgereiland","2021-08","Violence",26
+"IJburg - Zeeburgereiland","2021-09","Environment",0
+"IJburg - Zeeburgereiland","2021-09","Inappropriateness",4
+"IJburg - Zeeburgereiland","2021-09","Other",15
+"IJburg - Zeeburgereiland","2021-09","Robbery/Theft",40
+"IJburg - Zeeburgereiland","2021-09","Smuggling",2
+"IJburg - Zeeburgereiland","2021-09","Total",91
+"IJburg - Zeeburgereiland","2021-09","Violence",27
+"IJburg - Zeeburgereiland","2021-10","Environment",0
+"IJburg - Zeeburgereiland","2021-10","Inappropriateness",4
+"IJburg - Zeeburgereiland","2021-10","Other",22
+"IJburg - Zeeburgereiland","2021-10","Robbery/Theft",47
+"IJburg - Zeeburgereiland","2021-10","Smuggling",1
+"IJburg - Zeeburgereiland","2021-10","Total",107
+"IJburg - Zeeburgereiland","2021-10","Violence",28
+"IJburg - Zeeburgereiland","2021-11","Environment",0
+"IJburg - Zeeburgereiland","2021-11","Inappropriateness",2
+"IJburg - Zeeburgereiland","2021-11","Other",24
+"IJburg - Zeeburgereiland","2021-11","Robbery/Theft",43
+"IJburg - Zeeburgereiland","2021-11","Smuggling",1
+"IJburg - Zeeburgereiland","2021-11","Total",120
+"IJburg - Zeeburgereiland","2021-11","Violence",44
+"IJburg - Zeeburgereiland","2021-12","Environment",0
+"IJburg - Zeeburgereiland","2021-12","Inappropriateness",1
+"IJburg - Zeeburgereiland","2021-12","Other",24
+"IJburg - Zeeburgereiland","2021-12","Robbery/Theft",54
+"IJburg - Zeeburgereiland","2021-12","Smuggling",3
+"IJburg - Zeeburgereiland","2021-12","Total",115
+"IJburg - Zeeburgereiland","2021-12","Violence",33
+"Noord-Oost","2021-01","Environment",0
+"Noord-Oost","2021-01","Inappropriateness",12
+"Noord-Oost","2021-01","Other",16
+"Noord-Oost","2021-01","Robbery/Theft",75
+"Noord-Oost","2021-01","Smuggling",3
+"Noord-Oost","2021-01","Total",161
+"Noord-Oost","2021-01","Violence",49
+"Noord-Oost","2021-02","Environment",0
+"Noord-Oost","2021-02","Inappropriateness",5
+"Noord-Oost","2021-02","Other",19
+"Noord-Oost","2021-02","Robbery/Theft",50
+"Noord-Oost","2021-02","Smuggling",5
+"Noord-Oost","2021-02","Total",132
+"Noord-Oost","2021-02","Violence",50
+"Noord-Oost","2021-03","Environment",1
+"Noord-Oost","2021-03","Inappropriateness",9
+"Noord-Oost","2021-03","Other",34
+"Noord-Oost","2021-03","Robbery/Theft",68
+"Noord-Oost","2021-03","Smuggling",3
+"Noord-Oost","2021-03","Total",166
+"Noord-Oost","2021-03","Violence",46
+"Noord-Oost","2021-04","Environment",0
+"Noord-Oost","2021-04","Inappropriateness",5
+"Noord-Oost","2021-04","Other",16
+"Noord-Oost","2021-04","Robbery/Theft",65
+"Noord-Oost","2021-04","Smuggling",5
+"Noord-Oost","2021-04","Total",157
+"Noord-Oost","2021-04","Violence",60
+"Noord-Oost","2021-05","Environment",0
+"Noord-Oost","2021-05","Inappropriateness",3
+"Noord-Oost","2021-05","Other",28
+"Noord-Oost","2021-05","Robbery/Theft",80
+"Noord-Oost","2021-05","Smuggling",1
+"Noord-Oost","2021-05","Total",175
+"Noord-Oost","2021-05","Violence",59
+"Noord-Oost","2021-06","Environment",0
+"Noord-Oost","2021-06","Inappropriateness",1
+"Noord-Oost","2021-06","Other",33
+"Noord-Oost","2021-06","Robbery/Theft",75
+"Noord-Oost","2021-06","Smuggling",5
+"Noord-Oost","2021-06","Total",170
+"Noord-Oost","2021-06","Violence",50
+"Noord-Oost","2021-07","Environment",0
+"Noord-Oost","2021-07","Inappropriateness",9
+"Noord-Oost","2021-07","Other",25
+"Noord-Oost","2021-07","Robbery/Theft",78
+"Noord-Oost","2021-07","Smuggling",7
+"Noord-Oost","2021-07","Total",172
+"Noord-Oost","2021-07","Violence",49
+"Noord-Oost","2021-08","Environment",0
+"Noord-Oost","2021-08","Inappropriateness",5
+"Noord-Oost","2021-08","Other",25
+"Noord-Oost","2021-08","Robbery/Theft",80
+"Noord-Oost","2021-08","Smuggling",2
+"Noord-Oost","2021-08","Total",164
+"Noord-Oost","2021-08","Violence",50
+"Noord-Oost","2021-09","Environment",0
+"Noord-Oost","2021-09","Inappropriateness",5
+"Noord-Oost","2021-09","Other",21
+"Noord-Oost","2021-09","Robbery/Theft",75
+"Noord-Oost","2021-09","Smuggling",5
+"Noord-Oost","2021-09","Total",160
+"Noord-Oost","2021-09","Violence",54
+"Noord-Oost","2021-10","Environment",0
+"Noord-Oost","2021-10","Inappropriateness",4
+"Noord-Oost","2021-10","Other",23
+"Noord-Oost","2021-10","Robbery/Theft",100
+"Noord-Oost","2021-10","Smuggling",3
+"Noord-Oost","2021-10","Total",189
+"Noord-Oost","2021-10","Violence",55
+"Noord-Oost","2021-11","Environment",0
+"Noord-Oost","2021-11","Inappropriateness",4
+"Noord-Oost","2021-11","Other",25
+"Noord-Oost","2021-11","Robbery/Theft",98
+"Noord-Oost","2021-11","Smuggling",3
+"Noord-Oost","2021-11","Total",198
+"Noord-Oost","2021-11","Violence",64
+"Noord-Oost","2021-12","Environment",2
+"Noord-Oost","2021-12","Inappropriateness",7
+"Noord-Oost","2021-12","Other",27
+"Noord-Oost","2021-12","Robbery/Theft",82
+"Noord-Oost","2021-12","Smuggling",5
+"Noord-Oost","2021-12","Total",166
+"Noord-Oost","2021-12","Violence",39
+"Noord-West","2021-01","Environment",0
+"Noord-West","2021-01","Inappropriateness",7
+"Noord-West","2021-01","Other",39
+"Noord-West","2021-01","Robbery/Theft",73
+"Noord-West","2021-01","Smuggling",1
+"Noord-West","2021-01","Total",184
+"Noord-West","2021-01","Violence",63
+"Noord-West","2021-02","Environment",0
+"Noord-West","2021-02","Inappropriateness",9
+"Noord-West","2021-02","Other",24
+"Noord-West","2021-02","Robbery/Theft",57
+"Noord-West","2021-02","Smuggling",3
+"Noord-West","2021-02","Total",145
+"Noord-West","2021-02","Violence",50
+"Noord-West","2021-03","Environment",0
+"Noord-West","2021-03","Inappropriateness",8
+"Noord-West","2021-03","Other",39
+"Noord-West","2021-03","Robbery/Theft",80
+"Noord-West","2021-03","Smuggling",3
+"Noord-West","2021-03","Total",198
+"Noord-West","2021-03","Violence",64
+"Noord-West","2021-04","Environment",1
+"Noord-West","2021-04","Inappropriateness",11
+"Noord-West","2021-04","Other",23
+"Noord-West","2021-04","Robbery/Theft",77
+"Noord-West","2021-04","Smuggling",7
+"Noord-West","2021-04","Total",180
+"Noord-West","2021-04","Violence",58
+"Noord-West","2021-05","Environment",1
+"Noord-West","2021-05","Inappropriateness",5
+"Noord-West","2021-05","Other",30
+"Noord-West","2021-05","Robbery/Theft",64
+"Noord-West","2021-05","Smuggling",3
+"Noord-West","2021-05","Total",153
+"Noord-West","2021-05","Violence",48
+"Noord-West","2021-06","Environment",0
+"Noord-West","2021-06","Inappropriateness",10
+"Noord-West","2021-06","Other",28
+"Noord-West","2021-06","Robbery/Theft",53
+"Noord-West","2021-06","Smuggling",4
+"Noord-West","2021-06","Total",161
+"Noord-West","2021-06","Violence",60
+"Noord-West","2021-07","Environment",1
+"Noord-West","2021-07","Inappropriateness",5
+"Noord-West","2021-07","Other",30
+"Noord-West","2021-07","Robbery/Theft",53
+"Noord-West","2021-07","Smuggling",5
+"Noord-West","2021-07","Total",158
+"Noord-West","2021-07","Violence",63
+"Noord-West","2021-08","Environment",0
+"Noord-West","2021-08","Inappropriateness",8
+"Noord-West","2021-08","Other",37
+"Noord-West","2021-08","Robbery/Theft",54
+"Noord-West","2021-08","Smuggling",1
+"Noord-West","2021-08","Total",140
+"Noord-West","2021-08","Violence",39
+"Noord-West","2021-09","Environment",0
+"Noord-West","2021-09","Inappropriateness",10
+"Noord-West","2021-09","Other",27
+"Noord-West","2021-09","Robbery/Theft",61
+"Noord-West","2021-09","Smuggling",1
+"Noord-West","2021-09","Total",153
+"Noord-West","2021-09","Violence",51
+"Noord-West","2021-10","Environment",0
+"Noord-West","2021-10","Inappropriateness",4
+"Noord-West","2021-10","Other",27
+"Noord-West","2021-10","Robbery/Theft",99
+"Noord-West","2021-10","Smuggling",5
+"Noord-West","2021-10","Total",192
+"Noord-West","2021-10","Violence",56
+"Noord-West","2021-11","Environment",0
+"Noord-West","2021-11","Inappropriateness",6
+"Noord-West","2021-11","Other",33
+"Noord-West","2021-11","Robbery/Theft",78
+"Noord-West","2021-11","Smuggling",8
+"Noord-West","2021-11","Total",190
+"Noord-West","2021-11","Violence",64
+"Noord-West","2021-12","Environment",0
+"Noord-West","2021-12","Inappropriateness",10
+"Noord-West","2021-12","Other",28
+"Noord-West","2021-12","Robbery/Theft",87
+"Noord-West","2021-12","Smuggling",2
+"Noord-West","2021-12","Total",207
+"Noord-West","2021-12","Violence",76
+"Oostelijk Havengebied - Indische Buurt","2021-01","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-01","Inappropriateness",7
+"Oostelijk Havengebied - Indische Buurt","2021-01","Other",30
+"Oostelijk Havengebied - Indische Buurt","2021-01","Robbery/Theft",65
+"Oostelijk Havengebied - Indische Buurt","2021-01","Smuggling",4
+"Oostelijk Havengebied - Indische Buurt","2021-01","Total",159
+"Oostelijk Havengebied - Indische Buurt","2021-01","Violence",47
+"Oostelijk Havengebied - Indische Buurt","2021-02","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-02","Inappropriateness",4
+"Oostelijk Havengebied - Indische Buurt","2021-02","Other",30
+"Oostelijk Havengebied - Indische Buurt","2021-02","Robbery/Theft",42
+"Oostelijk Havengebied - Indische Buurt","2021-02","Smuggling",2
+"Oostelijk Havengebied - Indische Buurt","2021-02","Total",124
+"Oostelijk Havengebied - Indische Buurt","2021-02","Violence",40
+"Oostelijk Havengebied - Indische Buurt","2021-03","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-03","Inappropriateness",8
+"Oostelijk Havengebied - Indische Buurt","2021-03","Other",41
+"Oostelijk Havengebied - Indische Buurt","2021-03","Robbery/Theft",53
+"Oostelijk Havengebied - Indische Buurt","2021-03","Smuggling",4
+"Oostelijk Havengebied - Indische Buurt","2021-03","Total",162
+"Oostelijk Havengebied - Indische Buurt","2021-03","Violence",52
+"Oostelijk Havengebied - Indische Buurt","2021-04","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-04","Inappropriateness",2
+"Oostelijk Havengebied - Indische Buurt","2021-04","Other",26
+"Oostelijk Havengebied - Indische Buurt","2021-04","Robbery/Theft",56
+"Oostelijk Havengebied - Indische Buurt","2021-04","Smuggling",3
+"Oostelijk Havengebied - Indische Buurt","2021-04","Total",137
+"Oostelijk Havengebied - Indische Buurt","2021-04","Violence",41
+"Oostelijk Havengebied - Indische Buurt","2021-05","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-05","Inappropriateness",6
+"Oostelijk Havengebied - Indische Buurt","2021-05","Other",22
+"Oostelijk Havengebied - Indische Buurt","2021-05","Robbery/Theft",63
+"Oostelijk Havengebied - Indische Buurt","2021-05","Smuggling",4
+"Oostelijk Havengebied - Indische Buurt","2021-05","Total",152
+"Oostelijk Havengebied - Indische Buurt","2021-05","Violence",56
+"Oostelijk Havengebied - Indische Buurt","2021-06","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-06","Inappropriateness",1
+"Oostelijk Havengebied - Indische Buurt","2021-06","Other",26
+"Oostelijk Havengebied - Indische Buurt","2021-06","Robbery/Theft",73
+"Oostelijk Havengebied - Indische Buurt","2021-06","Smuggling",2
+"Oostelijk Havengebied - Indische Buurt","2021-06","Total",160
+"Oostelijk Havengebied - Indische Buurt","2021-06","Violence",53
+"Oostelijk Havengebied - Indische Buurt","2021-07","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-07","Inappropriateness",10
+"Oostelijk Havengebied - Indische Buurt","2021-07","Other",22
+"Oostelijk Havengebied - Indische Buurt","2021-07","Robbery/Theft",77
+"Oostelijk Havengebied - Indische Buurt","2021-07","Smuggling",0
+"Oostelijk Havengebied - Indische Buurt","2021-07","Total",157
+"Oostelijk Havengebied - Indische Buurt","2021-07","Violence",40
+"Oostelijk Havengebied - Indische Buurt","2021-08","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-08","Inappropriateness",5
+"Oostelijk Havengebied - Indische Buurt","2021-08","Other",33
+"Oostelijk Havengebied - Indische Buurt","2021-08","Robbery/Theft",71
+"Oostelijk Havengebied - Indische Buurt","2021-08","Smuggling",0
+"Oostelijk Havengebied - Indische Buurt","2021-08","Total",144
+"Oostelijk Havengebied - Indische Buurt","2021-08","Violence",30
+"Oostelijk Havengebied - Indische Buurt","2021-09","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-09","Inappropriateness",11
+"Oostelijk Havengebied - Indische Buurt","2021-09","Other",24
+"Oostelijk Havengebied - Indische Buurt","2021-09","Robbery/Theft",67
+"Oostelijk Havengebied - Indische Buurt","2021-09","Smuggling",2
+"Oostelijk Havengebied - Indische Buurt","2021-09","Total",166
+"Oostelijk Havengebied - Indische Buurt","2021-09","Violence",56
+"Oostelijk Havengebied - Indische Buurt","2021-10","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-10","Inappropriateness",10
+"Oostelijk Havengebied - Indische Buurt","2021-10","Other",30
+"Oostelijk Havengebied - Indische Buurt","2021-10","Robbery/Theft",74
+"Oostelijk Havengebied - Indische Buurt","2021-10","Smuggling",3
+"Oostelijk Havengebied - Indische Buurt","2021-10","Total",158
+"Oostelijk Havengebied - Indische Buurt","2021-10","Violence",37
+"Oostelijk Havengebied - Indische Buurt","2021-11","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-11","Inappropriateness",5
+"Oostelijk Havengebied - Indische Buurt","2021-11","Other",23
+"Oostelijk Havengebied - Indische Buurt","2021-11","Robbery/Theft",70
+"Oostelijk Havengebied - Indische Buurt","2021-11","Smuggling",2
+"Oostelijk Havengebied - Indische Buurt","2021-11","Total",148
+"Oostelijk Havengebied - Indische Buurt","2021-11","Violence",47
+"Oostelijk Havengebied - Indische Buurt","2021-12","Environment",0
+"Oostelijk Havengebied - Indische Buurt","2021-12","Inappropriateness",5
+"Oostelijk Havengebied - Indische Buurt","2021-12","Other",24
+"Oostelijk Havengebied - Indische Buurt","2021-12","Robbery/Theft",74
+"Oostelijk Havengebied - Indische Buurt","2021-12","Smuggling",4
+"Oostelijk Havengebied - Indische Buurt","2021-12","Total",146
+"Oostelijk Havengebied - Indische Buurt","2021-12","Violence",36
+"Osdorp","2021-01","Environment",0
+"Osdorp","2021-01","Inappropriateness",6
+"Osdorp","2021-01","Other",40
+"Osdorp","2021-01","Robbery/Theft",79
+"Osdorp","2021-01","Smuggling",7
+"Osdorp","2021-01","Total",228
+"Osdorp","2021-01","Violence",83
+"Osdorp","2021-02","Environment",0
+"Osdorp","2021-02","Inappropriateness",5
+"Osdorp","2021-02","Other",37
+"Osdorp","2021-02","Robbery/Theft",63
+"Osdorp","2021-02","Smuggling",7
+"Osdorp","2021-02","Total",182
+"Osdorp","2021-02","Violence",59
+"Osdorp","2021-03","Environment",0
+"Osdorp","2021-03","Inappropriateness",7
+"Osdorp","2021-03","Other",48
+"Osdorp","2021-03","Robbery/Theft",61
+"Osdorp","2021-03","Smuggling",7
+"Osdorp","2021-03","Total",192
+"Osdorp","2021-03","Violence",62
+"Osdorp","2021-04","Environment",0
+"Osdorp","2021-04","Inappropriateness",4
+"Osdorp","2021-04","Other",17
+"Osdorp","2021-04","Robbery/Theft",60
+"Osdorp","2021-04","Smuggling",6
+"Osdorp","2021-04","Total",177
+"Osdorp","2021-04","Violence",85
+"Osdorp","2021-05","Environment",0
+"Osdorp","2021-05","Inappropriateness",6
+"Osdorp","2021-05","Other",22
+"Osdorp","2021-05","Robbery/Theft",79
+"Osdorp","2021-05","Smuggling",2
+"Osdorp","2021-05","Total",183
+"Osdorp","2021-05","Violence",71
+"Osdorp","2021-06","Environment",0
+"Osdorp","2021-06","Inappropriateness",12
+"Osdorp","2021-06","Other",33
+"Osdorp","2021-06","Robbery/Theft",71
+"Osdorp","2021-06","Smuggling",2
+"Osdorp","2021-06","Total",193
+"Osdorp","2021-06","Violence",67
+"Osdorp","2021-07","Environment",0
+"Osdorp","2021-07","Inappropriateness",10
+"Osdorp","2021-07","Other",27
+"Osdorp","2021-07","Robbery/Theft",97
+"Osdorp","2021-07","Smuggling",7
+"Osdorp","2021-07","Total",211
+"Osdorp","2021-07","Violence",63
+"Osdorp","2021-08","Environment",0
+"Osdorp","2021-08","Inappropriateness",9
+"Osdorp","2021-08","Other",40
+"Osdorp","2021-08","Robbery/Theft",91
+"Osdorp","2021-08","Smuggling",6
+"Osdorp","2021-08","Total",242
+"Osdorp","2021-08","Violence",88
+"Osdorp","2021-09","Environment",0
+"Osdorp","2021-09","Inappropriateness",6
+"Osdorp","2021-09","Other",25
+"Osdorp","2021-09","Robbery/Theft",101
+"Osdorp","2021-09","Smuggling",10
+"Osdorp","2021-09","Total",213
+"Osdorp","2021-09","Violence",63
+"Osdorp","2021-10","Environment",0
+"Osdorp","2021-10","Inappropriateness",5
+"Osdorp","2021-10","Other",31
+"Osdorp","2021-10","Robbery/Theft",101
+"Osdorp","2021-10","Smuggling",7
+"Osdorp","2021-10","Total",208
+"Osdorp","2021-10","Violence",63
+"Osdorp","2021-11","Environment",0
+"Osdorp","2021-11","Inappropriateness",9
+"Osdorp","2021-11","Other",39
+"Osdorp","2021-11","Robbery/Theft",88
+"Osdorp","2021-11","Smuggling",10
+"Osdorp","2021-11","Total",224
+"Osdorp","2021-11","Violence",74
+"Osdorp","2021-12","Environment",1
+"Osdorp","2021-12","Inappropriateness",3
+"Osdorp","2021-12","Other",24
+"Osdorp","2021-12","Robbery/Theft",75
+"Osdorp","2021-12","Smuggling",13
+"Osdorp","2021-12","Total",206
+"Osdorp","2021-12","Violence",82
+"Oud-Noord","2021-01","Environment",0
+"Oud-Noord","2021-01","Inappropriateness",5
+"Oud-Noord","2021-01","Other",31
+"Oud-Noord","2021-01","Robbery/Theft",56
+"Oud-Noord","2021-01","Smuggling",9
+"Oud-Noord","2021-01","Total",154
+"Oud-Noord","2021-01","Violence",46
+"Oud-Noord","2021-02","Environment",0
+"Oud-Noord","2021-02","Inappropriateness",1
+"Oud-Noord","2021-02","Other",28
+"Oud-Noord","2021-02","Robbery/Theft",52
+"Oud-Noord","2021-02","Smuggling",2
+"Oud-Noord","2021-02","Total",125
+"Oud-Noord","2021-02","Violence",42
+"Oud-Noord","2021-03","Environment",1
+"Oud-Noord","2021-03","Inappropriateness",5
+"Oud-Noord","2021-03","Other",38
+"Oud-Noord","2021-03","Robbery/Theft",53
+"Oud-Noord","2021-03","Smuggling",3
+"Oud-Noord","2021-03","Total",151
+"Oud-Noord","2021-03","Violence",48
+"Oud-Noord","2021-04","Environment",0
+"Oud-Noord","2021-04","Inappropriateness",4
+"Oud-Noord","2021-04","Other",24
+"Oud-Noord","2021-04","Robbery/Theft",51
+"Oud-Noord","2021-04","Smuggling",5
+"Oud-Noord","2021-04","Total",122
+"Oud-Noord","2021-04","Violence",35
+"Oud-Noord","2021-05","Environment",0
+"Oud-Noord","2021-05","Inappropriateness",6
+"Oud-Noord","2021-05","Other",23
+"Oud-Noord","2021-05","Robbery/Theft",65
+"Oud-Noord","2021-05","Smuggling",3
+"Oud-Noord","2021-05","Total",158
+"Oud-Noord","2021-05","Violence",57
+"Oud-Noord","2021-06","Environment",0
+"Oud-Noord","2021-06","Inappropriateness",13
+"Oud-Noord","2021-06","Other",26
+"Oud-Noord","2021-06","Robbery/Theft",77
+"Oud-Noord","2021-06","Smuggling",7
+"Oud-Noord","2021-06","Total",190
+"Oud-Noord","2021-06","Violence",61
+"Oud-Noord","2021-07","Environment",0
+"Oud-Noord","2021-07","Inappropriateness",10
+"Oud-Noord","2021-07","Other",29
+"Oud-Noord","2021-07","Robbery/Theft",85
+"Oud-Noord","2021-07","Smuggling",4
+"Oud-Noord","2021-07","Total",163
+"Oud-Noord","2021-07","Violence",33
+"Oud-Noord","2021-08","Environment",0
+"Oud-Noord","2021-08","Inappropriateness",9
+"Oud-Noord","2021-08","Other",18
+"Oud-Noord","2021-08","Robbery/Theft",83
+"Oud-Noord","2021-08","Smuggling",5
+"Oud-Noord","2021-08","Total",152
+"Oud-Noord","2021-08","Violence",36
+"Oud-Noord","2021-09","Environment",0
+"Oud-Noord","2021-09","Inappropriateness",5
+"Oud-Noord","2021-09","Other",17
+"Oud-Noord","2021-09","Robbery/Theft",113
+"Oud-Noord","2021-09","Smuggling",3
+"Oud-Noord","2021-09","Total",200
+"Oud-Noord","2021-09","Violence",59
+"Oud-Noord","2021-10","Environment",0
+"Oud-Noord","2021-10","Inappropriateness",9
+"Oud-Noord","2021-10","Other",29
+"Oud-Noord","2021-10","Robbery/Theft",215
+"Oud-Noord","2021-10","Smuggling",13
+"Oud-Noord","2021-10","Total",307
+"Oud-Noord","2021-10","Violence",39
+"Oud-Noord","2021-11","Environment",0
+"Oud-Noord","2021-11","Inappropriateness",8
+"Oud-Noord","2021-11","Other",38
+"Oud-Noord","2021-11","Robbery/Theft",95
+"Oud-Noord","2021-11","Smuggling",4
+"Oud-Noord","2021-11","Total",187
+"Oud-Noord","2021-11","Violence",37
+"Oud-Noord","2021-12","Environment",1
+"Oud-Noord","2021-12","Inappropriateness",2
+"Oud-Noord","2021-12","Other",29
+"Oud-Noord","2021-12","Robbery/Theft",68
+"Oud-Noord","2021-12","Smuggling",3
+"Oud-Noord","2021-12","Total",165
+"Oud-Noord","2021-12","Violence",57
+"Oud-Oost","2021-01","Environment",0
+"Oud-Oost","2021-01","Inappropriateness",8
+"Oud-Oost","2021-01","Other",19
+"Oud-Oost","2021-01","Robbery/Theft",95
+"Oud-Oost","2021-01","Smuggling",4
+"Oud-Oost","2021-01","Total",180
+"Oud-Oost","2021-01","Violence",47
+"Oud-Oost","2021-02","Environment",0
+"Oud-Oost","2021-02","Inappropriateness",6
+"Oud-Oost","2021-02","Other",32
+"Oud-Oost","2021-02","Robbery/Theft",74
+"Oud-Oost","2021-02","Smuggling",2
+"Oud-Oost","2021-02","Total",152
+"Oud-Oost","2021-02","Violence",32
+"Oud-Oost","2021-03","Environment",0
+"Oud-Oost","2021-03","Inappropriateness",6
+"Oud-Oost","2021-03","Other",35
+"Oud-Oost","2021-03","Robbery/Theft",131
+"Oud-Oost","2021-03","Smuggling",3
+"Oud-Oost","2021-03","Total",231
+"Oud-Oost","2021-03","Violence",45
+"Oud-Oost","2021-04","Environment",0
+"Oud-Oost","2021-04","Inappropriateness",7
+"Oud-Oost","2021-04","Other",32
+"Oud-Oost","2021-04","Robbery/Theft",90
+"Oud-Oost","2021-04","Smuggling",3
+"Oud-Oost","2021-04","Total",196
+"Oud-Oost","2021-04","Violence",57
+"Oud-Oost","2021-05","Environment",1
+"Oud-Oost","2021-05","Inappropriateness",5
+"Oud-Oost","2021-05","Other",24
+"Oud-Oost","2021-05","Robbery/Theft",138
+"Oud-Oost","2021-05","Smuggling",1
+"Oud-Oost","2021-05","Total",238
+"Oud-Oost","2021-05","Violence",65
+"Oud-Oost","2021-06","Environment",0
+"Oud-Oost","2021-06","Inappropriateness",13
+"Oud-Oost","2021-06","Other",27
+"Oud-Oost","2021-06","Robbery/Theft",132
+"Oud-Oost","2021-06","Smuggling",12
+"Oud-Oost","2021-06","Total",256
+"Oud-Oost","2021-06","Violence",65
+"Oud-Oost","2021-07","Environment",0
+"Oud-Oost","2021-07","Inappropriateness",10
+"Oud-Oost","2021-07","Other",23
+"Oud-Oost","2021-07","Robbery/Theft",148
+"Oud-Oost","2021-07","Smuggling",2
+"Oud-Oost","2021-07","Total",240
+"Oud-Oost","2021-07","Violence",54
+"Oud-Oost","2021-08","Environment",0
+"Oud-Oost","2021-08","Inappropriateness",13
+"Oud-Oost","2021-08","Other",28
+"Oud-Oost","2021-08","Robbery/Theft",140
+"Oud-Oost","2021-08","Smuggling",6
+"Oud-Oost","2021-08","Total",267
+"Oud-Oost","2021-08","Violence",74
+"Oud-Oost","2021-09","Environment",0
+"Oud-Oost","2021-09","Inappropriateness",9
+"Oud-Oost","2021-09","Other",13
+"Oud-Oost","2021-09","Robbery/Theft",139
+"Oud-Oost","2021-09","Smuggling",6
+"Oud-Oost","2021-09","Total",224
+"Oud-Oost","2021-09","Violence",50
+"Oud-Oost","2021-10","Environment",0
+"Oud-Oost","2021-10","Inappropriateness",10
+"Oud-Oost","2021-10","Other",18
+"Oud-Oost","2021-10","Robbery/Theft",173
+"Oud-Oost","2021-10","Smuggling",6
+"Oud-Oost","2021-10","Total",296
+"Oud-Oost","2021-10","Violence",78
+"Oud-Oost","2021-11","Environment",2
+"Oud-Oost","2021-11","Inappropriateness",8
+"Oud-Oost","2021-11","Other",18
+"Oud-Oost","2021-11","Robbery/Theft",180
+"Oud-Oost","2021-11","Smuggling",12
+"Oud-Oost","2021-11","Total",285
+"Oud-Oost","2021-11","Violence",62
+"Oud-Oost","2021-12","Environment",0
+"Oud-Oost","2021-12","Inappropriateness",8
+"Oud-Oost","2021-12","Other",30
+"Oud-Oost","2021-12","Robbery/Theft",151
+"Oud-Oost","2021-12","Smuggling",8
+"Oud-Oost","2021-12","Total",266
+"Oud-Oost","2021-12","Violence",67
+"Slotervaart","2021-01","Environment",1
+"Slotervaart","2021-01","Inappropriateness",10
+"Slotervaart","2021-01","Other",30
+"Slotervaart","2021-01","Robbery/Theft",110
+"Slotervaart","2021-01","Smuggling",15
+"Slotervaart","2021-01","Total",248
+"Slotervaart","2021-01","Violence",72
+"Slotervaart","2021-02","Environment",0
+"Slotervaart","2021-02","Inappropriateness",4
+"Slotervaart","2021-02","Other",54
+"Slotervaart","2021-02","Robbery/Theft",62
+"Slotervaart","2021-02","Smuggling",8
+"Slotervaart","2021-02","Total",189
+"Slotervaart","2021-02","Violence",58
+"Slotervaart","2021-03","Environment",0
+"Slotervaart","2021-03","Inappropriateness",13
+"Slotervaart","2021-03","Other",49
+"Slotervaart","2021-03","Robbery/Theft",96
+"Slotervaart","2021-03","Smuggling",9
+"Slotervaart","2021-03","Total",254
+"Slotervaart","2021-03","Violence",74
+"Slotervaart","2021-04","Environment",0
+"Slotervaart","2021-04","Inappropriateness",10
+"Slotervaart","2021-04","Other",32
+"Slotervaart","2021-04","Robbery/Theft",99
+"Slotervaart","2021-04","Smuggling",5
+"Slotervaart","2021-04","Total",228
+"Slotervaart","2021-04","Violence",76
+"Slotervaart","2021-05","Environment",0
+"Slotervaart","2021-05","Inappropriateness",7
+"Slotervaart","2021-05","Other",34
+"Slotervaart","2021-05","Robbery/Theft",123
+"Slotervaart","2021-05","Smuggling",7
+"Slotervaart","2021-05","Total",235
+"Slotervaart","2021-05","Violence",61
+"Slotervaart","2021-06","Environment",1
+"Slotervaart","2021-06","Inappropriateness",10
+"Slotervaart","2021-06","Other",32
+"Slotervaart","2021-06","Robbery/Theft",84
+"Slotervaart","2021-06","Smuggling",7
+"Slotervaart","2021-06","Total",207
+"Slotervaart","2021-06","Violence",67
+"Slotervaart","2021-07","Environment",0
+"Slotervaart","2021-07","Inappropriateness",8
+"Slotervaart","2021-07","Other",39
+"Slotervaart","2021-07","Robbery/Theft",96
+"Slotervaart","2021-07","Smuggling",5
+"Slotervaart","2021-07","Total",203
+"Slotervaart","2021-07","Violence",48
+"Slotervaart","2021-08","Environment",1
+"Slotervaart","2021-08","Inappropriateness",9
+"Slotervaart","2021-08","Other",16
+"Slotervaart","2021-08","Robbery/Theft",135
+"Slotervaart","2021-08","Smuggling",4
+"Slotervaart","2021-08","Total",244
+"Slotervaart","2021-08","Violence",71
+"Slotervaart","2021-09","Environment",2
+"Slotervaart","2021-09","Inappropriateness",8
+"Slotervaart","2021-09","Other",34
+"Slotervaart","2021-09","Robbery/Theft",115
+"Slotervaart","2021-09","Smuggling",8
+"Slotervaart","2021-09","Total",234
+"Slotervaart","2021-09","Violence",61
+"Slotervaart","2021-10","Environment",0
+"Slotervaart","2021-10","Inappropriateness",18
+"Slotervaart","2021-10","Other",33
+"Slotervaart","2021-10","Robbery/Theft",153
+"Slotervaart","2021-10","Smuggling",3
+"Slotervaart","2021-10","Total",282
+"Slotervaart","2021-10","Violence",70
+"Slotervaart","2021-11","Environment",0
+"Slotervaart","2021-11","Inappropriateness",10
+"Slotervaart","2021-11","Other",34
+"Slotervaart","2021-11","Robbery/Theft",126
+"Slotervaart","2021-11","Smuggling",5
+"Slotervaart","2021-11","Total",244
+"Slotervaart","2021-11","Violence",60
+"Slotervaart","2021-12","Environment",0
+"Slotervaart","2021-12","Inappropriateness",8
+"Slotervaart","2021-12","Other",28
+"Slotervaart","2021-12","Robbery/Theft",102
+"Slotervaart","2021-12","Smuggling",8
+"Slotervaart","2021-12","Total",217
+"Slotervaart","2021-12","Violence",65
+"Watergraafsmeer","2021-01","Environment",0
+"Watergraafsmeer","2021-01","Inappropriateness",6
+"Watergraafsmeer","2021-01","Other",16
+"Watergraafsmeer","2021-01","Robbery/Theft",114
+"Watergraafsmeer","2021-01","Smuggling",1
+"Watergraafsmeer","2021-01","Total",180
+"Watergraafsmeer","2021-01","Violence",40
+"Watergraafsmeer","2021-02","Environment",0
+"Watergraafsmeer","2021-02","Inappropriateness",3
+"Watergraafsmeer","2021-02","Other",34
+"Watergraafsmeer","2021-02","Robbery/Theft",61
+"Watergraafsmeer","2021-02","Smuggling",5
+"Watergraafsmeer","2021-02","Total",148
+"Watergraafsmeer","2021-02","Violence",40
+"Watergraafsmeer","2021-03","Environment",0
+"Watergraafsmeer","2021-03","Inappropriateness",6
+"Watergraafsmeer","2021-03","Other",44
+"Watergraafsmeer","2021-03","Robbery/Theft",82
+"Watergraafsmeer","2021-03","Smuggling",1
+"Watergraafsmeer","2021-03","Total",162
+"Watergraafsmeer","2021-03","Violence",26
+"Watergraafsmeer","2021-04","Environment",0
+"Watergraafsmeer","2021-04","Inappropriateness",12
+"Watergraafsmeer","2021-04","Other",26
+"Watergraafsmeer","2021-04","Robbery/Theft",98
+"Watergraafsmeer","2021-04","Smuggling",0
+"Watergraafsmeer","2021-04","Total",171
+"Watergraafsmeer","2021-04","Violence",30
+"Watergraafsmeer","2021-05","Environment",0
+"Watergraafsmeer","2021-05","Inappropriateness",6
+"Watergraafsmeer","2021-05","Other",13
+"Watergraafsmeer","2021-05","Robbery/Theft",106
+"Watergraafsmeer","2021-05","Smuggling",0
+"Watergraafsmeer","2021-05","Total",186
+"Watergraafsmeer","2021-05","Violence",54
+"Watergraafsmeer","2021-06","Environment",0
+"Watergraafsmeer","2021-06","Inappropriateness",8
+"Watergraafsmeer","2021-06","Other",17
+"Watergraafsmeer","2021-06","Robbery/Theft",109
+"Watergraafsmeer","2021-06","Smuggling",0
+"Watergraafsmeer","2021-06","Total",191
+"Watergraafsmeer","2021-06","Violence",53
+"Watergraafsmeer","2021-07","Environment",0
+"Watergraafsmeer","2021-07","Inappropriateness",17
+"Watergraafsmeer","2021-07","Other",28
+"Watergraafsmeer","2021-07","Robbery/Theft",120
+"Watergraafsmeer","2021-07","Smuggling",2
+"Watergraafsmeer","2021-07","Total",216
+"Watergraafsmeer","2021-07","Violence",45
+"Watergraafsmeer","2021-08","Environment",0
+"Watergraafsmeer","2021-08","Inappropriateness",6
+"Watergraafsmeer","2021-08","Other",25
+"Watergraafsmeer","2021-08","Robbery/Theft",97
+"Watergraafsmeer","2021-08","Smuggling",3
+"Watergraafsmeer","2021-08","Total",179
+"Watergraafsmeer","2021-08","Violence",43
+"Watergraafsmeer","2021-09","Environment",2
+"Watergraafsmeer","2021-09","Inappropriateness",9
+"Watergraafsmeer","2021-09","Other",16
+"Watergraafsmeer","2021-09","Robbery/Theft",101
+"Watergraafsmeer","2021-09","Smuggling",1
+"Watergraafsmeer","2021-09","Total",181
+"Watergraafsmeer","2021-09","Violence",47
+"Watergraafsmeer","2021-10","Environment",0
+"Watergraafsmeer","2021-10","Inappropriateness",15
+"Watergraafsmeer","2021-10","Other",22
+"Watergraafsmeer","2021-10","Robbery/Theft",133
+"Watergraafsmeer","2021-10","Smuggling",3
+"Watergraafsmeer","2021-10","Total",231
+"Watergraafsmeer","2021-10","Violence",52
+"Watergraafsmeer","2021-11","Environment",0
+"Watergraafsmeer","2021-11","Inappropriateness",11
+"Watergraafsmeer","2021-11","Other",29
+"Watergraafsmeer","2021-11","Robbery/Theft",116
+"Watergraafsmeer","2021-11","Smuggling",7
+"Watergraafsmeer","2021-11","Total",226
+"Watergraafsmeer","2021-11","Violence",58
+"Watergraafsmeer","2021-12","Environment",1
+"Watergraafsmeer","2021-12","Inappropriateness",7
+"Watergraafsmeer","2021-12","Other",11
+"Watergraafsmeer","2021-12","Robbery/Theft",107
+"Watergraafsmeer","2021-12","Smuggling",1
+"Watergraafsmeer","2021-12","Total",176
+"Watergraafsmeer","2021-12","Violence",47
+"Westerpark","2021-01","Environment",1
+"Westerpark","2021-01","Inappropriateness",6
+"Westerpark","2021-01","Other",30
+"Westerpark","2021-01","Robbery/Theft",88
+"Westerpark","2021-01","Smuggling",2
+"Westerpark","2021-01","Total",197
+"Westerpark","2021-01","Violence",61
+"Westerpark","2021-02","Environment",0
+"Westerpark","2021-02","Inappropriateness",3
+"Westerpark","2021-02","Other",34
+"Westerpark","2021-02","Robbery/Theft",87
+"Westerpark","2021-02","Smuggling",4
+"Westerpark","2021-02","Total",170
+"Westerpark","2021-02","Violence",40
+"Westerpark","2021-03","Environment",1
+"Westerpark","2021-03","Inappropriateness",6
+"Westerpark","2021-03","Other",44
+"Westerpark","2021-03","Robbery/Theft",109
+"Westerpark","2021-03","Smuggling",2
+"Westerpark","2021-03","Total",207
+"Westerpark","2021-03","Violence",38
+"Westerpark","2021-04","Environment",0
+"Westerpark","2021-04","Inappropriateness",4
+"Westerpark","2021-04","Other",22
+"Westerpark","2021-04","Robbery/Theft",113
+"Westerpark","2021-04","Smuggling",4
+"Westerpark","2021-04","Total",183
+"Westerpark","2021-04","Violence",38
+"Westerpark","2021-05","Environment",0
+"Westerpark","2021-05","Inappropriateness",6
+"Westerpark","2021-05","Other",15
+"Westerpark","2021-05","Robbery/Theft",104
+"Westerpark","2021-05","Smuggling",2
+"Westerpark","2021-05","Total",168
+"Westerpark","2021-05","Violence",38
+"Westerpark","2021-06","Environment",0
+"Westerpark","2021-06","Inappropriateness",5
+"Westerpark","2021-06","Other",22
+"Westerpark","2021-06","Robbery/Theft",111
+"Westerpark","2021-06","Smuggling",2
+"Westerpark","2021-06","Total",174
+"Westerpark","2021-06","Violence",33
+"Westerpark","2021-07","Environment",0
+"Westerpark","2021-07","Inappropriateness",7
+"Westerpark","2021-07","Other",19
+"Westerpark","2021-07","Robbery/Theft",100
+"Westerpark","2021-07","Smuggling",4
+"Westerpark","2021-07","Total",182
+"Westerpark","2021-07","Violence",45
+"Westerpark","2021-08","Environment",1
+"Westerpark","2021-08","Inappropriateness",16
+"Westerpark","2021-08","Other",18
+"Westerpark","2021-08","Robbery/Theft",95
+"Westerpark","2021-08","Smuggling",4
+"Westerpark","2021-08","Total",188
+"Westerpark","2021-08","Violence",53
+"Westerpark","2021-09","Environment",0
+"Westerpark","2021-09","Inappropriateness",12
+"Westerpark","2021-09","Other",24
+"Westerpark","2021-09","Robbery/Theft",93
+"Westerpark","2021-09","Smuggling",4
+"Westerpark","2021-09","Total",207
+"Westerpark","2021-09","Violence",66
+"Westerpark","2021-10","Environment",3
+"Westerpark","2021-10","Inappropriateness",9
+"Westerpark","2021-10","Other",23
+"Westerpark","2021-10","Robbery/Theft",98
+"Westerpark","2021-10","Smuggling",12
+"Westerpark","2021-10","Total",197
+"Westerpark","2021-10","Violence",47
+"Westerpark","2021-11","Environment",2
+"Westerpark","2021-11","Inappropriateness",9
+"Westerpark","2021-11","Other",31
+"Westerpark","2021-11","Robbery/Theft",110
+"Westerpark","2021-11","Smuggling",2
+"Westerpark","2021-11","Total",203
+"Westerpark","2021-11","Violence",41
+"Westerpark","2021-12","Environment",0
+"Westerpark","2021-12","Inappropriateness",3
+"Westerpark","2021-12","Other",29
+"Westerpark","2021-12","Robbery/Theft",79
+"Westerpark","2021-12","Smuggling",1
+"Westerpark","2021-12","Total",151
+"Westerpark","2021-12","Violence",37
+"Zuid","2021-01","Environment",1
+"Zuid","2021-01","Inappropriateness",5
+"Zuid","2021-01","Other",54
+"Zuid","2021-01","Robbery/Theft",186
+"Zuid","2021-01","Smuggling",10
+"Zuid","2021-01","Total",614
+"Zuid","2021-01","Violence",345
+"Zuid","2021-02","Environment",3
+"Zuid","2021-02","Inappropriateness",4
+"Zuid","2021-02","Other",46
+"Zuid","2021-02","Robbery/Theft",136
+"Zuid","2021-02","Smuggling",6
+"Zuid","2021-02","Total",305
+"Zuid","2021-02","Violence",98
+"Zuid","2021-03","Environment",0
+"Zuid","2021-03","Inappropriateness",7
+"Zuid","2021-03","Other",50
+"Zuid","2021-03","Robbery/Theft",219
+"Zuid","2021-03","Smuggling",5
+"Zuid","2021-03","Total",797
+"Zuid","2021-03","Violence",492
+"Zuid","2021-04","Environment",0
+"Zuid","2021-04","Inappropriateness",8
+"Zuid","2021-04","Other",32
+"Zuid","2021-04","Robbery/Theft",192
+"Zuid","2021-04","Smuggling",5
+"Zuid","2021-04","Total",320
+"Zuid","2021-04","Violence",76
+"Zuid","2021-05","Environment",0
+"Zuid","2021-05","Inappropriateness",10
+"Zuid","2021-05","Other",47
+"Zuid","2021-05","Robbery/Theft",206
+"Zuid","2021-05","Smuggling",2
+"Zuid","2021-05","Total",335
+"Zuid","2021-05","Violence",66
+"Zuid","2021-06","Environment",0
+"Zuid","2021-06","Inappropriateness",10
+"Zuid","2021-06","Other",46
+"Zuid","2021-06","Robbery/Theft",227
+"Zuid","2021-06","Smuggling",5
+"Zuid","2021-06","Total",373
+"Zuid","2021-06","Violence",76
+"Zuid","2021-07","Environment",0
+"Zuid","2021-07","Inappropriateness",17
+"Zuid","2021-07","Other",36
+"Zuid","2021-07","Robbery/Theft",226
+"Zuid","2021-07","Smuggling",4
+"Zuid","2021-07","Total",366
+"Zuid","2021-07","Violence",80
+"Zuid","2021-08","Environment",0
+"Zuid","2021-08","Inappropriateness",11
+"Zuid","2021-08","Other",32
+"Zuid","2021-08","Robbery/Theft",230
+"Zuid","2021-08","Smuggling",6
+"Zuid","2021-08","Total",347
+"Zuid","2021-08","Violence",61
+"Zuid","2021-09","Environment",0
+"Zuid","2021-09","Inappropriateness",7
+"Zuid","2021-09","Other",36
+"Zuid","2021-09","Robbery/Theft",249
+"Zuid","2021-09","Smuggling",2
+"Zuid","2021-09","Total",364
+"Zuid","2021-09","Violence",64
+"Zuid","2021-10","Environment",0
+"Zuid","2021-10","Inappropriateness",6
+"Zuid","2021-10","Other",32
+"Zuid","2021-10","Robbery/Theft",259
+"Zuid","2021-10","Smuggling",3
+"Zuid","2021-10","Total",394
+"Zuid","2021-10","Violence",90
+"Zuid","2021-11","Environment",0
+"Zuid","2021-11","Inappropriateness",9
+"Zuid","2021-11","Other",43
+"Zuid","2021-11","Robbery/Theft",234
+"Zuid","2021-11","Smuggling",3
+"Zuid","2021-11","Total",379
+"Zuid","2021-11","Violence",80
+"Zuid","2021-12","Environment",0
+"Zuid","2021-12","Inappropriateness",11
+"Zuid","2021-12","Other",29
+"Zuid","2021-12","Robbery/Theft",192
+"Zuid","2021-12","Smuggling",6
+"Zuid","2021-12","Total",316
+"Zuid","2021-12","Violence",75

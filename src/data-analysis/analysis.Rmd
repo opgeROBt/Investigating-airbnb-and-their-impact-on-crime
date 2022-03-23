@@ -16,11 +16,11 @@ A research paper done by Ke, O’Brien & Heydari (2021) aims to contribute to th
 
 Having observed these research papers, this team is intrigued in conducting a similar analysis and further contributing to this field. The following research question is examined:
 
-To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods.
+To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighborhoods.
 
-A major change is that this research will focus on the city and neighbourhoods of Amsterdam, Netherlands, rather than Boston. This enables us to investigate whether the results are replicable or applicable for a different geographical location whilst contributing to a field lacking research. Naturally, available datasets are different between international geographical locations, which primarily implies that crime categorization will be different compared to previous research. Furthermore, it is transparent to note that some aspects of the analysis will be simplified – this will not only allow the team to conduct these analyses at their own level, but also account for other data absences not present in previous research. 
+A major change is that this research will focus on the city and neighborhoods of Amsterdam, Netherlands, rather than Boston. This enables us to investigate whether the results are replicable or applicable for a different geographical location whilst contributing to a field lacking research. Naturally, available datasets are different between international geographical locations, which primarily implies that crime categorization will be different compared to previous research. Furthermore, it is transparent to note that some aspects of the analysis will be simplified – this will not only allow the team to conduct these analyses at their own level, but also account for other data absences not present in previous research. 
 
-The team believes this research is relevant on multiple levels. The academic benefits of this research extend beyond replication at different geographical parameters and contribution to a field that lacks research – it may enable a method of analysing this phenomenon with more internationally readily available data. From a social perspective, this research can be particularly informative to homeowners (or prospective homeowners) who would like to stay informed on how services alike to Airbnb affect the neighbourhood they live or would like to live in. Furthermore, this research can be of importance to policymakers (Ke, O’Brien & Heydari, 2021) and enforcement stakeholders (security businesses, police departments etc.), as it provides correlational evidence to whether Airbnb listings do or do not affect crime rates, and if they do, what changes can they expect so that security planning can be adjusted. Lastly, this research can be of relevance to Airbnb (as well as similar businesses), as it allows them to account for changes in local environments they might enable, but are not be fully aware of. This is particularly important to Airbnb, as its previous enablement of pollution in Japan had cost the company $10 million in compensation(McCurry, 2018) – there is always a possibility that another government may also do the same on the front of criminality enablement. Other possible stakeholders include hotels that rent to Airbnb users and tourism agencies that use/are partnered with Airbnb. It will enable them to stay informed of the changes in local environment caused by Airbnb and allow them to predict possible shortcomings or dangers.  
+The team believes this research is relevant on multiple levels. The academic benefits of this research extend beyond replication at different geographical parameters and contribution to a field that lacks research – it may enable a method of analyzing this phenomenon with more internationally readily available data. From a social perspective, this research can be particularly informative to homeowners (or prospective homeowners) who would like to stay informed on how services alike to Airbnb affect the neighborhood they live or would like to live in. Furthermore, this research can be of importance to policymakers (Ke, O’Brien & Heydari, 2021) and enforcement stakeholders (security businesses, police departments etc.), as it provides correlational evidence to whether Airbnb listings do or do not affect crime rates, and if they do, what changes can they expect so that security planning can be adjusted. Lastly, this research can be of relevance to Airbnb (as well as similar businesses), as it allows them to account for changes in local environments they might enable, but are not be fully aware of. This is particularly important to Airbnb, as its previous enablement of pollution in Japan had cost the company $10 million in compensation(McCurry, 2018) – there is always a possibility that another government may also do the same on the front of criminality enablement. Other possible stakeholders include hotels that rent to Airbnb users and tourism agencies that use/are partnered with Airbnb. It will enable them to stay informed of the changes in local environment caused by Airbnb and allow them to predict possible shortcomings or dangers.  
 
 
 ## Exploratory Analysis
@@ -39,38 +39,38 @@ library(ggplot2)
 
 ```{r, descriptives, echo=FALSE, include=FALSE}
 x = nrow(listings_crime_dataset)
-x_neigh = nrow(listings_crime_dataset %>%group_by(Neighborhoods) %>% summarise(count=n()))
-x_period = nrow(listings_crime_dataset %>%group_by(Periods) %>% summarise(count=n()))
-df_listings = listings_crime_dataset %>% group_by(Neighborhoods) %>% summarise(Total_listings = sum(Listing_sum))
-df_max_listings = df_listings[which.max(df_listings$Total_listings),]
+x_neigh = nrow(listings_crime_dataset %>%group_by(neighborhood) %>% summarise(count=n()))
+x_period = nrow(listings_crime_dataset %>%group_by(periods) %>% summarise(count=n()))
+df_listings = listings_crime_dataset %>% group_by(neighborhood) %>% summarise(total_listings = sum(listing_sum))
+df_max_listings = df_listings[which.max(df_listings$total_listings),]
 n_m_l = df_max_listings[1,1]
 n_m_l_n = df_max_listings[1,2]
-df_min_listings = df_listings[which.min(df_listings$Total_listings),]
+df_min_listings = df_listings[which.min(df_listings$total_listings),]
 n_l_l = df_min_listings[1,1]
 n_l_l_n = df_min_listings[1,2]
-df_price = listings_crime_dataset %>% group_by(Neighborhoods) %>% summarise(Average_price)
-df_max_price = df_price[which.max(df_price$Average_price),]
+df_price = listings_crime_dataset %>% group_by(neighborhood) %>% summarise(average_price)
+df_max_price = df_price[which.max(df_price$average_price),]
 n_m_p = df_max_price[1,1]
 n_m_p_n = df_max_price[1,2]
-df_min_price = df_price[which.min(df_price$Average_price),]
+df_min_price = df_price[which.min(df_price$average_price),]
 n_l_p = df_min_price[1,1]
 n_l_p_n = df_min_price[1,2]
 ```
-To begin this analysis, this report will first highlight some descriptive statistics about the dataset used. To begin with, the dataset contains `r x` rows worth of data, with each row highlighting the amount of listings and crimes (per type), the average listings price, and percentages per listing types based on an Amsterdam neighborhood and time period. The dataset features `r x_neigh` unique Amsterdam neighborhoods and `r x_period` unique time periods (from x to x ).
+To begin this analysis, this report will first highlight some descriptive statistics about the dataset used. To begin with, the dataset contains `r x` rows worth of data, with each row highlighting the amount of listings and crimes (per type), the average listings price, and percentages per listing types based on an Amsterdam neighborhood and time period. The dataset features `r x_neigh` unique Amsterdam neighborhoods and `r x_period` unique time periods (from Januray 2021 to December 2021 ). The table below highlights all of the columns available in the dataset along with their descriptions.
 
 ```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 var_tab <- "
 | Variable      | Description   |
 |---------------|:-------------:|
-| Neighborhoods      | The respective neighborhood in Amsterdam to which the data pertains to. |
-| Listing_sum      | The total amount of listings in the respective neighborhood. |
-| Average_price | The average price for listings in the respective neighborhood. |
-| Percentage_home_apt | The percentage of listings that are home apartments out of the amount of total listings. |
-| Percentage_hotel_rool | The percentage of listings that are hotel rooms out of the amount of total listings. |
-| Percentage_private_room | The percentage of listings that are private rooms out of the amount of total listings. |
-| Percentage_shared_room | The percentage of listings that are shared rooms out of the amount of total listings. |
-| Periods | The periods of time to which crime data pertains to. |
-| CrimeType_Category | The type of crime to which the data pertains to. |
+| neighborhood      | The respective neighborhood in Amsterdam to which the data pertains to. |
+| listing_sum      | The total amount of listings in the respective neighborhood. |
+| average_price | The average price for listings in the respective neighborhood. |
+| percentage_home_apt | The percentage of listings that are home apartments out of the amount of total listings. |
+| percentage_hotel_rool | The percentage of listings that are hotel rooms out of the amount of total listings. |
+| percentage_private_room | The percentage of listings that are private rooms out of the amount of total listings. |
+| percentage_shared_room | The percentage of listings that are shared rooms out of the amount of total listings. |
+| periods | The periods of time to which crime data pertains to. |
+| crime_type_category | The type of crime to which the data pertains to. |
 | total_crime_sum | The amount of crime occurances of a certain type in a certain period. |
 "
 cat(var_tab)
@@ -82,31 +82,31 @@ Based on the dataset, the area with the most amount of listings is `r n_m_l` wit
 The graphs below visualize how the number of crimes has evolved throughout the available time periods, as well as the occurrences of crimes per type
 
 ```{r, crime-time, echo=FALSE}
-df_crime_time = filter(listings_crime_dataset, CrimeType_Category == "Total") %>% group_by(Periods) %>% summarise(Total_crime = sum(total_crime_sum))
+df_crime_time = filter(listings_crime_dataset, crime_type_category == "Total") %>% group_by(periods) %>% summarise(total_crime = sum(total_crime_sum))
 df_crime_time%>%
-  ggplot(aes(x = Periods, y = Total_crime, group = 1)) + geom_point() + geom_path() +
+  ggplot(aes(x = periods, y = total_crime, group = 1)) + geom_point() + geom_path() +
   labs(x = "Periods (Month)", y = "Total Crime Cases" , title = "Total Crime Occurrences per Month")
 
-df_min_crime_time = df_crime_time[which.min(df_crime_time$Total_crime),]
+df_min_crime_time = df_crime_time[which.min(df_crime_time$total_crime),]
 c_l_p = df_min_crime_time[1,1]
 c_l_p_n = df_min_crime_time[1,2]
-df_max_crime_time = df_crime_time[which.max(df_crime_time$Total_crime),]
+df_max_crime_time = df_crime_time[which.max(df_crime_time$total_crime),]
 c_m_p = df_max_crime_time[1,1]
 c_m_p_n = df_max_crime_time[1,2]
 ```
 As it can be seen from the Crime Occurrences per Month graph, the data exhibits no seasonality trend when viewed on a 12 month period. The lowest number of crime occurrences is on `r c_l_p` with `r c_l_p_n` crimes, while the highest is on `r c_m_p` with `r c_m_p_n` crimes.  
 
 ```{r, crime-type-occur, echo=FALSE}
-df_crime_type = filter(listings_crime_dataset, CrimeType_Category != "Total") %>% group_by(CrimeType_Category) %>% summarise(Total_crime_sum = sum(total_crime_sum))
+df_crime_type = filter(listings_crime_dataset, crime_type_category != "Total") %>% group_by(crime_type_category) %>% summarise(total_crime_sum = sum(total_crime_sum))
 df_crime_type %>%
-  ggplot(aes(x = CrimeType_Category, y = Total_crime_sum, fill = CrimeType_Category)) + geom_bar(stat = 'identity') +
+  ggplot(aes(x = crime_type_category, y = total_crime_sum, fill = crime_type_category)) + geom_bar(stat = 'identity') +
   labs(x = "Crime Type", y = "Crime Occurances" ,fill = "Crime Type", title = "Total Crime Occurances per Crime Category") +
   scale_fill_viridis_d()
 
-df_min_crime_type = df_crime_type[which.min(df_crime_type$Total_crime_sum),]
+df_min_crime_type = df_crime_type[which.min(df_crime_type$total_crime_sum),]
 c_l_t = df_min_crime_type[1,1]
 c_l_t_n = df_min_crime_type[1,2]
-df_max_crime_type = df_crime_type[which.max(df_crime_type$Total_crime_sum),]
+df_max_crime_type = df_crime_type[which.max(df_crime_type$total_crime_sum),]
 c_m_t = df_max_crime_type[1,1]
 c_m_t_n = df_max_crime_type[1,2]
 ```
