@@ -1,5 +1,5 @@
 ---
-title: "analysis"
+title: "Analysis"
 author: "Mihai Vlad Serbanescu"
 date: "21/03/2022"
 output: pdf_document
@@ -11,6 +11,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Motivation
 
+In 2017, a research review paper by Agnieszka Lisowska brought together several research experiments done on the subject of crime in tourism destination. Liowska (2017) believed this subject important as the large growth of the tourism industry world-wide is unevenly matched to a small amount of studies that observe this matter within urban tourist areas. Conceptually, she argues a logical relation between tourism and crime, as tourism leads to an increase inflow of strangers to unknown communities, thus increasing the risk of crime either done by or to tourists. It is concluded that while research on the negative aspects of tourism (such as impacts on nature, social or cultural environments) does exist, there is insufficient research on how criminalistic statistics are related to this phenomenon (Lisowska, 2017).
+A research paper done by Ke, O’Brien & Heydari (2021) aims to contribute to this issue by observing how Airbnb listings might enable or generate crime specifically in the city of Boston, United States. The usage of Airbnb is rather innovative and also logical, as Airbnb has become a major industry leader among hosting platforms as it has raised in value exponentially – being valued at $113 billion in 2021 (Lock, 2022). The research categorizes crime as private conflict, public social disorder, and violence. Ultimately, the research suggests that Airbnb presence in a neighbourhood is significantly correlated only with increased violence. A concluding argument is that tourism may not have an effect on crime, rather the conversion of housing into short-term rental property  undermines a neighbourhood’s social organization, thus leading to increased crime (Ke, O’Brien & Heydari, 2021).
+
+Having observed these research papers, this team is intrigued in conducting a similar analysis and further contributing to this field. The following research question is examined:
+
+To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods.
+
+A major change is that this research will focus on the city and neighbourhoods of Amsterdam, Netherlands, rather than Boston. This enables us to investigate whether the results are replicable or applicable for a different geographical location whilst contributing to a field lacking research. Naturally, available datasets are different between international geographical locations, which primarily implies that crime categorization will be different compared to previous research. Furthermore, it is transparent to note that some aspects of the analysis will be simplified – this will not only allow the team to conduct these analyses at their own level, but also account for other data absences not present in previous research. 
+
+The team believes this research is relevant on multiple levels. The academic benefits of this research extend beyond replication at different geographical parameters and contribution to a field that lacks research – it may enable a method of analysing this phenomenon with more internationally readily available data. From a social perspective, this research can be particularly informative to homeowners (or prospective homeowners) who would like to stay informed on how services alike to Airbnb affect the neighbourhood they live or would like to live in. Furthermore, this research can be of importance to policymakers (Ke, O’Brien & Heydari, 2021) and enforcement stakeholders (security businesses, police departments etc.), as it provides correlational evidence to whether Airbnb listings do or do not affect crime rates, and if they do, what changes can they expect so that security planning can be adjusted. Lastly, this research can be of relevance to Airbnb (as well as similar businesses), as it allows them to account for changes in local environments they might enable, but are not be fully aware of. This is particularly important to Airbnb, as its previous enablement of pollution in Japan had cost the company $10 million in compensation(McCurry, 2018) – there is always a possibility that another government may also do the same on the front of criminality enablement. Other possible stakeholders include hotels that rent to Airbnb users and tourism agencies that use/are partnered with Airbnb. It will enable them to stay informed of the changes in local environment caused by Airbnb and allow them to predict possible shortcomings or dangers.  
+
+
 ## Exploratory Analysis
 
 ```{r, data-load, echo=FALSE}
@@ -19,13 +31,13 @@ listings_crime_dataset <-read.csv("../../temp-data/analysis/listings_crime_datas
 
 ```
 
-```{r, library-load, echo=FALSE}
+```{r, library-load, echo=FALSE, include=FALSE}
 #Load all libraries we need here, in one code chunk even if they are used in different sections
 library(dplyr)
 library(ggplot2)
 ```
 
-```{r, descriptives, echo=FALSE}
+```{r, descriptives, echo=FALSE, include=FALSE}
 x = nrow(listings_crime_dataset)
 x_neigh = nrow(listings_crime_dataset %>%group_by(Neighborhoods) %>% summarise(count=n()))
 x_period = nrow(listings_crime_dataset %>%group_by(Periods) %>% summarise(count=n()))
@@ -46,7 +58,26 @@ n_l_p_n = df_min_price[1,2]
 ```
 To begin this analysis, this report will first highlight some descriptive statistics about the dataset used. To begin with, the dataset contains `r x` rows worth of data, with each row highlighting the amount of listings and crimes (per type), the average listings price, and percentages per listing types based on an Amsterdam neighborhood and time period. The dataset features `r x_neigh` unique Amsterdam neighborhoods and `r x_period` unique time periods (from x to x ).
 
-Based on this data, the area with the most amount of listings is `r n_m_l` with `r n_m_l_n` listings, while the area with the least is `r n_l_l` with `r n_l_l_n` listings. Furthermore, the most expensive area listings-wise is `r n_m_p` with `r n_m_p_n` average price, while the area with the least is `r n_l_p` with `r n_l_p_n` average price.
+```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+var_tab <- "
+| Variable      | Description   |
+|---------------|:-------------:|
+| Neighborhoods      | The respective neighborhood in Amsterdam to which the data pertains to. |
+| Listing_sum      | The total amount of listings in the respective neighborhood. |
+| Average_price | The average price for listings in the respective neighborhood. |
+| Percentage_home_apt | The percentage of listings that are home apartments out of the amount of total listings. |
+| Percentage_hotel_rool | The percentage of listings that are hotel rooms out of the amount of total listings. |
+| Percentage_private_room | The percentage of listings that are private rooms out of the amount of total listings. |
+| Percentage_shared_room | The percentage of listings that are shared rooms out of the amount of total listings. |
+| Periods | The periods of time to which crime data pertains to. |
+| CrimeType_Category | The type of crime to which the data pertains to. |
+| total_crime_sum | The amount of crime occurances of a certain type in a certain period. |
+"
+cat(var_tab)
+```
+
+
+Based on the dataset, the area with the most amount of listings is `r n_m_l` with `r n_m_l_n` listings, while the area with the least is `r n_l_l` with `r n_l_l_n` listings. Furthermore, the most expensive area listings-wise is `r n_m_p` with `r n_m_p_n` average price, while the area with the least is `r n_l_p` with `r n_l_p_n` average price.
 
 The graphs below visualize how the number of crimes has evolved throughout the available time periods, as well as the occurrences of crimes per type
 
@@ -86,3 +117,13 @@ When observing the distribution of Crime Occurrences per Crime Category graph, i
 ## Discussion
 
 ## Conclusion
+
+## Sources
+
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjD_f2QuYn2AhUK7KQKHVp7Ap8QFnoECBUQAw&url=https%3A%2F%2Fczasopisma.uni.lodz.pl%2Ftourism%2Farticle%2Fdownload%2F2208%2F1864&usg=AOvVaw33IzV3UaT7bLLU_4VKm4kH
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8691595/
+
+https://www.statista.com/statistics/339845/company-value-and-equity-funding-of-airbnb/
+
+https://www.theguardian.com/world/2018/jun/15/tourism-pollution-backlash-japan-crackdown-costs-airbnb-10m-kyoto
