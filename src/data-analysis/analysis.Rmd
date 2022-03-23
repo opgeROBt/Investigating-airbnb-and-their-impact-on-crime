@@ -35,6 +35,8 @@ listings_crime_dataset <-read.csv("../../temp-data/analysis/listings_crime_datas
 #Load all libraries we need here, in one code chunk even if they are used in different sections
 library(dplyr)
 library(ggplot2)
+library(tidyverse)
+library(broom)
 ```
 
 ```{r, descriptives, echo=FALSE, include=FALSE}
@@ -85,7 +87,8 @@ The graphs below visualize how the number of crimes has evolved throughout the a
 df_crime_time = filter(listings_crime_dataset, crime_type_category == "Total") %>% group_by(periods) %>% summarise(total_crime = sum(total_crime_sum))
 df_crime_time%>%
   ggplot(aes(x = periods, y = total_crime, group = 1)) + geom_point() + geom_path() +
-  labs(x = "Periods (Month)", y = "Total Crime Cases" , title = "Total Crime Occurrences per Month")
+  labs(x = "Periods (Month)", y = "Total Crime Cases" , title = "Total Crime Occurrences per Month") + 
+  theme(axis.text.x=element_text(size = 8))
 
 df_min_crime_time = df_crime_time[which.min(df_crime_time$total_crime),]
 c_l_p = df_min_crime_time[1,1]
@@ -100,8 +103,8 @@ As it can be seen from the Crime Occurrences per Month graph, the data exhibits 
 df_crime_type = filter(listings_crime_dataset, crime_type_category != "Total") %>% group_by(crime_type_category) %>% summarise(total_crime_sum = sum(total_crime_sum))
 df_crime_type %>%
   ggplot(aes(x = crime_type_category, y = total_crime_sum, fill = crime_type_category)) + geom_bar(stat = 'identity') +
-  labs(x = "Crime Type", y = "Crime Occurances" ,fill = "Crime Type", title = "Total Crime Occurances per Crime Category") +
-  scale_fill_viridis_d()
+  labs(x = "Crime Type", y = "Crime Occurances", fill = "Crime Type", title = "Total Crime Occurances per Crime Category") +
+  scale_fill_viridis_d() + theme(axis.text.x=element_text(size = 8))
 
 df_min_crime_type = df_crime_type[which.min(df_crime_type$total_crime_sum),]
 c_l_t = df_min_crime_type[1,1]
@@ -113,6 +116,17 @@ c_m_t_n = df_max_crime_type[1,2]
 When observing the distribution of Crime Occurrences per Crime Category graph, it is clear that crime occurrences are highly different in frequency. The graph clearly shows how the lowest number of crime occurrences is for `r c_l_t` crimes with `r c_l_t_n` occurrences, while the highest is `r c_m_t`  crimes with `r c_m_t_n` occurrences.
 
 ## Correlation Analysis
+
+```{r, linear-regression}
+regression_dataset <- listings_crime_dataset %>%
+  filter(crime_type_category == "Total")
+
+
+lr <- lm(total_crime_sum ~ listing_sum + neighborhood, data = listings_crime_dataset)
+
+tidy(lr,conf.int = TRUE)
+```
+
 
 ## Discussion
 
