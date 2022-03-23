@@ -16,7 +16,7 @@ A research paper done by Ke, O’Brien & Heydari (2021) aims to contribute to th
 
 Having observed these research papers, this team is intrigued in conducting a similar analysis and further contributing to this field. The following research question is examined:
 
-To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighborhoods.
+*To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighborhoods.*
 
 A major change is that this research will focus on the city and neighborhoods of Amsterdam, Netherlands, rather than Boston. This enables us to investigate whether the results are replicable or applicable for a different geographical location whilst contributing to a field lacking research. Naturally, available datasets are different between international geographical locations, which primarily implies that crime categorization will be different compared to previous research. Furthermore, it is transparent to note that some aspects of the analysis will be simplified – this will not only allow the team to conduct these analyses at their own level, but also account for other data absences not present in previous research. 
 
@@ -62,18 +62,18 @@ To begin this analysis, this report will first highlight some descriptive statis
 
 ```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 var_tab <- "
-| Variable      | Description   |
-|---------------|:-------------:|
-| neighborhood      | The respective neighborhood in Amsterdam to which the data pertains to. |
-| listing_sum      | The total amount of listings in the respective neighborhood. |
-| average_price | The average price for listings in the respective neighborhood. |
-| percentage_home_apt | The percentage of listings that are home apartments out of the amount of total listings. |
-| percentage_hotel_rool | The percentage of listings that are hotel rooms out of the amount of total listings. |
-| percentage_private_room | The percentage of listings that are private rooms out of the amount of total listings. |
-| percentage_shared_room | The percentage of listings that are shared rooms out of the amount of total listings. |
-| periods | The periods of time to which crime data pertains to. |
-| crime_type_category | The type of crime to which the data pertains to. |
-| total_crime_sum | The amount of crime occurances of a certain type in a certain period. |
+| Variable      | Description   | Data Class |
+|---------------|:-------------:|----------:|
+| neighborhood      | The respective neighborhood in Amsterdam to which the data pertains to. | Character |
+| listing_sum      | The total amount of listings in the respective neighborhood. | Integer |
+| average_price | The average price for listings in the respective neighborhood. | Integer |
+| percentage_home_apt | The percentage of listings that are home apartments out of the amount of total listings. | Numeric |
+| percentage_hotel_rool | The percentage of listings that are hotel rooms out of the amount of total listings. | Numeric |
+| percentage_private_room | The percentage of listings that are private rooms out of the amount of total listings. | Numeric |
+| percentage_shared_room | The percentage of listings that are shared rooms out of the amount of total listings. | Numeric |
+| periods | The periods of time to which crime data pertains to. | Character |
+| crime_type_category | The type of crime to which the data pertains to. | Character |
+| total_crime_sum | The amount of crime occurances of a certain type in a certain period. | Integer |
 "
 cat(var_tab)
 ```
@@ -117,7 +117,17 @@ When observing the distribution of Crime Occurrences per Crime Category graph, i
 
 ## Correlation Analysis
 
-```{r, linear-regression}
+Before begging the analysis chapter, it is important to remember the hypothesis of this research:
+
+*To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighborhoods.*
+
+To verify the validity of this hypothesis, the dataset will be used in a linear regression that takes the amount of crimes (total_crime_sum) as dependent variable, while taking the amount of listings(listings_sum) as independent variable and Amsterdam neighborhoods (neighborhood) as a categorical moderator. To make this possible the dataset has to be modified further - taking into account only the total crime figures (as in choosing only the rows where crime_type_category is "Total"). The regression formula used for this analysis is the following:
+
+*total_crime_sum = listings_sum + neighborhood*
+
+The following table shows the results of the regression analysis:
+
+```{r, linear-regression, echo=FALSE}
 regression_dataset <- listings_crime_dataset %>%
   filter(crime_type_category == "Total")
 
