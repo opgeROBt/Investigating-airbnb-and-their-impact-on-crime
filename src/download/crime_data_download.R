@@ -49,4 +49,4 @@ politie_data <- lapply(WijkEnBuurten_combined, api_call_cbsdata)
 politie_data.datatable <- data.table(do.call(rbind, politie_data))
 
 #Save the data as csv file in the repository's 'temp-data/raw' folder
-write.csv(politie_data.datatable, "temp-data/raw/crime_data.csv", row.names = FALSE)
+write.csv(politie_data.datatable, "../../temp-data/raw/crime_data.csv", row.names = FALSE)
