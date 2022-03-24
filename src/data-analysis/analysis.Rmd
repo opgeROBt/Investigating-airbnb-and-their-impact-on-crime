@@ -134,8 +134,21 @@ regression_dataset <- listings_crime_dataset %>%
 
 lr <- lm(total_crime_sum ~ listing_sum + neighborhood, data = listings_crime_dataset)
 
-tidy(lr,conf.int = TRUE)
+tidy_lr <- tidy(lr,conf.int = TRUE)
+
+tidy_lr <- na.omit(tidy_lr) 
+
+sig_neigh <- list()
+
+for (row in 1:nrow(tidy_lr)) {
+  p.val <-tidy_lr[row,"p.value"]
+    if(p.val < 0.05) { 
+    sig_neigh <- c(sig_neigh, tidy_lr[row,"term"])}
+}
+  
+sig_neigh <- sig_neigh[-1]  
 ```
+
 # The following indications show how this part should work: based on if statements, the Rmd should result in a pdf with the following outputs:
 
 # If listings_sum is significant (<0.05):
