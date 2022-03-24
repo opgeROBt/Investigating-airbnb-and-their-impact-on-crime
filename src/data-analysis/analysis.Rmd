@@ -131,25 +131,31 @@ The following table shows the results of the regression analysis:
 regression_dataset <- listings_crime_dataset %>%
   filter(crime_type_category == "Total")
 
-
 lr <- lm(total_crime_sum ~ listing_sum + neighborhood, data = listings_crime_dataset)
 
-tidy_lr <- tidy(lr,conf.int = TRUE)
+table_lr <- tidy(lr,conf.int = FALSE)
 
-tidy_lr <- na.omit(tidy_lr) 
+table_lr <- na.omit(table_lr)
+
+table_lr <- table_lr %>% mutate(term = str_replace_all(term, "neighborhood",""))
+
+print(table_lr)
 
 sig_neigh <- list()
 
-for (row in 1:nrow(tidy_lr)) {
-  p.val <-tidy_lr[row,"p.value"]
+for (row in 1:nrow(table_lr)) {
+  p.val <-table_lr[row,"p.value"]
     if(p.val < 0.05) { 
-    sig_neigh <- c(sig_neigh, tidy_lr[row,"term"])}
+    sig_neigh <- c(sig_neigh, table_lr[row,"term"])}
 }
   
-sig_neigh <- sig_neigh[-1]  
+sig_neigh <- sig_neigh[-1]
+
 ```
 
 # The following indications show how this part should work: based on if statements, the Rmd should result in a pdf with the following outputs:
+
+These are the significant neighborhoods: `r sig_neigh`.
 
 # If listings_sum is significant (<0.05):
 Based on the regresion analysis, there is indeed correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is *insert p coefficient here*.
