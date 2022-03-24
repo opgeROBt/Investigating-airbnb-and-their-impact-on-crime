@@ -155,18 +155,41 @@ for (row in 1:nrow(table_lr)) {
 }
   
 sig_neigh <- sig_neigh[-1]
+```
+
+```{r, listings-pvalue, echo=FALSE}
+
+listing_sum_p <- table_lr[2,5]
+if (listing_sum_p < 0.05) {
+  text1 <- paste("Based on the regresion analysis, there is indeed correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is", listing_sum_p,".")
+} else {
+  text1 <- paste("Based on the regresion analysis, there is no correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is", listing_sum_p,".")
+}
+```
+
+```{r, neighborhoods-sign, echo=FALSE}
+
+if (length(sig_neigh)/x_neigh <=0.2) {
+  text2 <- paste("The regression analysis indicates that a small number of Amsterdam neighborhoods have significantly different crime occurances. Only", sig_neigh, "are/is significant in this regresion. As")
+} #else if(length(sig_neigh)/x_neigh > 0.2 & length(sig_neigh)/x_neigh <= 0.5) {
+  #text2 <- paste("The regression analysis indicates that some of Amsterdam neighborhoods have significantly different crime occurances. Thus", sig_neigh, "are significant in this regresion. As")
+#}
+```
+
+```{r}
 
 ```
 
+```{r}
+
+```
+
+
 # The following indications show how this part should work: based on if statements, the Rmd should result in a pdf with the following outputs:
 
-These are the significant neighborhoods: `r sig_neigh`.
+`r text1`
+`r text2``
 
-# If listings_sum is significant (<0.05):
-Based on the regresion analysis, there is indeed correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is *insert p coefficient here*.
-
-# If listings_sum is insignificant (>0.05):
-Based on the regresion analysis, there is no correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is *insert p coefficient here*.
 
 # If the amount of neighborhoods that are significant is =< 4: OR If the proportion of significant neighborhoods is =<20%:
 The regression analysis indicates that a small number of Amsterdam neighborhoods have significantly different crime occurances. Only *insert name of significant neighborhoods here* are/is significant in this regresion. As *insert nr of sgnificant neighborohoods here* out of *insert total nr of neighborhoods here* have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurances is in large part unnafected by neighborhoods. 
