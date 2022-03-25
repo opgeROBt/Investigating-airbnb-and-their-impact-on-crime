@@ -15,85 +15,27 @@ __To what extent does the number of Airbnb listings affect crime rates within Am
  * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
  * [Anoesjka Raateland](https://github.com/Anoesjka97), a.raateland@tilburguniversity.edu
 
-## Repository overview
-
-The various files in the repository will be explained further in this section.
-
-The map source ("src") includes two subfolders data preparation and analysis. The subfolder data preparation includes code that is needed to download the data, clean the data, merge the data and to calculate the minimum distances based on Euclidean Distance. Furthermore, the subfolder analysis includes the code that is needed to analyze the data. The makefile includes code that can easily run in the command prompt by typing "make". Doing so will automatically run the code in the src code and build the project. From this, two new directories are created: "data" and "gen" (generated). The gen folder consists of two sub-directories, namely "input" and "output". Gitignore includes files that should be ignored by Git and remain untracked, such as csv files or Rhistory files.
-
-Moreover, an RMarkdown file is included. This file includes the report of our study with all the tables and plots that were built in the analysis part and includes sections that explain certain phases of the project, such as the data collection, processing parts and the discussion of the results. The RMarkdown file is also knitted as a PDF document and committed to the repository. Finally, this repository has also included a README.MD file that contains information about the project, the authors and the structure of our study. 
 
 ## Running instructions
-First of all, [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/) is needed to run the files. The directory works with Make which should be run in the terminal (Mac users) or in [git bash](https://gitforwindows.org/) (Windows users). Moreover, [R-studio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/) is needed to run the R-files. To run the code used in the study, the following packages need to be installed first:
-```{r}
-install.packages("tidyverse")
-install.packages("data.table")
-install.packages("dplyr")
-install.packages("googledrive")
-install.packages("Hmisc")
-install.packages("ggplot2")
-install.packages("modelsummary")
-install.packages("rlist")
-install.packages("reshape2")
-install.packages("broom")
 
-## Build instructions
+### Dependencies
+Please install the following programs:
+* [R and R-studio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
+* [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/)
 
-1) Dependencies
+### How to run the project
 
-Please follow the installation guide on
-https://www.tilburgsciencehub.com/ for
-
-- R and RStudio (3.6.x)
-  Install the following R packages:
-
-	packages <- c("data.table", "ggplot2")
-
-	install.packages(packages)
-
-- Gnu Make
-  Put GnuMake and R to path so that you can run it
-  from anywhere on your system. See http://www.tilburgsciencehub.com/
-
-- Obtain raw data files and put them into /data/
-
-2) Directory structure
-
-* code/ = stores all the codes.
-* data/ = stores the raw data. 
-* documentation/ = stores outlines, drafts, other text.
-* output/ = stores graphics from our data. 
-
-The project pipeline consists of the following stages:
-
-/src/collect                Code required to collect/download raw data
-
-/src/data-preparation       Data preparation
-
-/src/analysis               Data analysis
-
-/src/paper                  Stores literature reference, paper, and slides
-
-
-Each directory has a makefile, with running descriptions
-for each stage of the pipeline.
-
-For each pipeline stage, the /gen directory contains
-files generated on the basis of the /data and
-source code stored in /src.
-
-Each directory contains subdirectories,
-	/input (for input files)
-	/output (for final output files)
-	/temp (for any temporary files)
-	/audit (for any auditing files)
-
-3) How to run the project
-
-Navigate to the project's root directory, open a terminal,
-and run
-
+Navigate to the project's root directory, open a terminal, and run
 > make
+
+## Repository overview
+
+* gen/analysis = stores the analysis with the motivation
+* scr/data-analysis = stores 
+* scr/derived = stores the code for the Airbnb listings, the crime data and the joint dataset
+* scr/download = stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file 
+* scr/tools = stores the code for installing the r packages
+* Temp/data = stores temporary data, while running the make file this will be deleted
 
 ## Data
 
@@ -111,51 +53,4 @@ and run
 * github of CBS R package: https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
  
 
-
-# Repository overview
-### **src/collection** 
-The src folder contains two folders for collection and reporting. The collection folder holds the seperate python files that are needed to collect the data and parse them in seperate files or dataframes. The folder reporting is at this moment empty and can be used for reporting purposes when working with the data. For now this was left empty since our project focused mainly on collecting the data. 
-
-### **data** 
-Data collected trough the files in src/collection are automatically written to the data folder. Collected data consists of raw .json files containing app ids, collected app ids, and the raw data. Furthermore, with the parsing script all nested json objects in the raw dataset and the raw dataset are writen to .xlsx files and saved in the data folder.  
-
-### **documentation** 
-Our full research documentation can be found in the [**documentation**](https://github.com/opgeROBt/steam-API/tree/main/documentation) folder. 
-
-
-# Running instructions 
-
-### **run in following order**  
-"libraries and functions.py" ->  "collect all app id's.py" -> "collect appdetails.py" ->  "parsing nested json into dataframes and excel files.py"
-
-
-### **step 1 | installing libraries and functions**
-The following libraries are needed to run the code. These have been added in the 'libraries and functions script which should always be run as the first script. 
- 
-
-```
-import requests
-from datetime import datetime
-import numpy
-import time
-import json
-from pathlib import Path
-import pandas as pd
-from os.path import exists
-```
-
-```
-get_request(url, parameters=None)  #creates the get request to collect data, used in getAppDetails
-getAppList()                       #gets the full  list of current app_id's from the store.steampowered API
-getAppDetails(id)                  #the function used to collect the appdetails per app_id 
-```
-
-### **step 2 | collect available app_ids**
-By running the code from 'collect all app id's.py'  all app ids from the steam store are collected in the 'app_ids.json' and saved in the /data folder. 
-
-### **step 3 | collect app_details per app_id**
-This is where the magic happens and the details of every app is collected and put in a big raw_data.json. It is possible to specify of how many app_id's the details should be collected. Since running the code can be very time consuming. Benchmark: circa 60 minutes per 2500 app ids. This is due to the **limitations** that are set. Although there is no official documentation on this, there is a limit of around 10 calls per 10 seconds with a maximum of 100.000 calls per day. Furthermore, a timestamp is added to the collected data to keep track of when which records have been collected.  
-
-### **step 4 | parse raw data to usable datasets**
-This code parses all the data in the raw_data.json file and puts for every nested category the data in seperate dataframes. The steam_appid is included in the parsed dataframe which gives the option to join the data to the raw dataset when further exploration is needed.   
 
