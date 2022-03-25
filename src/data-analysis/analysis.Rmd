@@ -161,77 +161,43 @@ sig_neigh <- sig_neigh[-1]
 
 listing_sum_p <- table_lr[2,5]
 if (listing_sum_p < 0.05) {
-  text1 <- paste("Based on the regresion analysis, there is indeed correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is", listing_sum_p,".")
+  text1 <- paste("Based on the regression analysis, there is indeed correlation between the amount of listings and crime occurrences, as the p coefficient of listing_sum is", listing_sum_p,".")
 } else {
-  text1 <- paste("Based on the regresion analysis, there is no correlation between the amount of listings and crime occurances, as the p coefficient of listing_sum is", listing_sum_p,".")
+  text1 <- paste("Based on the regression analysis, there is no correlation between the amount of listings and crime occurrences, as the p coefficient of listing_sum is", listing_sum_p,".")
 }
 ```
 
-```{r, neighborhoods-sign, echo=FALSE}
+```{r, neighborhoods-sig, echo=FALSE}
 
 if (length(sig_neigh)/x_neigh <=0.2) {
-  text2 <- paste("The regression analysis indicates that a small number of Amsterdam neighborhoods have significantly different crime occurances. Only", sig_neigh, "are/is significant in this regresion. As")
-} #else if(length(sig_neigh)/x_neigh > 0.2 & length(sig_neigh)/x_neigh <= 0.5) {
-  #text2 <- paste("The regression analysis indicates that some of Amsterdam neighborhoods have significantly different crime occurances. Thus", sig_neigh, "are significant in this regresion. As")
-#}
+    text2 <- paste("The regression analysis indicates that a small number of Amsterdam neighborhoods have significantly different crime occurrences. Only", toString(sig_neigh), "are/is significant in this regression. Only", length(sig_neigh), "out of", x_neigh, "have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurrences is in large part unaffected by neighborhoods.")
+} else if(length(sig_neigh)/x_neigh > 0.2 & length(sig_neigh)/x_neigh <= 0.5) {
+    text2 <- paste("The regression analysis indicates that some of Amsterdam neighborhoods have significantly different crime occurrences. Thus", toString(sig_neigh), "are significant in this regression. As", length(sig_neigh), "out of", x_neigh, "have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurrences is somewhat affected by neighborhoods.")
+} else if(length(sig_neigh)/x_neigh > 0.5 & length(sig_neigh)/x_neigh <= 1) {
+    text2 <- paste("The regression analysis indicates that most of Amsterdam neighborhoods have significantly different crime occurrences. Thus,", toString(sig_neigh), "are significant in this regresion. As", length(sig_neigh), "out of", x_neigh, "have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurrences is to a large extent affected by neighborhoods.")
+}
 ```
 
-```{r}
+```{r, r-squared, echo=FALSE}
+r2 <- summary(lr)$r.squared
 
+if(r2 <= 0.5) {
+  text3 <- paste("Lastly, it is important to note that the R Squared of the correlation is", r2,".", "Meaning that most of the variation exhibited in this dataset is not explained through this correlation model.")
+} else if (r2 >= 0.5) {
+  text3 <- paste("Lastly, it is important to note that the R Squared of the correlation is", r2,".", "Meaning that most of the variation exhibited in this dataset is explained through this correlation model.")
+}
 ```
-
-```{r}
-
-```
-
 
 # The following indications show how this part should work: based on if statements, the Rmd should result in a pdf with the following outputs:
 
 `r text1`
-`r text2``
 
+`r text2`
 
-# If the amount of neighborhoods that are significant is =< 4: OR If the proportion of significant neighborhoods is =<20%:
-The regression analysis indicates that a small number of Amsterdam neighborhoods have significantly different crime occurances. Only *insert name of significant neighborhoods here* are/is significant in this regresion. As *insert nr of sgnificant neighborohoods here* out of *insert total nr of neighborhoods here* have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurances is in large part unnafected by neighborhoods. 
-
-# If the amount of neighborhoods that are significant is =< 10: OR If the proportion of significant neighborhoods is =<50:
-The regression analysis indicates that some of Amsterdam neighborhoods have significantly different crime occurances. Thus, *insert name of significant neighborhoods here* are significant in this regresion. As *insert nr of sgnificant neighborohoods here* out of *insert total nr of neighborhoods here* have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurances is somewhat affected by neighborhoods. 
-
-# If the amount of neighborhoods that are significant is =< 16: OR If the proportion of significant neighborhoods is =<80%:
-The regression analysis indicates that most of Amsterdam neighborhoods have significantly different crime occurances. Thus, *insert name of significant neighborhoods here* are significant in this regresion. As *insert nr of sgnificant neighborohoods here* out of *insert total nr of neighborhoods here* have significant p coefficients, it is noticeable that the relationship between the number of listings and crime occurances is to a large extent affected by neighborhoods. 
-
-# if R Squared is =< 0.5
-Lastly, it is important to note that the R Squared of the correlation is *Insert R squared here*. Meaning that most of the variation exhibited in this dataset is not explained through this correlation model. 
-
-# if R Squared is => 0.5
-Lastly, it is important to note that the R Squared of the correlation is *Insert R squared here*. Meaning that most of the variation exhibited in this dataset is explained through this correlation model. 
+`r text3`
 
 ## Conclusion
 Based on the previous result section, the following conclusions can be drawn for the hypothesized relation:
-
-# If both listings_sum is significant and most neighborhoods (=< 16 or 80%):
-The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to a large extent their correlational nature.
-
-# If both listings_sum is significant and some neighborhoods (=< 10 or 50%):
-The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to some extent their correlational nature (although this may need to be explored further in a follow-up study).
-
-# If both listings_sum is significant and a few neighborhoods (=< 4 or 20%):
-The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is significant, while the neighborhood moderator value is largely displaying non-significant differences in their correlational nature.
-
-# If both listings_sum is insignificant and most neighborhoods (=< 16 or 80%):
-The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to a large extent their correlational nature.
-
-# If both listings_sum is insignificant and some neighborhoods (=< 10 or 50%):
-The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to some extent their correlational nature.
-
-# If both listings_sum is insignificant and a few neighborhoods (=< 4 or 20%):
-The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value is largely displaying non-significant differences in their correlational nature.
-
-# if R Squared is =< 0.5
-Despite the result of the hypothesis, it is important to remember that *Insert R Squared value here as a percentage* of the variation exhibited in this dataset is explained through this correlation model. This means that these findings should be considered skeptically, as the data within the dataset may be insufficient to draw conclusions at this point. Enriching the dataset with more data and/or explanatory variables may result in more conclusive results.
-
-# if R Squared is => 0.5
-Regarding the validity of this hypothesis, it is important to remember that *Insert R Squared value here as a percentage* of the variation exhibited in this dataset is explained through this correlation model. This means that these findings benefit from a robust model and lends credence to them being correct. Nonetheless, it is important to consider that these findings may not be relevant to other geographical areas outside of Amsterdam, Netherlands. Just as well, the robustness of the model can be improved further through the addition of more relevant explanatory variables. 
 
 ## Sources
 
