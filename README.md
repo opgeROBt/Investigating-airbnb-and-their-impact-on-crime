@@ -31,7 +31,7 @@ Navigate to the project's root directory, open a terminal, and run
 ## Repository overview
 
 * gen/analysis = stores the analysis with the motivation
-* scr/data-analysis = stores 
+* scr/data-analysis = stores XXXXXX
 * scr/derived = stores the code for the Airbnb listings, the crime data and the joint dataset
 * scr/download = stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file 
 * scr/tools = stores the code for installing the r packages
