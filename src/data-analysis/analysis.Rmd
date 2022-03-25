@@ -223,8 +223,6 @@ if(r2 <= 0.5) {
 } else if (r2 > 0.5) {
   text5 <- paste("Regarding the validity of this hypothesis, it is important to remember that", round(r2, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings benefit from a robust model and lends credence to them being correct. Nonetheless, it is important to consider that these findings may not be relevant to other geographical areas outside of Amsterdam, Netherlands. Just as well, the robustness of the model can be improved further through the addition of more relevant explanatory variables.")
 }
-
-
 ```
 
 `r text5`
