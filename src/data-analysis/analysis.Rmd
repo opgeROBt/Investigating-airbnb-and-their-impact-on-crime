@@ -197,29 +197,37 @@ if(r2 <= 0.5) {
 ## Conclusion
 Based on the previous result section, the following conclusions can be drawn for the hypothesized relation:
 
-# If both listings_sum is significant and most neighborhoods (=< 16 or 80%):
-The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to a large extent their correlational nature.
+```{r, conclusion, echo=FALSE}
+if(listing_sum_p < 0.05 & length(sig_neigh)/x_neigh <= 0.8) {
+    text4 <- paste("The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to a large extent their correlational nature.")
+} else if (listing_sum_p < 0.05 & length(sig_neigh)/x_neigh <= 0.5) {
+    text4 <- paste("The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to some extent their correlational nature (although this may need to be explored further in a follow-up study).")
+} else if (listing_sum_p < 0.05 & length(sig_neigh)/x_neigh <= 0.2) {
+    text4 <- paste("The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is significant, while the neighborhood moderator value is largely displaying non-significant differences in their correlational nature.")
+} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh <= 0.8) {
+    text4 <- paste("The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to a large extent their correlational nature.")
+} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh <= 0.5) {
+    text4 <- paste("The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to some extent their correlational nature.")
+} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh <= 0.2) {
+    text4 <- paste("The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value is largely displaying non-significant differences in their correlational nature.")
+}
+```
 
-# If both listings_sum is significant and some neighborhoods (=< 10 or 50%):
-The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to some extent their correlational nature (although this may need to be explored further in a follow-up study).
+`r text4`
 
-# If both listings_sum is significant and a few neighborhoods (=< 4 or 20%):
-The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is significant, while the neighborhood moderator value is largely displaying non-significant differences in their correlational nature.
+```{r, r-squared-conclusion, echo=FALSE}
+r2 <- r2 * 100
 
-# If both listings_sum is insignificant and most neighborhoods (=< 16 or 80%):
-The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to a large extent their correlational nature.
+if(r2 <= 0.5) {
+  text5 <- paste("Despite the result of the hypothesis, it is important to remember that", round(r2, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings should be considered skeptically, as the data within the dataset may be insufficient to draw conclusions at this point. Enriching the dataset with more data and/or explanatory variables may result in more conclusive results.")
+} else if (r2 > 0.5) {
+  text5 <- paste("Regarding the validity of this hypothesis, it is important to remember that", round(r2, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings benefit from a robust model and lends credence to them being correct. Nonetheless, it is important to consider that these findings may not be relevant to other geographical areas outside of Amsterdam, Netherlands. Just as well, the robustness of the model can be improved further through the addition of more relevant explanatory variables.")
+}
 
-# If both listings_sum is insignificant and some neighborhoods (=< 10 or 50%):
-The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to some extent their correlational nature.
 
-# If both listings_sum is insignificant and a few neighborhoods (=< 4 or 20%):
-The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value is largely displaying non-significant differences in their correlational nature.
+```
 
-# if R Squared is =< 0.5
-Despite the result of the hypothesis, it is important to remember that *Insert R Squared value here as a percentage* of the variation exhibited in this dataset is explained through this correlation model. This means that these findings should be considered skeptically, as the data within the dataset may be insufficient to draw conclusions at this point. Enriching the dataset with more data and/or explanatory variables may result in more conclusive results.
-
-# if R Squared is => 0.5
-Regarding the validity of this hypothesis, it is important to remember that *Insert R Squared value here as a percentage* of the variation exhibited in this dataset is explained through this correlation model. This means that these findings benefit from a robust model and lends credence to them being correct. Nonetheless, it is important to consider that these findings may not be relevant to other geographical areas outside of Amsterdam, Netherlands. Just as well, the robustness of the model can be improved further through the addition of more relevant explanatory variables. 
+`r text5`
 
 ## Sources
 
