@@ -15,6 +15,27 @@ __To what extent does the number of Airbnb listings affect crime rates within Am
  * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
  * [Anoesjka Raateland](https://github.com/Anoesjka97), a.raateland@tilburguniversity.edu
 
+## Repository overview
+
+The various files in the repository will be explained further in this section.
+
+The map source ("src") includes two subfolders data preparation and analysis. The subfolder data preparation includes code that is needed to download the data, clean the data, merge the data and to calculate the minimum distances based on Euclidean Distance. Furthermore, the subfolder analysis includes the code that is needed to analyze the data. The makefile includes code that can easily run in the command prompt by typing "make". Doing so will automatically run the code in the src code and build the project. From this, two new directories are created: "data" and "gen" (generated). The gen folder consists of two sub-directories, namely "input" and "output". Gitignore includes files that should be ignored by Git and remain untracked, such as csv files or Rhistory files.
+
+Moreover, an RMarkdown file is included. This file includes the report of our study with all the tables and plots that were built in the analysis part and includes sections that explain certain phases of the project, such as the data collection, processing parts and the discussion of the results. The RMarkdown file is also knitted as a PDF document and committed to the repository. Finally, this repository has also included a README.MD file that contains information about the project, the authors and the structure of our study. 
+
+## Running instructions
+First of all, [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/) is needed to run the files. The directory works with Make which should be run in the terminal (Mac users) or in [git bash](https://gitforwindows.org/) (Windows users). Moreover, [R-studio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/) is needed to run the R-files. To run the code used in the study, the following packages need to be installed first:
+```{r}
+install.packages("tidyverse")
+install.packages("data.table")
+install.packages("dplyr")
+install.packages("googledrive")
+install.packages("Hmisc")
+install.packages("ggplot2")
+install.packages("modelsummary")
+install.packages("rlist")
+install.packages("reshape2")
+install.packages("broom")
 
 ## Build instructions
 
