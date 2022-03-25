@@ -37,6 +37,14 @@ https://www.tilburgsciencehub.com/ for
 - Obtain raw data files and put them into /data/
 
 2) Directory structure
+### **src/collection** 
+The src folder contains two folders for collection and reporting. The collection folder holds the seperate python files that are needed to collect the data and parse them in seperate files or dataframes. The folder reporting is at this moment empty and can be used for reporting purposes when working with the data. For now this was left empty since our project focused mainly on collecting the data. 
+
+### **data** 
+Data collected trough the files in src/collection are automatically written to the data folder. Collected data consists of raw .json files containing app ids, collected app ids, and the raw data. Furthermore, with the parsing script all nested json objects in the raw dataset and the raw dataset are writen to .xlsx files and saved in the data folder.  
+
+### **documentation** 
+Our full research documentation can be found in the [**documentation**](https://github.com/opgeROBt/steam-API/tree/main/documentation) folder. 
 
 * code/ = stores all the codes.
 * data/ = stores the raw data. 
@@ -89,4 +97,52 @@ and run
 * check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
 * github of CBS R package: https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
  
+
+
+# Repository overview
+### **src/collection** 
+The src folder contains two folders for collection and reporting. The collection folder holds the seperate python files that are needed to collect the data and parse them in seperate files or dataframes. The folder reporting is at this moment empty and can be used for reporting purposes when working with the data. For now this was left empty since our project focused mainly on collecting the data. 
+
+### **data** 
+Data collected trough the files in src/collection are automatically written to the data folder. Collected data consists of raw .json files containing app ids, collected app ids, and the raw data. Furthermore, with the parsing script all nested json objects in the raw dataset and the raw dataset are writen to .xlsx files and saved in the data folder.  
+
+### **documentation** 
+Our full research documentation can be found in the [**documentation**](https://github.com/opgeROBt/steam-API/tree/main/documentation) folder. 
+
+
+# Running instructions 
+
+### **run in following order**  
+"libraries and functions.py" ->  "collect all app id's.py" -> "collect appdetails.py" ->  "parsing nested json into dataframes and excel files.py"
+
+
+### **step 1 | installing libraries and functions**
+The following libraries are needed to run the code. These have been added in the 'libraries and functions script which should always be run as the first script. 
+ 
+
+```
+import requests
+from datetime import datetime
+import numpy
+import time
+import json
+from pathlib import Path
+import pandas as pd
+from os.path import exists
+```
+
+```
+get_request(url, parameters=None)  #creates the get request to collect data, used in getAppDetails
+getAppList()                       #gets the full  list of current app_id's from the store.steampowered API
+getAppDetails(id)                  #the function used to collect the appdetails per app_id 
+```
+
+### **step 2 | collect available app_ids**
+By running the code from 'collect all app id's.py'  all app ids from the steam store are collected in the 'app_ids.json' and saved in the /data folder. 
+
+### **step 3 | collect app_details per app_id**
+This is where the magic happens and the details of every app is collected and put in a big raw_data.json. It is possible to specify of how many app_id's the details should be collected. Since running the code can be very time consuming. Benchmark: circa 60 minutes per 2500 app ids. This is due to the **limitations** that are set. Although there is no official documentation on this, there is a limit of around 10 calls per 10 seconds with a maximum of 100.000 calls per day. Furthermore, a timestamp is added to the collected data to keep track of when which records have been collected.  
+
+### **step 4 | parse raw data to usable datasets**
+This code parses all the data in the raw_data.json file and puts for every nested category the data in seperate dataframes. The steam_appid is included in the parsed dataframe which gives the option to join the data to the raw dataset when further exploration is needed.   
 
