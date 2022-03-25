@@ -37,14 +37,6 @@ https://www.tilburgsciencehub.com/ for
 - Obtain raw data files and put them into /data/
 
 2) Directory structure
-### **src/collection** 
-The src folder contains two folders for collection and reporting. The collection folder holds the seperate python files that are needed to collect the data and parse them in seperate files or dataframes. The folder reporting is at this moment empty and can be used for reporting purposes when working with the data. For now this was left empty since our project focused mainly on collecting the data. 
-
-### **data** 
-Data collected trough the files in src/collection are automatically written to the data folder. Collected data consists of raw .json files containing app ids, collected app ids, and the raw data. Furthermore, with the parsing script all nested json objects in the raw dataset and the raw dataset are writen to .xlsx files and saved in the data folder.  
-
-### **documentation** 
-Our full research documentation can be found in the [**documentation**](https://github.com/opgeROBt/steam-API/tree/main/documentation) folder. 
 
 * code/ = stores all the codes.
 * data/ = stores the raw data. 
