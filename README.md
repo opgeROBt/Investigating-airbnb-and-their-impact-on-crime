@@ -88,6 +88,5 @@ and run
 * check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
 * check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
 * github of CBS R package: https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
-* github v3: https://github.com/statistiekcbs/CBS-Open-Data-v3  
-* github v4: https://github.com/statistiekcbs/CBS-Open-Data-v4  
+ 
 
