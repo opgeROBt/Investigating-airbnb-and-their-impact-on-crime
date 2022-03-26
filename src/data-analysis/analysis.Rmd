@@ -1,7 +1,8 @@
 ---
 title: "Analysis"
-subtitle: "Team 8"
+subtitle: "The dark side of tourism: Investigating Airbnb and their impact on crime rate"
 author:
+  - "Team 8:"
   - "Mihai Vlad Serbanescu"
   - "Cas van Dijk"
   - "Rob Esenkbrink"
@@ -91,7 +92,7 @@ cat(var_tab)
 ```
 
 
-Based on the dataset, the area with the most amount of listings is `r n_m_l` with `r n_m_l_n` listings, while the area with the least is `r n_l_l` with `r n_l_l_n` listings. Furthermore, the most expensive area listings-wise is `r n_m_p` with `r n_m_p_n` average price, while the area with the least is `r n_l_p` with `r n_l_p_n` average price.
+Based on the dataset, the area with the most amount of listings is `r n_m_l` with `r n_m_l_n` listings, while the area with the least is `r n_l_l` with `r n_l_l_n` listings. Furthermore, the most expensive area listings-wise is `r n_m_p` with € `r round(n_m_p_n, digits = 2)` average price, while the area with the least is `r n_l_p` with € `r round(n_l_p_n, digits = 2)` average price.
 
 The graphs below visualize how the number of crimes has evolved throughout the available time periods, as well as the occurrences of crimes per type
 
@@ -223,12 +224,12 @@ if(listing_sum_p < 0.05 & length(sig_neigh)/x_neigh > 0.5 & length(sig_neigh)/x_
 `r text4`
 
 ```{r, r-squared-conclusion, echo=FALSE}
-r2 <- r2 * 100
+r2_percentage <- r2 * 100
 
 if(r2 <= 0.5) {
-  text5 <- paste("Despite the result of the hypothesis, it is important to remember that", round(r2, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings should be considered skeptically, as the data within the dataset may be insufficient to draw conclusions at this point. Enriching the dataset with more data and/or explanatory variables may result in more conclusive results.")
+  text5 <- paste("Despite the result of the hypothesis, it is important to remember that", round(r2_percentage, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings should be considered skeptically, as the data within the dataset may be insufficient to draw conclusions at this point. Enriching the dataset with more data and/or explanatory variables may result in more conclusive results.")
 } else if (r2 > 0.5) {
-  text5 <- paste("Regarding the validity of this hypothesis, it is important to remember that", round(r2, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings benefit from a robust model and lends credence to them being correct. Nonetheless, it is important to consider that these findings may not be relevant to other geographical areas outside of Amsterdam, Netherlands. Just as well, the robustness of the model can be improved further through the addition of more relevant explanatory variables.")
+  text5 <- paste("Regarding the validity of this hypothesis, it is important to remember that", round(r2_percentage, digits = 2), "% of the variation exhibited in this dataset is explained through this correlation model. This means that these findings benefit from a robust model and lends credence to them being correct. Nonetheless, it is important to consider that these findings may not be relevant to other geographical areas outside of Amsterdam, Netherlands. Just as well, the robustness of the model can be improved further through the addition of more relevant explanatory variables.")
 }
 ```
 
