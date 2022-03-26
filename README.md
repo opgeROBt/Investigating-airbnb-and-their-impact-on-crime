@@ -72,7 +72,7 @@ This is the repository for the course [Data Preparation and Workflow Management]
  * [Cas van Dijk](https://github.com/Cas-24), c.c.j.m.vandijk@tilburguniversity.edu
  * [Chokie Tang](https://github.com/chokietang), c.k.tang@tilburguniversity.edu
  * [Rob Esenkbrink](https://github.com/opgeROBt), r.m.esenkbrink@tilburguniversity.edu
- * [Michael Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
+ * [Mihai Vlad Serbanescu](https://github.com/MihaiVladS), v.serbanescu@tilburguniversity.edu
  * [Anoesjka Raateland](https://github.com/Anoesjka97), a.raateland@tilburguniversity.edu
 
 ## More resources
