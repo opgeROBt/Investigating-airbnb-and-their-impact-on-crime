@@ -80,7 +80,7 @@ This is the repository for the course [Data Preparation and Workflow Management]
 * [Documentation of police dataset](https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97)  
 * [Statline webpage (incl. user support)](https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data)  
 * [CBS R quick guide api](https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide)   
-* [CBSoData api in the browser](https://dataderden.cbs.nl/ODataApi/odata/47022NED/)  
+* [CBS oData api in the browser](https://dataderden.cbs.nl/ODataApi/odata/47022NED/)  
 * [CBS oData github v3](https://github.com/statistiekcbs/CBS-Open-Data-v3)  
 * [CBS oData  github v4](https://github.com/statistiekcbs/CBS-Open-Data-v4)  
 
