@@ -54,7 +54,7 @@ With make installed, it is possible to open a terminal (or Git Bash) and run:
 
     make   
 
-This runs the entire project. To run certain parts of the project, it is possible to run the specific make targets specified in the `makefile`. Without arguments, make builds the first target that appears in its makefile, which is traditionally a target named "all".
+This runs the entire project. To run certain parts of the project, it is possible to run the specific make targets specified in the `makefile`. for example: 
 
      make [TARGET ...]
 
