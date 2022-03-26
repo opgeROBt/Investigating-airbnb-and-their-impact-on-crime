@@ -9,16 +9,12 @@
 # The 5 separate datasets are combined into one via bind, and the result is saved as a csv file. 
 
 # Remove the hashtag (#) below if you do not have the cbsodataR package installed, as this code requires it.
-#install.packages("cbsodataR")
-#install.packages("stringr")
-#install.packages("dplyr")
-#install.packages("data.table")
-#install.packages("purrr")
 library(cbsodataR)
 library(stringr)
 library(plyr)
 library(dplyr)
 library(data.table)
+library(pandoc)
 
 # Creating the basic tables.
 table_of_content <- cbs_get_toc()
