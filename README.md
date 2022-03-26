@@ -7,7 +7,7 @@
 ## Project description
 ---
 
-Tourism is ramping up in many countries around the globe. Recently, Liowska brought together several research experiments on the the subject of crime and tourism. Conceptually, she argues a logical relation between tourism and presence of crime either done by or to tourists. However, there is insufficient research on how criminalistic statistics are related to this phenomenon. 
+Tourism is ramping up in many countries around the globe. Recently, A. Liowska in 2017 brought together several research experiments on the the subject of crime and tourism. Conceptually, she argues a logical relation between tourism and presence of crime either done by or to tourists. However, there is insufficient research on how criminalistic statistics are related to this phenomenon. 
 
 Our team is intrigued in conducting a similar analyses and further contributing to this field by researching data retrieved from Airbnb and the Central Bureau of Statistics in the Netherlands. With our research we attempt to answer the following question:  
 
