@@ -42,7 +42,7 @@ To run the file you must have installed the following programs:
 * [R and R-studio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
 * [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/)
 * [Git Bash](https://gitforwindows.org/) (windows user) or terminal (mac user)   
-* [pandoc](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/pandoc/) is needed to conver a markdown file to PDF. 
+* [pandoc](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/pandoc/) is needed to convert a markdown file to PDF. 
 
 
 ### **R libraries**
