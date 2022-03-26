@@ -8,7 +8,6 @@ library(stringr)
 library(plyr)
 library(dplyr)
 library(data.table)
-library(purrr)
 
 #Loads the crime data csv from the 'temp-data/raw' folder of the repository
 politie_data.datatable <- read.csv("../../temp-data/raw/crime_data.csv")
