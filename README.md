@@ -22,7 +22,8 @@ Read the generated research file by going to [**gen/analyses**](https://github.c
 ```
 ├── README.md
 ├── makefile			
-├── .gitignore			
+├── .gitignore
+├── install_packages.r			
 ├── gen 	#stores the PDF version of the analysis with the motivation
 ├── temp-data	#stores temporary data, while running the make file this will be deleted
 │   ├── analysis
@@ -32,7 +33,6 @@ Read the generated research file by going to [**gen/analyses**](https://github.c
     ├── data-analysis	#stores the code for the analysis with the motivation
     ├── derived		#stores the code for the Airbnb listings, the crime data and the joint dataset
     ├── download	#stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file
-	└── tools	#stores the code for installing the r packages
 ```  
 
 
@@ -42,10 +42,12 @@ To run the file you must have installed the following programs:
 * [R and R-studio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
 * [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/)
 * [Git Bash](https://gitforwindows.org/) (windows user) or terminal (mac user)   
+* [pandoc](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/pandoc/) is needed to conver a markdown file to PDF. 
+
 
 ### **R libraries**
 The R code contains libraries that need to be installed in order to run the code. 
-By running the `install_packages.r` code, which is included in the `src/tools` folder, all needed packages will be installed automatically. This script is included in the makefile. Therefore, libraries will be installed/updated automatically.  
+By running the `install_packages.r` code, which is included in the `main` folder, all needed packages will be installed automatically. This script is included in the makefile. Therefore, libraries will be installed/updated automatically.  
 
 ### **How to run the project**
 With make installed, it is possible to open a terminal (or Git Bash) and run: 
