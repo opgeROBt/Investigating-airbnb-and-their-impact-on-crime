@@ -20,7 +20,7 @@ Read the generated research file by going to [**gen/analyses**](https://github.c
 
 With the data collected by the team and the analysis performed, the following (abridged) findings have been obtained:
 * The main hypothesis is valid, as there is a positive correlation coefficient between the Airbnb listings numbers and crime occurances.
-* The moderator hypotheis is somewhat valid, as 9 out of 20 Amsterdam neighborhoods display significant differences in the relationship between listings and crimes(although this may need to be explored further in a follow-up study). 
+* The moderator hypotheis is somewhat valid, as 9 out of 20 Amsterdam neighborhoods display significant differences in the relationship between listings and crimes (although this may need to be explored further in a follow-up study). 
 * The R squared coefficient of the model is low (0.1104) - this means that a low percentage (11.04%) of data is explained by this model, and that the results should be taken skeptically. 
 
 ## Repository overview
