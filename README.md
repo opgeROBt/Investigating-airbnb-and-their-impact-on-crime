@@ -19,7 +19,7 @@ __To what extent does the number of Airbnb listings affect crime rates within Am
 ## Running instructions
 
 ### Dependencies
-Please install the following programs:
+To run the file you must have installed the following programs:
 * [R and R-studio](https://tilburgsciencehub.com/building-blocks/configure-your-computer/statistics-and-computation/r/)
 * [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/)
 
