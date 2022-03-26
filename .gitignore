@@ -1,0 +1,6 @@
+# Ignore Store Files
+.DS_Store
+
+# Ignore R Historic Files
+.RData
+.Rhistory
