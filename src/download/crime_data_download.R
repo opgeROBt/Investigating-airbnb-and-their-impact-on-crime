@@ -14,7 +14,6 @@ library(stringr)
 library(plyr)
 library(dplyr)
 library(data.table)
-library(pandoc)
 
 # Creating the basic tables.
 table_of_content <- cbs_get_toc()

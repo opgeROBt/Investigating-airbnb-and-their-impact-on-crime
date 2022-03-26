@@ -36,13 +36,12 @@ listings_crime_dataset <-read.csv("../../temp-data/analysis/listings_crime_datas
 
 ```
 
-```{r, library-load, echo=FALSE, include=FALSE}
+```{r, lib-load, echo=FALSE, include=FALSE}
 #Load all libraries we need here, in one code chunk even if they are used in different sections
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
 library(broom)
-library(pandoc)
 ```
 
 ```{r, descriptives, echo=FALSE, include=FALSE}

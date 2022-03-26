@@ -1,8 +1,3 @@
-#install.packages("cbsodataR")
-#install.packages("stringr")
-#install.packages("dplyr")
-#install.packages("data.table")
-#install.packages("purrr")
 library(cbsodataR)
 library(stringr)
 library(plyr)
