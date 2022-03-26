@@ -1,6 +1,9 @@
 all: markdown
 
-download:
+install_packages:
+	make -C src/tools
+
+download: install_packages
 	make -C src/download
 	
 derived: download
