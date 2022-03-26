@@ -30,14 +30,14 @@ With the data collected by the team and the analysis performed, the following (a
 ├── README.md
 ├── makefile			
 ├── .gitignore
-├── install_packages.r #checks and installs (if neccesary) required packages on the users' machine.	
+├── install_packages.r  #checks and installs (if neccesary) required packages on the users' machine.	
 ├── gen 	#stores the PDF version of the analysis with the motivation
 ├── temp-data	#stores temporary data, while running the make file this will be deleted
 │   ├── analysis
 │   ├── raw
 │   └── summarized
 └── src
-    ├── cleaning #cleans the repository of temporary data by deleting the 'temp-data' folder once the analysis output is created.
+    ├── cleaning  #cleans the repository of temporary data by deleting the 'temp-data' folder once the analysis output is created.
     ├── data-analysis	#stores the code for the analysis with the motivation
     ├── derived		#stores the code for the Airbnb listings, the crime data and the joint dataset
     └── download	#stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file
