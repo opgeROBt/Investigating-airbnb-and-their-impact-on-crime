@@ -58,6 +58,10 @@ This runs the entire project. To run certain parts of the project, it is possibl
 
      make [TARGET ...]
 
+
+<span style="color:red">**Disclaimer:**</span>
+Keep in mind that it can take a while to download all data.  During testing it took approximately 3 minutes to run the download part. 
+
 ## Data sources for this research 
 ---
 * Airbnb data used available at [Inside Airbnb](http://insideairbnb.com/get-the-data.html)
