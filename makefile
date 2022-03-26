@@ -10,4 +10,4 @@ derived: download
 	make -C src/derived
 	
 markdown: derived
-	Rscript -e "rmarkdown::render('src/data-analysis/analysis.Rmd', output='../../gen')"
+	Rscript -e "rmarkdown::render('src/data-analysis/analysis.Rmd', output_file='../../gen')"
