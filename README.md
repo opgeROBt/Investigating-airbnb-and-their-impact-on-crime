@@ -1,5 +1,5 @@
 
-# The Dark Side of Tourism: Investigating the correlation between airbnb listings and their impact on crime Rate 
+# The dark side of tourism: investigating the correlation between airbnb listings and their impact on crime Rate 
 <p align="center">
   <img width="70%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_Bélo.svg/2560px-Airbnb_Logo_Bélo.svg.png">
 </p>
