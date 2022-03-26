@@ -230,10 +230,10 @@ if(r2 <= 0.5) {
 
 ## Sources
 
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjD_f2QuYn2AhUK7KQKHVp7Ap8QFnoECBUQAw&url=https%3A%2F%2Fczasopisma.uni.lodz.pl%2Ftourism%2Farticle%2Fdownload%2F2208%2F1864&usg=AOvVaw33IzV3UaT7bLLU_4VKm4kH
+Ke, L., T. O’Brien, D., & Heydari, B. (2021). Airbnb and neighborhood crime: The incursion of tourists or the erosion of local social dynamics? PLOS ONE, 16(7). https://doi.org/10.1371/journal.pone.0253315
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8691595/
+Lisowska, A. (2017). Crime in tourism destinations: Research review. Turyzm/Tourism, 27(1), 31–39. https://doi.org/10.18778/0867-5856.27.1.12
 
-https://www.statista.com/statistics/339845/company-value-and-equity-funding-of-airbnb/
+Lock, S. (2022, 24 januari). Company value of Airbnb worldwide from 2016 to 2021. Statista. https://www.statista.com/statistics/339845/company-value-and-equity-funding-of-airbnb/
 
-https://www.theguardian.com/world/2018/jun/15/tourism-pollution-backlash-japan-crackdown-costs-airbnb-10m-kyoto
+McCurry, J. (2018, 15 juni). “Tourism pollution”: Japanese crackdown costs Airbnb $10m. The Guardian. https://www.theguardian.com/world/2018/jun/15/tourism-pollution-backlash-japan-crackdown-costs-airbnb-10m-kyoto
