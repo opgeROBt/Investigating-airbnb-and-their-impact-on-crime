@@ -1,7 +1,14 @@
 ---
 title: "Analysis"
-author: "Mihai Vlad Serbanescu"
-date: "21/03/2022"
+subtitle: "Team 8"
+author:
+  - "Mihai Vlad Serbanescu"
+  - "Cas van Dijk"
+  - "Rob Esenkbrink"
+  - "Chokie Tang"
+  - "Anoesjka Raateland"
+date: "26/03/2022"
+
 output: pdf_document
 knit: (function(inputFile, encoding) {
       out_dir <- "../../gen";
