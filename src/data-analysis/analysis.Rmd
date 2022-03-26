@@ -183,7 +183,7 @@ r2 <- summary(lr)$r.squared
 
 if(r2 <= 0.5) {
   text3 <- paste("Lastly, it is important to note that the R Squared of the correlation is", r2,".", "Meaning that most of the variation exhibited in this dataset is not explained through this correlation model.")
-} else if (r2 >= 0.5) {
+} else if (r2 > 0.5) {
   text3 <- paste("Lastly, it is important to note that the R Squared of the correlation is", r2,".", "Meaning that most of the variation exhibited in this dataset is explained through this correlation model.")
 }
 ```
@@ -198,15 +198,15 @@ if(r2 <= 0.5) {
 Based on the previous result section, the following conclusions can be drawn for the hypothesized relation:
 
 ```{r, conclusion, echo=FALSE}
-if(listing_sum_p < 0.05 & length(sig_neigh)/x_neigh <= 0.8) {
+if(listing_sum_p < 0.05 & length(sig_neigh)/x_neigh > 0.5 & length(sig_neigh)/x_neigh <= 1) {
     text4 <- paste("The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to a large extent their correlational nature.")
-} else if (listing_sum_p < 0.05 & length(sig_neigh)/x_neigh <= 0.5) {
+} else if (listing_sum_p < 0.05 & length(sig_neigh)/x_neigh > 0.2 & length(sig_neigh)/x_neigh <= 0.5) {
     text4 <- paste("The hypothesis is accepted, as the correlational relationship between the amount of listings and crime occurances is significant, and the neighborhood moderatior value changes to some extent their correlational nature (although this may need to be explored further in a follow-up study).")
 } else if (listing_sum_p < 0.05 & length(sig_neigh)/x_neigh <= 0.2) {
     text4 <- paste("The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is significant, while the neighborhood moderator value is largely displaying non-significant differences in their correlational nature.")
-} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh <= 0.8) {
+} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh > 0.5 & length(sig_neigh)/x_neigh <= 1) {
     text4 <- paste("The hypothesis is in part rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to a large extent their correlational nature.")
-} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh <= 0.5) {
+} else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh > 0.2 & length(sig_neigh)/x_neigh <= 0.5) {
     text4 <- paste("The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value changes to some extent their correlational nature.")
 } else if (listing_sum_p >= 0.05 & length(sig_neigh)/x_neigh <= 0.2) {
     text4 <- paste("The hypothesis is rejected, as the correlational relationship between the amount of listings and crime occurances is insignificant, while the neighborhood moderatior value is largely displaying non-significant differences in their correlational nature.")
