@@ -13,7 +13,7 @@ Our team is intriqued in coducting a similar analyses and further contributing t
 
 **_'To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?'_**
 
-Read the generated research file fully by going to [**gen/analyses**](https://github.com/opgeROBt/Investigating-airbnb-and-their-impact-on-crime/blob/main/gen/analysis.pdf)  
+Read the generated research file by going to [**gen/analyses**](https://github.com/opgeROBt/Investigating-airbnb-and-their-impact-on-crime/blob/main/gen/analysis.pdf)  
 
 
 ## Repository overview
@@ -23,16 +23,16 @@ Read the generated research file fully by going to [**gen/analyses**](https://gi
 ├── README.md
 ├── makefile			
 ├── .gitignore			
-├── gen 				#stores the PDF version of the analysis with the motivation
-├── temp-data			#stores temporary data, while running the make file this will be deleted
+├── gen 	#stores the PDF version of the analysis with the motivation
+├── temp-data	#stores temporary data, while running the make file this will be deleted
 │   ├── analysis
 │   ├── raw
 │   └── summarized
 └── src
     ├── data-analysis	#stores the code for the analysis with the motivation
-    ├── derived			#stores the code for the Airbnb listings, the crime data and the joint dataset
-    ├── download		#stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file
-	└── tools			#stores the code for installing the r packages
+    ├── derived		#stores the code for the Airbnb listings, the crime data and the joint dataset
+    ├── download	#stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file
+	└── tools	#stores the code for installing the r packages
 ```  
 
 
@@ -76,13 +76,11 @@ This is the repository for the course [Data Preparation and Workflow Management]
 ## More resources
 ---
 
-* example set data.politie.nl: https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238  
-* documentation of dataset: https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97  
-* Statline webpage (incl. user support): https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data  
-* python quick guide api: https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide  
-* check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-* check the CBSoData api in the browser: https://dataderden.cbs.nl/ODataApi/odata/47022NED/  
-* github of CBS R package: https://github.com/edwindj/cbsodataR/blob/master/example/cbs_get_datasets.R  
-* github v3: https://github.com/statistiekcbs/CBS-Open-Data-v3  
-* github v4: https://github.com/statistiekcbs/CBS-Open-Data-v4  
+* [example police dataset](https://data.politie.nl/#/Politie/nl/dataset/47022NED/table?ts=1645109405238)  
+* [documentation of police dataset](https://data.politie.nl/portal.html?_la=en&_catalog=Politie&tableId=47022NED&_theme=97)  
+* [Statline webpage (incl. user support)](https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data)  
+* [CBS R quick guide api](https://www.cbs.nl/en-gb/onze-diensten/open-data/statline-as-open-data/quick-start-guide)   
+* [CBSoData api in the browser](https://dataderden.cbs.nl/ODataApi/odata/47022NED/)  
+* [CBS oData github v3](https://github.com/statistiekcbs/CBS-Open-Data-v3)  
+* [CBS oData  github v4](https://github.com/statistiekcbs/CBS-Open-Data-v4)  
 
