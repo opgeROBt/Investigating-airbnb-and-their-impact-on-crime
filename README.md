@@ -13,8 +13,15 @@ Our team is intrigued in conducting a similar analyses and further contributing 
 
 **_"To what extent does the number of Airbnb listings affect crime rates within Amsterdam, and to what extent is this relationship different within different Amsterdam neighbourhoods?"_**
 
-Read the generated research file by going to [**gen/analyses**](https://github.com/opgeROBt/Investigating-airbnb-and-their-impact-on-crime/blob/main/gen/analysis.pdf).  
+Read the generated research file by going to [**gen/analyses**](https://github.com/opgeROBt/Investigating-airbnb-and-their-impact-on-crime/blob/main/gen/analysis.pdf).
 
+## Analysis results
+---
+
+With the data collected by the team and the analysis performed, the following (abridged) findings have been obtained:
+* The main hypothesis is valid, as there is a positive correlation coefficient between the Airbnb listings numbers and crime occurances.
+* The moderator hypotheis is somewhat valid, as 9 out of 20 Amsterdam neighborhoods display significant differences in the relationship between listings and crimes(although this may need to be explored further in a follow-up study). 
+* The R squared coefficient of the model is low (0.1104) - this means that a low percentage (11.04%) of data is explained by this model, and that the results should be taken skeptically. 
 
 ## Repository overview
 ---
@@ -23,16 +30,17 @@ Read the generated research file by going to [**gen/analyses**](https://github.c
 ├── README.md
 ├── makefile			
 ├── .gitignore
-├── install_packages.r			
+├── install_packages.r #checks and installs (if neccesary) required packages on the users' machine.	
 ├── gen 	#stores the PDF version of the analysis with the motivation
 ├── temp-data	#stores temporary data, while running the make file this will be deleted
 │   ├── analysis
 │   ├── raw
 │   └── summarized
 └── src
+    ├── cleaning #cleans the repository of temporary data by deleting the 'temp-data' folder once the analysis output is created.
     ├── data-analysis	#stores the code for the analysis with the motivation
     ├── derived		#stores the code for the Airbnb listings, the crime data and the joint dataset
-    ├── download	#stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file
+    └── download	#stores the code for downloading the Airbnb dataset and the crimerate dataset and stores the make file
 ```  
 
 
