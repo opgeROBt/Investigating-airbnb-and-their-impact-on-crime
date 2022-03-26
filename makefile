@@ -1,9 +1,9 @@
 all: markdown
 
-install_packages:
-	make -C src/tools
+run_install_package:
+	Rscript install_packages.R
 
-download: install_packages
+download: run_install_package
 	make -C src/download
 	
 derived: download
